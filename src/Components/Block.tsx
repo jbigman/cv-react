@@ -1,16 +1,6 @@
 import React from 'react';
 import Cartouche from "./Cartouche";
-
-interface IBlock {
-    title: string;
-    duration: string;
-    company: string;
-    description: string;
-    dateStart: number;
-    dateEnd?: number;
-    stack: string[];
-    tasks: string[];
-}
+import {IBlock} from "../Interface/IBlock";
 
 const Block = (data: IBlock) => {
     return (
@@ -31,28 +21,28 @@ const Block = (data: IBlock) => {
 
                     {
                         data.tasks.length > 0 &&
-                            <div className="pl-5">
-                                {
-                                     data.stack.map((d: string) => {
-                                        return (Cartouche(d, "XS"))
-                                    })
-                                }
-                                {
-                                    data.tasks.length > 0 &&
-                                        <div className="pl-5">
-                                            {
-                                                data.tasks.map((d: string) => {
-                                                    return (
-                                                        <span>
+                        <div className="pl-5">
+                            {
+                                data.stack.map((d: string) => {
+                                    return (Cartouche(d, "XS"))
+                                })
+                            }
+                            {
+                                data.tasks.length > 0 &&
+                                <div className="pl-5">
+                                    {
+                                        data.tasks.map((d: string) => {
+                                            return (
+                                                <span>
                                                     {d}
-                                                            <br/>
+                                                    <br/>
                                                 </span>
-                                                    )
-                                                })
-                                            }
-                                        </div>
-                                }
-                            </div>
+                                            )
+                                        })
+                                    }
+                                </div>
+                            }
+                        </div>
                     }
                 </div>
             </div>

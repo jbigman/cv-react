@@ -3,8 +3,10 @@ import Cartouche from "./Cartouche";
 import {faEnvelope, faMapMarker, faPhone, faCar} from '@fortawesome/free-solid-svg-icons'
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faGithub, faStackOverflow} from "@fortawesome/free-brands-svg-icons";
+import Curiculum from "../json/Curiculum";
 
-const SideBar = (data: any) => {
+const SideBar = () => {
+    const cv = Curiculum.data;
     return (
         <aside id="sidebar">
             <img src="./photo-profil-b&w.png" className="avatar" alt={"Avatar"}/>
@@ -13,18 +15,18 @@ const SideBar = (data: any) => {
                     Info
                 </h1>
                 <ul>
-                    <li><FontAwesomeIcon icon={faMapMarker}/> Nantes (44200)</li>
-                    <li><FontAwesomeIcon icon={faEnvelope}/> jeremie.gambin@gmail.com</li>
-                    <li><FontAwesomeIcon icon={faPhone}/> 06.24.89.44.49</li>
-                    <li>
+                    {cv.address && <li><FontAwesomeIcon icon={faMapMarker}/> {cv.address}</li>}
+                    {cv.email && <li><FontAwesomeIcon icon={faEnvelope}/> {cv.email}</li>}
+                    {cv.phone && <li><FontAwesomeIcon icon={faPhone}/> {cv.phone}</li>}
+                    {cv.githubUrl && <li>
                         <FontAwesomeIcon icon={faGithub}/>
-                        <a href="https://github.com/jbigman"> github.com/jbigman</a>
-                    </li>
-                    <li>
+                        <a href={cv.githubUrl}> Github/{cv.githubUrl.split("/")[3]}</a>
+                    </li>}
+                    {cv.stackOverFlowUrl && <li>
                         <FontAwesomeIcon icon={faStackOverflow}/>
-                        <a href="https://stackoverflow.com/users/2988788/jbigman"> jbigman</a>
-                    </li>
-                    <li><FontAwesomeIcon icon={faCar}/> Permis B</li>
+                        <a href={cv.stackOverFlowUrl}> StackOverFlow/{cv.stackOverFlowUrl.split("/")[5]}</a>
+                    </li>}
+                    {cv.drivingLicence && <li><FontAwesomeIcon icon={faCar}/> {cv.drivingLicence}</li>}
                 </ul>
             </div>
             <div className="side-block" id="skills">
@@ -32,7 +34,7 @@ const SideBar = (data: any) => {
                     Compétences
                 </h1>
                 {
-                    data.stacks.map((collection: any) => {
+                    cv.skills.stacks.map((collection: any) => {
                         return (
                             <div>
                                 <strong>{collection.type}</strong>

@@ -1,6 +1,4 @@
-**yarn build**
-
-**yarn deploy**
+**yarn build** + **yarn deploy**
 
 Utilise gh-pages pour deployer le resultat du build directement sur https://jbigman.github.io/react
 
