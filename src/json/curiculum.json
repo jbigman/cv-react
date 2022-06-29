@@ -28,7 +28,7 @@
         "Réalisation du logiciel (conception, dev et tests)"
       ],
       "stack": [
-        "Typescypt",
+        "Typescript",
         "react-native",
         "jenkins",
         "MQTT"
