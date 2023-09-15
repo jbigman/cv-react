@@ -1,13 +1,13 @@
-import React from 'react';
-import SideBar from "./SideBar";
-import Block from "./Block";
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faSuitcase, faGraduationCap} from '@fortawesome/free-solid-svg-icons'
-import Curiculum from "../json/Curiculum";
+import React from 'react'
+import SideBar from './SideBar'
+import Block from './Block'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faSuitcase, faGraduationCap } from '@fortawesome/free-solid-svg-icons'
+import Curiculum from '../json/Curiculum'
 
 const HomePage = () => {
-    const cv = Curiculum.data;
-    return (
+  const cv = Curiculum.data
+  return (
         <header className="App-header">
             <section id="main">
                 <header id="title">
@@ -20,7 +20,7 @@ const HomePage = () => {
                     </h2>
                     {
                         cv.experiences.length > 0 && cv.experiences.map((d) => {
-                            return (Block(d))
+                          return (Block(d))
                         })
                     }
                 </section>
@@ -30,7 +30,7 @@ const HomePage = () => {
                     </h2>
                     {
                         cv.formations.length > 0 && cv.formations.map((d) => {
-                            return (Block(d))
+                          return (Block(d))
                         })
                     }
                 </section>
@@ -38,7 +38,7 @@ const HomePage = () => {
             </section>
             <SideBar/>
         </header>
-    );
-};
+  )
+}
 
-export default HomePage;
+export default HomePage

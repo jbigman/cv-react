@@ -1,15 +1,15 @@
-import React from 'react';
+import React from 'react'
 
-const Cartouche = (word: string, type?: "XS" | "M") => {
-    if (type === "XS") {
-        return (
+const Cartouche = (word: string, type?: 'XS' | 'M') => {
+  if (type === 'XS') {
+    return (
             <span className="cartouche-sm">{word}</span>
-        );
-    } else {
-        return (
+    )
+  } else {
+    return (
             <span className="cartouche">{word}</span>
-        );
-    }
-};
+    )
+  }
+}
 
-export default Cartouche;
+export default Cartouche

@@ -1,10 +1,9 @@
-
 interface IStack {
-    type: string,
-    stack: string[]
+  type: string
+  stack: string[]
 
 }
 
 export interface ISkills {
-    stacks: IStack[]
+  stacks: IStack[]
 }

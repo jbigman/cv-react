@@ -1,12 +1,12 @@
-import React from 'react';
-import Cartouche from "./Cartouche";
-import {IBlock} from "../Interface/IBlock";
+import React from 'react'
+import Cartouche from './Cartouche'
+import { type IBlock } from '../Interface/IBlock'
 
 const Block = (data: IBlock) => {
-    return (
+  return (
         <section className="blocks">
             <div className="date">
-                <span>{data.dateEnd ? data.dateEnd : "    "}</span><span>{data.dateStart}</span>
+                <span>{data.dateEnd ? data.dateEnd : '    '}</span><span>{data.dateStart}</span>
             </div>
             <div className="decorator">
             </div>
@@ -24,7 +24,7 @@ const Block = (data: IBlock) => {
                         <div className="pl-5">
                             {
                                 data.stack.map((d: string) => {
-                                    return (Cartouche(d, "XS"))
+                                  return (Cartouche(d, 'XS'))
                                 })
                             }
                             {
@@ -32,12 +32,12 @@ const Block = (data: IBlock) => {
                                 <div className="pl-5">
                                     {
                                         data.tasks.map((d: string) => {
-                                            return (
-                                                <span>
+                                          return (
+                                                <span key={d}>
                                                     {d}
                                                     <br/>
                                                 </span>
-                                            )
+                                          )
                                         })
                                     }
                                 </div>
@@ -47,7 +47,7 @@ const Block = (data: IBlock) => {
                 </div>
             </div>
         </section>
-    );
-};
+  )
+}
 
-export default Block;
+export default Block
