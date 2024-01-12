@@ -4,7 +4,9 @@
         "es2021": true
     },
     "extends": [
-        "standard-with-typescript",
+        "plugin:react/jsx-runtime",
+            "standard-with-typescript",
+        "eslint:recommended",
         "plugin:react/recommended"
     ],
     "parserOptions": {
@@ -19,10 +21,10 @@
         "react"
     ],
     "rules": {
+        "react/react-in-jsx-scope": "off",
         "@typescript-eslint/explicit-function-return-type" :"off",
         "@typescript-eslint/strict-boolean-expressions" :"off",
         "react/no-unescaped-entities" :"off",
-        "@typescript-eslint/triple-slash-reference" :"off",
-        "react/react-in-jsx-scope" : "off"
+        "@typescript-eslint/no-misused-promises" :"off"
     }
 }
