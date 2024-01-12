@@ -1,0 +1,166 @@
+@import '../css/index.scss';
+
+.clickable {
+  text-decoration: none;
+  color: $text-primary !important;
+  &:hover {
+    color: $text-secondary !important;
+  }
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  width : $sidebar-width;
+  padding: $main-padding;
+  background-color: $lighter-background;
+  color: $text-primary;
+  gap: $gap;
+  
+  h1, h2, h3, h4, h5 {
+    color: white;
+  }
+  
+  h1 {
+    margin-block-end: 0.17em;
+  }
+  
+  h2 {
+    font-size: 1.1em;
+    margin-top: 0px;
+    color: $text-secondary;
+  }
+  
+  .imageContainer {
+    padding-bottom: 1em;
+    display: flex;
+    justify-content: center;
+    
+    img {
+      -webkit-transform: scaleX(-1);
+      transform: scaleX(-1);
+      border-radius: 50%;
+      width: 250px !important;
+      
+      &:hover {
+        transform: scaleX(-1) scale(1.1);
+        transition: 1s;
+      }
+    }
+  }
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: $gap;
+}
+
+.skills {
+  width: 100%;
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: $gap;
+  
+  > div {
+    align-items: flex-start;
+  }
+  
+  .skill {
+    padding : 0 1em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sidebar {
+    justify-content: space-around;
+    width: calc(100vw - 2 * $main-padding);
+    max-width : calc(100vw - 2 * $main-padding);
+    min-height: 80vh;
+    padding:  $main-padding;
+    
+    .imageContainer {
+      img {
+        width: 200px !important;
+      }
+    }
+    
+    .skills {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .sidebar {
+    .skills {
+      display: flex;
+      flex-direction: column;
+      > div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  }
+}
+
+@media (prefers-color-scheme: light) {
+
+
+  .sidebar {
+    background-color: $light-lighter-background;
+    h2 {
+      color: $light-text-secondary;
+    }
+  }
+}
+@media print {
+  $text-secondary : gray;
+  
+  .clickable {
+    text-decoration: none;
+    color: #282828 !important;
+  }
+  
+  .sidebar {
+    width: calc(100vw - 2 * $main-padding);
+    max-width : calc(100vw - 2 * $main-padding);
+    min-height: fit-content;
+    background-color: #fff;
+    color: #282828;
+    padding: 0 $main-padding;
+    align-items: center;
+    justify-content: space-around;
+    
+    h1,h2,h3,h4,h5 {
+      color: $light-text-secondary;
+    }
+    
+    h1 {
+      margin-block-start: 0;
+    }
+    h2 {
+      font-size: 1.1em;
+      margin-top: 0px;
+      color: $text-secondary;
+    }
+    
+    .imageContainer {
+      img {
+        width: 200px !important;
+      }
+    }
+    .skills {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+}

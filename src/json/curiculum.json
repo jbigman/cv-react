@@ -1,26 +1,32 @@
 {
   "nom": "GAMBIN",
   "prenom": "Jérémie",
-  "address": "Nantes (44200)",
+  "address": "Rennes, Bretagne, France",
   "email": "jeremie.gambin@gmail.com",
   "phone": "06.24.89.44.49",
-  "stackOverFlowUrl": "https://stackoverflow.com/users/2988788/jbigman",
+  "stackOverFlowUrl": "https://stackoverflow.com/users/2988788",
   "drivingLicence": "Permis B",
   "githubUrl": "https://github.com/jbigman",
+  "description": "Mon attachement à la satisfaction client est le point clé de toutes mes réalisations. J'ai eu l'occasion d'enrichir mes compétences en C#, JAVA ou Javascript en travaillant aussi bien avec mes pairs qu'en autonomie. Mon dernier projet, Gamewisher.com étant désormais en ligne, je souhaite mettre à profit mes compétences sur un nouveau projet en full-remote ou sur Rennes",
   "experiences": [
     {
-      "title": "Entrepreneuriat",
-      "description": "Projet tenu secret",
-      "company": "",
-      "duration": "",
-      "tasks": [],
-      "stack": [],
-      "dateStart": 2018
+      "title": "Fondateur et Développeur Full Stack ",
+      "description": "Gamewisher est un moteur de recherche dédié aux jeux vidéo mobile.",
+      "company": "Gamewisher.com",
+      "link" :"https://www.gamewisher.com",
+      "duration": "(14 mois)",
+      "tasks": [
+        "L’algorithme de scrapping cherche automatiquement les jeux en promotion et les nouveaux jeux.",
+        "L’aspect collaboratif permet d’enrichir le contenu du site tout en incluant la communauté de joueurs"
+      ],
+      "stack": ["React","Next.js","MongoDB","Node.js","TypeScript","Web scrapping"],
+      "dateStart": 2022,
+      "dateEnd": "Depuis"
     },
     {
-      "title": "Lead Tech application Android",
-      "description": "Développement en autonomie d'une application Android pour le système billettique danois. Elle permet aux conducteurs de bus de gérer les voyages, réaliser des ventes, ...",
-      "company": "Thales Communication & Security",
+      "title": "Tech Lead Application Android",
+      "description": "Développement en autonomie d'une application Android pour le système billettique danois. Elle permet aux conducteurs de bus de réaliser des ventes, suivre le voyage et gérer les équipements embarqués.",
+      "company": "Thales",
       "duration": "(9 mois)",
       "tasks": [
         "Réalisation d'outils de tests pour l'intégration avec les équipements",
@@ -29,17 +35,17 @@
       ],
       "stack": [
         "Typescript",
-        "react-native",
-        "jenkins",
+        "React native",
+        "Jenkins",
         "MQTT"
       ],
       "dateStart": 2017,
       "dateEnd": 2018
     },
     {
-      "title": "Développeur Full stack & Scrum master",
+      "title": "Développeur Full stack et Scrum master",
       "description": "Au sein d'une équipe Agile (Scrum) de 10-12 personnes et dans le cadre du développement d'un produit billettique (Dubai, Doha, Johannesbourg, ...)",
-      "company": "Thales Communication & Security",
+      "company": "Thales",
       "duration": "(5 ans)",
       "tasks": [
         "Conception, développement et supports aux autres développeurs",
@@ -60,9 +66,9 @@
       "dateEnd": 2017
     },
     {
-      "title": "Développeur full-stack",
+      "title": "Développeur Full Stack",
       "description": "Au sein d'une équipe 6-9 personnes et pour le système billettique d'Auckland (Nouvelle-Zélande)",
-      "company": "Thales Communication & Security",
+      "company": "Thales",
       "duration": "(2 ans)",
       "tasks": [
         "Conception, développement",
@@ -77,17 +83,17 @@
         "LINQ",
         "SQL Server"
       ],
-      "dateStart": 2011,
+      "dateStart": 2010,
       "dateEnd": 2013
     },
     {
-      "title": "Développeur applicatif",
-      "description": "Développement d'un éditeur XML, utilisé par les opérateurs de Lisbonne pour configurer leur système",
-      "company": "Thales Communication & Security",
+      "title": "Développeur logiciel",
+      "description": "Développement d'un éditeur XML, utilisé par les opérateurs de transport de Lisbonne pour configurer leur système",
+      "company": "Thales",
       "duration": "(2 ans en alternance)",
       "tasks": [
-        "Améliorations ergonomiques: ajout d'outils de visualisation (Datepicker, sliders, ...)",
-        "Renforcement de la stabilité: ajout d'outils de validation de données (Complétion de matrices, date de début inférieure à une date de fin, ...)"
+        "Améliorations ergonomiques (Datepicker, sliders...)",
+        "Renforcement de la stabilité (Contrôl et validation de données)"
       ],
       "stack": [
         "C#",
@@ -98,12 +104,12 @@
         "XML",
         "XSD"
       ],
-      "dateStart": 2009,
-      "dateEnd": 2011
+      "dateStart": 2008,
+      "dateEnd": 2010
     },
     {
-      "title": "Responsable e-commerce",
-      "description": "Société de vente au détail de véhicules miniatures",
+      "title": "Fondateur",
+      "description": "En parrallèle de mes études, j'ai créé une société de e-commerce. Avec Gaminiature, je réalisais des vente au détail de véhicules miniatures.",
       "company": "Gaminiature",
       "duration": "",
       "tasks": [
@@ -128,7 +134,7 @@
       "duration": "",
       "tasks": [],
       "stack": [],
-      "dateStart": 2009,
+      "dateStart": 2008,
       "dateEnd": 2010
     },
     {
@@ -145,56 +151,19 @@
   "skills": {
     "stacks": [
       {
-        "type": "Web",
+        "type": "Principales compétences",
         "stack": [
-          "JavaScript",
-          "typeScript",
-          "",
+          "TypeScript",
           "Node.js",
-          "Socket.io",
-          "",
-          "React",
-          "React Native",
-          "AngularJs",
-          "",
-          "HTML5",
-          "CSS3",
-          "Sass"
+          "React / NextJs"
         ]
       },
       {
-        "type": "Java",
+        "type": "Principales qualités",
         "stack": [
-          "Spring",
-          "Android"
-        ]
-      },
-      {
-        "type": "Outils",
-        "stack": [
-          "Git",
-          "Jenkins",
-          "Docker"
-        ]
-      },
-      {
-        "type": "UX",
-        "stack": [
-          "Design",
-          "Ergonomie"
-        ]
-      },
-      {
-        "type": "Methodologies",
-        "stack": [
-          "Agile",
-          "Scrum"
-        ]
-      },
-      {
-        "type": "Langues",
-        "stack": [
-          "Anglais technique"
+          "Autonomie",
+          "Flexibilité et Adaptation",
+          "Esprit critique"
         ]
       }
     ]

@@ -1,9 +1,18 @@
-import React from 'react'
-import HomePage from '../src/Components/HomePage'
+import Curiculum from './../src/curiculum/curiculum'
 
 const Index = () => {
   return (
-    <HomePage />
+    <>
+      <Curiculum />
+      {/* <Header /> */}
+      {/* <About /> */}
+      {/* <Education /> */}
+      {/* {thales} */}
+      {/* <GameWisher /> */}
+      {/* <ContentCreator /> */}
+      {/* <Skills /> */}
+      {/* <Footer /> */}
+    </>
   )
 }
 

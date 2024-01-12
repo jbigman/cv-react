@@ -1,0 +1,187 @@
+@import '../css/index.scss';
+
+$date-block-width: 0.9in;
+
+/* Using px for very good precision control */
+$decorator-outer-offset-top: 13px;
+$decorator-outer-offset-left: -5px;
+$decorator-border-width: 1px;
+$decorator-outer-dim: 9px;
+$decorator-border: 1px solid #ccc;
+$decorator-horizontal-margin: 0;
+
+.decorator {
+  flex: 0 0 0;
+  position: relative;
+  width: 2pt;
+  min-height: 100%;
+  border-left: $decorator-border;
+  
+  &::before {
+    position: absolute;
+    top: $decorator-outer-offset-top;
+    left: $decorator-outer-offset-left;
+    content: ' ';
+    display: block;
+    width: $decorator-outer-dim;
+    height: $decorator-outer-dim;
+    border-radius: calc($decorator-outer-dim / 2);
+    background-color: $text-primary;
+  }
+  
+  &::after {
+    position: absolute;
+    top: calc($decorator-outer-offset-top + $decorator-border-width);
+    left: calc($decorator-outer-offset-left + $decorator-border-width);
+    content: ' ';
+    display: block;
+    width: calc($decorator-outer-dim - ($decorator-border-width) * 2);
+    height: calc($decorator-outer-dim - ($decorator-border-width) * 2);
+    border-radius: calc(($decorator-outer-dim - ($decorator-border-width) * 2) / 2);
+    background-color: $background !important;           
+  }
+  
+}
+
+.date {
+  color: $text-primary;
+  flex: 0 0 $date-block-width;
+  padding-top: 0.1in;
+  padding-right: $decorator-horizontal-margin;
+  font-size: 0.8em;
+  text-align: right;
+  line-height: 1;
+  display: 	flex;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+  align-items: center;
+  
+  & span {
+    display: block;
+  }
+  
+  & span:first-child::before {
+    position: relative;
+    top: 1pt;
+    right: 11pt;
+    display: block;
+    height: 17pt;
+    content: '|';
+  }
+  
+  & div {
+    padding-bottom: 1em;
+  }
+}
+
+.cartouches {
+  > b {
+    color: $text-subtitle;
+  }
+}
+
+.experience {
+  display: flex;
+  flex-direction: row;
+  
+  &>div:last-child {
+    padding-left: 1em ;
+    gap: 0.2em;
+    flex: 1;
+  }
+  
+  .title {
+    font-weight: 600;
+  }
+  
+  .details {
+    padding-bottom: 1em;
+  }
+  
+  .company {
+    width: fit-content;
+    color: $text-subtitle;
+    font-size: 0.9em;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-weight: 600;
+    text-decoration: none;
+    
+    .duration {
+      color: $text-primary;
+      font-weight: 100;
+      text-decoration:  $text-primary;
+      font-size: 0.8em;
+    }
+  }
+}
+
+.shift {
+  padding-top: $gap;
+}
+
+@media screen and (max-width: 768px) {
+  .date {
+    flex: 0 0 0.6in;
+    & span:first-child::before {
+      right: 9pt;
+    }
+    
+  }
+  .experience {
+    &>div:last-child {
+      padding-left: 0.7em;
+    }
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .decorator {
+    &::before {
+      background-color: $text-primary;
+    }
+  }
+  .date {
+    color: $light-text-primary;
+  }
+  
+  .experience {
+    .company {
+      color: $light-text-subtitle;
+      .duration {
+        color: $light-text-primary;
+      }
+    }
+  }
+  
+  .cartouches {
+    >b {
+      color: $light-text-secondary;
+    }
+  }
+}
+
+@media print {
+  .experience {
+    .company {
+      color: $light-text-subtitle;
+      .duration {
+        color: $light-text-primary;
+      }
+    }
+  }
+  
+  .cartouches {
+    >b {
+      color: $light-text-secondary;
+    }
+  }
+  .date {
+    color: $light-text-primary;
+    flex: 0 0 0.6in;
+    & span:first-child::before {
+      right: 9pt;
+    }
+    
+  }
+}

@@ -1,0 +1,26 @@
+.about {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.member {
+  text-align: center;
+  img {
+    margin: 0 auto;
+    border: 7px solid #fff;
+    border-radius: 50%;
+    max-width: 80vw;
+    max-height: 50vh;
+  }
+  h4 {
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-transform: none;
+  }
+  p {
+    margin-top: 0;
+  }
+}
+

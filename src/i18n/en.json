@@ -1,0 +1,19 @@
+{
+    "COMMON": {
+        "HEADER": {
+            "PRE_TITLE": "Welcome!",
+            "TITLE": "IT'S NICE TO MEET YOU"
+        },
+        "LANG": {
+            "SELECT":  "Select a language",
+            "fr_FR": "French",
+            "es_ES": "Spanish",
+            "it_IT": "Italiano",
+            "en_EN": "English",
+            "de_DE": "Deutch"
+        },
+        "ABOUT": {
+            "KEYWORDS": "Entrepreneur | Full stack developper"
+        }
+    }
+}

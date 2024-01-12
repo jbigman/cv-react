@@ -1,15 +1,11 @@
-import React from 'react'
+import styles from './cartouche.module.scss'
 
-const Cartouche = (word: string, type?: 'XS' | 'M') => {
-  if (type === 'XS') {
-    return (
-            <span className="cartouche-sm">{word}</span>
-    )
-  } else {
-    return (
-            <span className="cartouche">{word}</span>
-    )
-  }
+const Cartouche = (props: { name: string }) => {
+  return (
+    <span className={styles.cartouche}>
+       {props.name}・
+    </span>
+  )
 }
 
 export default Cartouche

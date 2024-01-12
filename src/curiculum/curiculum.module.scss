@@ -1,0 +1,174 @@
+@import '../css/index.scss';
+
+.body {
+  font-size: 18px;
+  background: $background;
+  color: $text-primary;
+  display: flex;
+  justify-content: center;
+  
+  a {
+    color: inherit;
+  }
+  
+  a:hover,
+  a:focus,
+  a:active,
+  a.active {
+    color: $text-secondary;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  }
+  
+  ul {
+    list-style-type: circle;
+    display: inline-block;
+    zoom: 1;
+    text-align: left;
+    margin: 0;
+    padding-left: 1.5em;
+    li {
+      padding-bottom: 0.2em;
+    }
+  }
+  
+  p {
+    line-height: 1.75;
+  }
+  
+  p.large {
+    font-size: 16px;
+  }
+  
+  a,
+  a:hover,
+  a:focus,
+  a:active,
+  a.active {
+    outline: 0;
+  }
+  
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color:$text-secondary;
+    font-family: Roboto,Arial,sans-serif;
+    font-weight: 700;
+  }
+  h1 { 
+    font-size: 2em; 
+  }
+  h2 { 
+    font-size: 1.4em; 
+  }
+  h3 {
+    font-size:  1.17em;
+  }
+  h4,
+  h5,
+  h6 {
+    font-size: 0.83em;
+  }
+  
+  h3, h4, h5 {
+    margin-top: $gap;
+    margin-bottom: 0.2em;
+  }
+}
+
+.main {
+  width: calc(100% - $sidebar-width - 6 * $main-padding);
+  max-width: 650px;
+  padding:  $main-padding calc(2* $main-padding);
+  
+  .shift {
+    padding-left: 0.1in;
+  }
+}
+
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: $gap;
+}
+
+
+@media screen and (max-width: 768px) {
+  .body {
+    
+  display: block;
+  }
+  .main {
+    width : 100vw;
+  }
+}
+
+
+@media (prefers-color-scheme: light) {
+  .body {
+    font-size: 18px;
+    background: $light-background;
+    
+    .main {
+      color: $light-text-primary;
+    }
+    
+    a {
+      color: inherit;
+    }
+    
+    a:hover,
+    a:focus,
+    a:active,
+    a.active {
+      color: inherit;
+    }
+    
+    h1, h2, h3 {
+      color: $light-text-secondary;
+    }
+  }
+}
+
+@media print {  
+  
+  // Force light colors
+  .body {
+    font-size: 18px;
+    background: $light-background;
+    
+    .main {
+      color: $light-text-primary;
+    }
+    
+    a {
+      color: $light-text-primary;
+    }
+    
+    a:hover,
+    a:focus,
+    a:active,
+    a.active {
+      color: $light-text-primary;
+    }
+    
+    h1, h2, h3 {
+      color: $light-text-secondary;
+    }
+  }
+
+  .body {
+    font-size: 14px;
+  }
+  
+  .main {
+    width : 100vw;
+  }
+}

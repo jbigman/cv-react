@@ -1,0 +1,109 @@
+$dark-blue : 03111a;
+$blue : #0e476a;
+$peach : #FF806F;
+$orange : #FF943D;
+/*
+Dark mode
+*/
+// $lighter-background : #03111a;
+// $background : #051e2d;
+// $text-primary : rgb(255,255,255,0.87);
+// $text-secondary : $peach;
+// $text-subtitle: #ffc3a2;
+$lighter-background : rgba(40,40,40);
+$background : rgb(60, 60, 60, 1);
+$text-primary : rgb(232, 234, 237);
+$text-secondary : rgb(138, 180, 248);
+$text-subtitle: rgb(138, 180, 248, 0.7);
+
+/*
+Light mode
+*/
+$light-lighter-background : $blue;
+$light-background : white;
+$light-text-primary: #282828;
+$light-text-secondary: $blue;
+$light-text-subtitle: $peach;
+
+/** **/
+$main-padding : 1em;
+$sidebar-width : 300px;
+$gap: 0.3em;
+
+/*****/
+.row { 
+  display: flex;
+  flex-direction: row; 
+  flex-wrap: wrap;
+  
+  &.center {
+    justify-content: center;
+  }
+  
+  &.reverse {
+    flex-direction: row-reverse;
+  }
+}
+
+.column { 
+  display: flex;
+  flex-direction: column;
+  &.center {
+    align-items: center;
+  }
+}
+
+.hidden-small {
+  display: inherit;
+}
+
+.hidden-large {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .hidden-small {
+    display: none;
+  }
+  
+  .hidden-large {
+    display: inherit;
+  }
+  
+}
+
+@media print {
+  .hidden-small {
+    display: none;
+  }
+  
+  .hidden-large {
+    display: inherit;
+  }
+  
+  .no-print {
+    display: none;
+  }
+}
+
+
+//** legacy **/
+.dark-background {
+  color: #ddd;
+  background-color: #000;
+}
+
+
+.row.showcase {
+  justify-content: space-around;
+  padding-bottom: 1.3em;
+}
+
+@media screen {
+  .row.showcase {
+    justify-content: space-around;
+    padding-bottom: 1.3em;
+  }
+}
+
+
