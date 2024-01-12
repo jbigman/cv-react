@@ -30,18 +30,17 @@ const SideBar = () => {
             stack.stack.map((skill, iskill) => {
               return (
                 <span key={iskill} className={sidebarStyles.skill}>{skill}&nbsp;</span>
-                )
-              })
+              )
+            })
             }
             </div>
             </div>
-            )
-          })
+        )
+      })
         }
         </div>
         </div>
-        )
-      }
-      
-      export default SideBar
-      
+  )
+}
+
+export default SideBar
