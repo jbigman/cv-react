@@ -9,9 +9,10 @@ const config = {
   dest: 'react'
 }
 
-ghpages.publish('build', config, (err) => {
+ghpages.publish('build', config, (err: any) => {
   console.log(`${err}`)
-
   console.log(`Published on ${config.repo.split('/')[4]}/${config.dest}`)
   console.log(`Branch:${config.branch}`)
+}).catch((e: any) => {
+  console.log(e)
 })
