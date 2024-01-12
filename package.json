@@ -27,7 +27,7 @@
     "web-vitals": "^3.4.0"
   },
   "devDependencies": {
-    "@types/gh-pages": "^3.2.1",
+    "@types/gh-pages": "^6.1.0",
     "@typescript-eslint/eslint-plugin": "^6.7.0",
     "@typescript-eslint/parser": "^6.7.0",
     "eslint": "^8.0.1",
