@@ -11,8 +11,8 @@ if (isGithubActions) {
 
 module.exports = {
   output: 'export',
-  assetPrefix,
-  basePath,
+  assetPrefix: assetPrefix,
+  basePath: basePath,
   // i18n: {
   //   // These are all the locales you want to support in
   //   // your application
