@@ -1,16 +1,17 @@
-import About from '../src/components/about'
+// import ContentCreator from '../src/components/ContentCreator'
+// import About from '../src/components/about'
+// import Footer from '../src/components/footer'
+// import GameWisher from '../src/components/gamewisher'
+// import Header from '../src/components/header'
 
 const Index = () => {
   return (
     <>
-      {/* <Header /> */}
+      {/* <Header />
       <About />
-      {/* <Education /> */}
-      {/* {thales} */}
-      {/* <GameWisher /> */}
-      {/* <ContentCreator /> */}
-      {/* <Skills /> */}
-      {/* <Footer /> */}
+      <GameWisher />
+      <ContentCreator />
+      <Footer /> */}
     </>
   )
 }

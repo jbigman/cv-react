@@ -11,7 +11,7 @@ const SideBar = () => {
       <h1>Jérémie GAMBIN</h1>
       <h2>Développeur Full Stack</h2>
       <div className={sidebarStyles.imageContainer}>
-        <Image src={photo} alt='Photo' width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} ></Image>
+        <Image src={photo} alt='Photo de profil' width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} ></Image>
       </div>
       <div className={sidebarStyles.list}>
         <div> {cv.address}</div>
