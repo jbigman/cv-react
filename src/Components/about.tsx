@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import FormattedMessage from './FormattedMessage'
 import styles from './about.module.scss'
 import Links from './links'
@@ -10,7 +11,7 @@ const About = () => {
         <p className="text-muted">
           <FormattedMessage id={'ABOUT.KEYWORDS'} />
         </p>
-        <div style={{ display: 'flex', justifyContent: 'center' }}><img src="/img/IMG_1193.d.jpg" alt="Photo" /></div>
+        <div style={{ display: 'flex', justifyContent: 'center' }}><Image src="/img/IMG_1193.d.jpg" alt="Photo" /></div>
         <br/>
         {<Links />}
       </div>

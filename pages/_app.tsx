@@ -4,15 +4,15 @@ import en from '../src/i18n/en.json'
 import fr from '../src/i18n/fr.json'
 import { LOCALES } from '../src/i18n/locales'
 
-import '../src/css/pure.css'
 import '../src/css/index.scss'
+import '../src/css/pure.css'
 
 import { IntlProvider } from 'next-intl'
 import { useRouter } from 'next/router'
 
 export default function App ({
   Component,
-  pageProps: { session, ...pageProps }
+  pageProps: { ...pageProps }
 }: AppProps) {
   const { locale } = useRouter()
 

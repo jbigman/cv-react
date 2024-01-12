@@ -1,7 +1,7 @@
 import React from 'react'
 import FormattedMessage from './FormattedMessage'
 
-const Header = (value: any) => {
+const Header = () => {
   return (
     <header>
       <div className="container">
