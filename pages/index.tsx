@@ -4,14 +4,6 @@ const Index = () => {
   return (
     <>
       <Curiculum />
-      {/* <Header /> */}
-      {/* <About /> */}
-      {/* <Education /> */}
-      {/* {thales} */}
-      {/* <GameWisher /> */}
-      {/* <ContentCreator /> */}
-      {/* <Skills /> */}
-      {/* <Footer /> */}
     </>
   )
 }

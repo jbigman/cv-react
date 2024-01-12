@@ -71,9 +71,33 @@
     align-items: flex-start;
   }
   
+  .lot {
+    padding-top: 1em;
+  }
   .skill {
     padding : 0 1em;
   }
+}
+
+.pdf {
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+
+    > div {
+      border: 1px solid $text-secondary;
+      border-radius: 15px;
+      display: flex;
+      justify-content: center;
+      padding: 1em;
+      width: fit-content;
+
+      &:hover {
+        cursor: pointer;
+        color: $text-secondary;
+      }
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -121,6 +145,12 @@
       color: $light-text-secondary;
     }
   }
+    
+  .pdf {
+    > div {
+      border: 1px solid $text-secondary;
+    }
+  }
 }
 @media print {
   $text-secondary : gray;
@@ -161,6 +191,10 @@
     .skills {
       display: flex;
       flex-direction: row;
+    }
+
+    .pdf {
+      display: none;
     }
   }
 }

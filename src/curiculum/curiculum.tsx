@@ -10,19 +10,18 @@ const Curiculum = () => {
       <div className='row'>
         <SideBar />
         <div className={styles.main}>
-            <h2> A propos de moi </h2>
-            <div style={{ display: 'flex', flexDirection: 'column', textAlign: 'justify' }}>
-                <span className={'sidebarStyles'}> {cv.description} </span>
-            </div>
-            <h2>Expérience</h2>
-            {cv.experiences.map((exp: IExperience, index: number) => {
-              return (<Experience key={index} exp={exp} />)
-            })}
-            <h2>Formation</h2>
-            {cv.formations.map((exp: IExperience, index: number) => {
-              return (<Experience key={index} exp={exp} />)
-            })}
-
+          <h2> A propos de moi </h2>
+          <div style={{ display: 'flex', flexDirection: 'column', textAlign: 'justify' }}>
+            <span className={'sidebarStyles'}> {cv.description} </span>
+          </div>
+          <h2>Expérience</h2>
+          {cv.experiences.map((exp: IExperience, index: number) => {
+            return (<Experience key={index} exp={exp} />)
+          })}
+          <h2>Formation</h2>
+          {cv.formations.map((exp: IExperience, index: number) => {
+            return (<Experience key={index} exp={exp} />)
+          })}
         </div>
       </div>
     </div>

@@ -1,9 +1,16 @@
-import Curiculum from '../src/curiculum/curiculum'
+import About from '../src/components/about'
 
 const Index = () => {
   return (
     <>
-      <Curiculum />
+      {/* <Header /> */}
+      <About />
+      {/* <Education /> */}
+      {/* {thales} */}
+      {/* <GameWisher /> */}
+      {/* <ContentCreator /> */}
+      {/* <Skills /> */}
+      {/* <Footer /> */}
     </>
   )
 }
