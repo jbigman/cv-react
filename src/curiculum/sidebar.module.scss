@@ -137,12 +137,10 @@
 }
 
 @media (prefers-color-scheme: light) {
-
-
   .sidebar {
     background-color: $light-lighter-background;
     h2 {
-      color: $light-text-secondary;
+      color: #fff;
     }
   }
     
