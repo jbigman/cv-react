@@ -34,11 +34,11 @@
 ## Dépendences
 
 #### **[Next.js](https://nextjs.org/)** 
-Next.js permet de créer des applications en étendant les dernières fonctionnalités de **React**.
+Next.js permet de créer des applications en étendant les fonctionnalités de **React**.
 
 ####  [ESLint](https://eslint.org)
-ESLint analyse le code pour pour vérifier entre autre les règles/convention de codage et les erreurs potentielles pour anticiper les problèmes
-L'analyse est effectuée en arrière plan lors du build (en intégration continue).
+ESLint analyse le code pour pour vérifier entre autre les règles et conventions de codage ainsi que les sources d'erreur courantes pour anticiper les problèmes
+L'analyse est effectuée en temps réèl pendant le développement grâce à la prise en charge des IDE, mais aussi et surtout en intégration continue pendant la phase de build.
 
 ## Monitoring
 #### [Snyk.io](https://snyk.io) [![Known Vulnerabilities](https://snyk.io/test/github/jbigman/cv-react/badge.svg)](https://snyk.io/test/github/jbigman/cv-react)
