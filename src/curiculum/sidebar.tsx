@@ -8,7 +8,7 @@ import sidebarStyles from './sidebar.module.scss'
 const SideBar = () => {
   return (
     <div className={sidebarStyles.sidebar}>
-      <h1 style={{ textAlign: 'center' }}>Jérémie GAMBIN</h1>
+      <h1>Jérémie GAMBIN</h1>
       <h2>Développeur Full Stack</h2>
       <div className={sidebarStyles.imageContainer}>
         <Image src={photo} alt='Photo de profil' width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} ></Image>
