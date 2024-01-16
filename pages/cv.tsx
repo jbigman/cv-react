@@ -1,4 +1,4 @@
-// import ContentCreator from '../src/components/ContentCreator'
+/ import ContentCreator from '../src/components/ContentCreator'
 // import About from '../src/components/about'
 // import Footer from '../src/components/footer'
 // import GameWisher from '../src/components/gamewisher'

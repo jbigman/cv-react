@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Curiculum from './../src/curiculum/curiculum'
+import Curiculum from '../src/components/curiculum'
 
 const Index = () => {
   return (
