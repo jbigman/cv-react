@@ -2,7 +2,7 @@
   "name": "jeremie-gambin",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://jbigman.github.io/react/",
+  "homepage": "https://jbigman.github.io/cv-react/",
   "dependencies": {
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
