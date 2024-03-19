@@ -4,7 +4,7 @@
   "private": false,
   "homepage": "https://jbigman.github.io/cv-react/",
   "dependencies": {
-    "@emotion/react": "^11.9.0",
+    "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.8.1",
     "@types/node": "^20.11.28",
     "@types/react": "^18.2.52",
