@@ -7,7 +7,7 @@
 		"@emotion/react": "^11.11.4",
 		"@emotion/styled": "^11.11.5",
 		"@types/node": "^20.11.28",
-		"@types/react": "^18.2.79",
+		"@types/react": "^18.3.2",
 		"@types/react-dom": "^18.2.19",
 		"next": "^14.1.4",
 		"react": "^18.0.0",
@@ -29,7 +29,11 @@
 		"deploy": "node gh-pages-publish.js"
 	},
 	"browserslist": {
-		"production": [">0.2%", "not dead", "not op_mini all"],
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
 		"development": [
 			"last 1 chrome version",
 			"last 1 firefox version",
