@@ -24,11 +24,50 @@
 				"Next.js",
 				"MongoDB",
 				"Node.js",
+				"Nest.js",
 				"TypeScript",
 				"Web scrapping"
 			],
 			"dateStart": 2022,
 			"dateEnd": "Depuis"
+		},
+		{
+			"title": "[Remote] Freelance",
+			"company": "LaPetitePouzerie.fr",
+			"link": "https://www.LaPetitePouzerie.fr",
+			"duration": "(2 mois)",
+			"description": "Création intégrale de la plateforme de reservation",
+			"tasks": [
+				"Site client avec paiement par carte bancaire et emails de confirmation",
+				"Site hôte pour configurer prix et disponibilités"
+			],
+			"stack": ["React", "Next.js", "MongoDB", "Nest.js", "TypeScript"],
+			"dateStart": "Mars 2024",
+			"dateEnd": "Mai 2024"
+		},
+		{
+			"title": "[Remote] Freelance",
+			"company": "Eric C",
+			"duration": "(1 mois)",
+			"description": "Création d'une application mobile permettant de se connecter à un équipement en Bluetooth pour en changer plusieurs paramètres",
+			"tasks": [],
+			"stack": ["Typescript", "React native", "Github", "Bluetooth"],
+			"dateStart": "Novembre 2022",
+			"dateEnd": "Octobre 2022"
+		},
+		{
+			"title": "Créateur de contenu",
+			"description": "Gameplay, guides ou présentations de jeux ainsi que des articles de fond sur le domaine du jeu mobile",
+			"company": "TAF Jeux Mobile",
+			"link": "https://www.youtube.com/c/TAFJeuxMobile",
+			"duration": "(4 ans)",
+			"tasks": [
+				"Guides et articles : Tests de jeux, Rédaction de scripts,  tournage, montage...",
+				"Gameplay : Streams réguliers sur Twitch/Youtube"
+			],
+			"stack": ["Communication", "Recherche", "Rédaction"],
+			"dateStart": 2018,
+			"dateEnd": 2022
 		},
 		{
 			"title": "Tech Lead Application Android",
