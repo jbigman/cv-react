@@ -20,11 +20,9 @@
 				"L’aspect collaboratif permet d’enrichir le contenu du site tout en incluant la communauté de joueurs"
 			],
 			"stack": [
-				"React",
-				"Next.js",
+				"Node.js / Nest.js",
+				"React / Next.js",
 				"MongoDB",
-				"Node.js",
-				"Nest.js",
 				"TypeScript",
 				"Web scrapping"
 			],
@@ -41,7 +39,14 @@
 				"Site client avec paiement par carte bancaire et emails de confirmation",
 				"Site hôte pour configurer prix et disponibilités"
 			],
-			"stack": ["React", "Next.js", "MongoDB", "Nest.js", "TypeScript"],
+			"stack": [
+				"Node.js / Nest.js",
+				"React / Next.js",
+				"MongoDB",
+				"TypeScript",
+				"Github Actions",
+				"API Stripe"
+			],
 			"dateStart": "Mars 2024",
 			"dateEnd": "Mai 2024"
 		},
