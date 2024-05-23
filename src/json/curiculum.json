@@ -1,171 +1,153 @@
 {
-  "nom": "GAMBIN",
-  "prenom": "Jérémie",
-  "address": "Rennes, Bretagne, France",
-  "email": "jeremie.gambin@gmail.com",
-  "phone": "06.24.89.44.49",
-  "stackOverFlowUrl": "https://stackoverflow.com/users/2988788",
-  "drivingLicence": "Permis B",
-  "githubUrl": "https://github.com/jbigman",
-  "description": "Mon attachement à la satisfaction client est le point clé de toutes mes réalisations. J'ai eu l'occasion d'enrichir mes compétences en C#, JAVA ou Javascript en travaillant aussi bien avec mes pairs qu'en autonomie. Mon dernier projet, Gamewisher.com étant désormais en ligne, je souhaite mettre à profit mes compétences sur un nouveau projet en full-remote ou sur Rennes",
-  "experiences": [
-    {
-      "title": "Fondateur et Développeur Full Stack ",
-      "description": "Gamewisher est un moteur de recherche dédié aux jeux vidéo mobile.",
-      "company": "Gamewisher.com",
-      "link" :"https://www.gamewisher.com",
-      "duration": "(14 mois)",
-      "tasks": [
-        "L’algorithme de scrapping cherche automatiquement les jeux en promotion et les nouveaux jeux.",
-        "L’aspect collaboratif permet d’enrichir le contenu du site tout en incluant la communauté de joueurs"
-      ],
-      "stack": ["React","Next.js","MongoDB","Node.js","TypeScript","Web scrapping"],
-      "dateStart": 2022,
-      "dateEnd": "Depuis"
-    },
-    {
-      "title": "Tech Lead Application Android",
-      "description": "Développement en autonomie d'une application Android pour le système billettique danois. Elle permet aux conducteurs de bus de réaliser des ventes, suivre le voyage et gérer les équipements embarqués.",
-      "company": "Thales",
-      "duration": "(9 mois)",
-      "tasks": [
-        "Réalisation d'outils de tests pour l'intégration avec les équipements",
-        "Formation d'un apprenti (Master 2)",
-        "Réalisation du logiciel (conception, dev et tests)"
-      ],
-      "stack": [
-        "Typescript",
-        "React native",
-        "Jenkins",
-        "MQTT"
-      ],
-      "dateStart": 2017,
-      "dateEnd": 2018
-    },
-    {
-      "title": "Développeur Full stack et Scrum master",
-      "description": "Au sein d'une équipe Agile (Scrum) de 10-12 personnes et dans le cadre du développement d'un produit billettique (Dubai, Doha, Johannesbourg, ...)",
-      "company": "Thales",
-      "duration": "(5 ans)",
-      "tasks": [
-        "Conception, développement et supports aux autres développeurs",
-        "Scrum master"
-      ],
-      "stack": [
-        "JAVA",
-        "Spring",
-        "Hibernate",
-        "Docker",
-        "Jenkins",
-        "jUnit",
-        "Angular",
-        "Sass",
-        "bootstrap"
-      ],
-      "dateStart": 2013,
-      "dateEnd": 2017
-    },
-    {
-      "title": "Développeur Full Stack",
-      "description": "Au sein d'une équipe 6-9 personnes et pour le système billettique d'Auckland (Nouvelle-Zélande)",
-      "company": "Thales",
-      "duration": "(2 ans)",
-      "tasks": [
-        "Conception, développement",
-        "Rédaction des manuels utilisateurs (opérateurs de transport)"
-      ],
-      "stack": [
-        "ASP.Net",
-        "C#",
-        "WCF",
-        "Entity Framework",
-        ".NET 3.5",
-        "LINQ",
-        "SQL Server"
-      ],
-      "dateStart": 2010,
-      "dateEnd": 2013
-    },
-    {
-      "title": "Développeur logiciel",
-      "description": "Développement d'un éditeur XML, utilisé par les opérateurs de transport de Lisbonne pour configurer leur système",
-      "company": "Thales",
-      "duration": "(2 ans en alternance)",
-      "tasks": [
-        "Améliorations ergonomiques (Datepicker, sliders...)",
-        "Renforcement de la stabilité (Contrôl et validation de données)"
-      ],
-      "stack": [
-        "C#",
-        "WPF",
-        ".NET 3.5",
-        "MEF",
-        "LINQ",
-        "XML",
-        "XSD"
-      ],
-      "dateStart": 2008,
-      "dateEnd": 2010
-    },
-    {
-      "title": "Fondateur",
-      "description": "En parrallèle de mes études, j'ai créé une société de e-commerce. Avec Gaminiature, je réalisais des vente au détail de véhicules miniatures.",
-      "company": "Gaminiature",
-      "duration": "",
-      "tasks": [
-        "Réalisation du site e-commerce de la société.",
-        "Création de la charte graphique (logo et impressions)",
-        "Optimisation du référencement (seo)"
-      ],
-      "stack": [
-        "PHP",
-        "Magento",
-        "mySQL"
-      ],
-      "dateStart": 2008,
-      "dateEnd": 2009
-    }
-  ],
-  "formations": [
-    {
-      "title": "Master Informatique en alternance",
-      "description": "Expert en conduite et ingénierie de développement logiciel et système",
-      "company": "CFA AFTI, Orsay",
-      "duration": "",
-      "tasks": [],
-      "stack": [],
-      "dateStart": 2008,
-      "dateEnd": 2010
-    },
-    {
-      "title": "Licence Informatique",
-      "description": "Diplôme universitaire de technologie, Informatique",
-      "company": "Université Paris 13 - Institut Galilée",
-      "duration": "",
-      "tasks": [],
-      "stack": [],
-      "dateStart": 2007,
-      "dateEnd": 2008
-    }
-  ],
-  "skills": {
-    "stacks": [
-      {
-        "type": "Principales compétences",
-        "stack": [
-          "TypeScript",
-          "Node.js",
-          "React / NextJs"
-        ]
-      },
-      {
-        "type": "Principales qualités",
-        "stack": [
-          "Autonomie",
-          "Flexibilité et Adaptation",
-          "Esprit critique"
-        ]
-      }
-    ]
-  }
+	"nom": "GAMBIN",
+	"prenom": "Jérémie",
+	"address": "Rennes, Bretagne, France",
+	"email": "jeremie.gambin@gmail.com",
+	"phone": "06.24.89.44.49",
+	"stackOverFlowUrl": "https://stackoverflow.com/users/2988788",
+	"drivingLicence": "Permis B",
+	"githubUrl": "https://github.com/jbigman",
+	"description": "Mon attachement à la satisfaction client est le point clé de toutes mes réalisations. J'ai eu l'occasion d'enrichir mes compétences en C#, JAVA ou Javascript en travaillant aussi bien avec mes pairs qu'en autonomie. Mon dernier projet, Gamewisher.com étant désormais en ligne, je souhaite mettre à profit mes compétences sur un nouveau projet en full-remote ou sur Rennes",
+	"experiences": [
+		{
+			"title": "Fondateur et Développeur Full Stack ",
+			"description": "Gamewisher est un moteur de recherche dédié aux jeux vidéo mobile.",
+			"company": "Gamewisher.com",
+			"link": "https://www.gamewisher.com",
+			"duration": "(14 mois)",
+			"tasks": [
+				"L’algorithme de scrapping cherche automatiquement les jeux en promotion et les nouveaux jeux.",
+				"L’aspect collaboratif permet d’enrichir le contenu du site tout en incluant la communauté de joueurs"
+			],
+			"stack": [
+				"React",
+				"Next.js",
+				"MongoDB",
+				"Node.js",
+				"TypeScript",
+				"Web scrapping"
+			],
+			"dateStart": 2022,
+			"dateEnd": "Depuis"
+		},
+		{
+			"title": "Tech Lead Application Android",
+			"description": "Développement en autonomie d'une application Android pour le système billettique danois. Elle permet aux conducteurs de bus de réaliser des ventes, suivre le voyage et gérer les équipements embarqués.",
+			"company": "Thales",
+			"duration": "(9 mois)",
+			"tasks": [
+				"Réalisation d'outils de tests pour l'intégration avec les équipements",
+				"Formation d'un apprenti (Master 2)",
+				"Réalisation du logiciel (conception, dev et tests)"
+			],
+			"stack": ["Typescript", "React native", "Jenkins", "MQTT"],
+			"dateStart": 2017,
+			"dateEnd": 2018
+		},
+		{
+			"title": "Développeur Full stack et Scrum master",
+			"description": "Au sein d'une équipe Agile (Scrum) de 10-12 personnes et dans le cadre du développement d'un produit billettique (Dubai, Doha, Johannesbourg, ...)",
+			"company": "Thales",
+			"duration": "(5 ans)",
+			"tasks": [
+				"Conception, développement et supports aux autres développeurs",
+				"Scrum master"
+			],
+			"stack": [
+				"JAVA",
+				"Spring",
+				"Hibernate",
+				"Docker",
+				"Jenkins",
+				"jUnit",
+				"Angular",
+				"Sass",
+				"bootstrap"
+			],
+			"dateStart": 2013,
+			"dateEnd": 2017
+		},
+		{
+			"title": "Développeur Full Stack",
+			"description": "Au sein d'une équipe 6-9 personnes et pour le système billettique d'Auckland (Nouvelle-Zélande)",
+			"company": "Thales",
+			"duration": "(2 ans)",
+			"tasks": [
+				"Conception, développement",
+				"Rédaction des manuels utilisateurs (opérateurs de transport)"
+			],
+			"stack": [
+				"ASP.Net",
+				"C#",
+				"WCF",
+				"Entity Framework",
+				".NET 3.5",
+				"LINQ",
+				"SQL Server"
+			],
+			"dateStart": 2010,
+			"dateEnd": 2013
+		},
+		{
+			"title": "Développeur logiciel",
+			"description": "Développement d'un éditeur XML, utilisé par les opérateurs de transport de Lisbonne pour configurer leur système",
+			"company": "Thales",
+			"duration": "(2 ans en alternance)",
+			"tasks": [
+				"Améliorations ergonomiques (Datepicker, sliders...)",
+				"Renforcement de la stabilité (Contrôl et validation de données)"
+			],
+			"stack": ["C#", "WPF", ".NET 3.5", "MEF", "LINQ", "XML", "XSD"],
+			"dateStart": 2008,
+			"dateEnd": 2010
+		},
+		{
+			"title": "Fondateur",
+			"description": "En parrallèle de mes études, j'ai créé une société de e-commerce. Avec Gaminiature, je réalisais des vente au détail de véhicules miniatures.",
+			"company": "Gaminiature",
+			"duration": "",
+			"tasks": [
+				"Réalisation du site e-commerce de la société.",
+				"Création de la charte graphique (logo et impressions)",
+				"Optimisation du référencement (seo)"
+			],
+			"stack": ["PHP", "Magento", "mySQL"],
+			"dateStart": 2008,
+			"dateEnd": 2009
+		}
+	],
+	"formations": [
+		{
+			"title": "Master Informatique en alternance",
+			"description": "Expert en conduite et ingénierie de développement logiciel et système",
+			"company": "CFA AFTI, Orsay",
+			"duration": "",
+			"tasks": [],
+			"stack": [],
+			"dateStart": 2008,
+			"dateEnd": 2010
+		},
+		{
+			"title": "Licence Informatique",
+			"description": "Diplôme universitaire de technologie, Informatique",
+			"company": "Université Paris 13 - Institut Galilée",
+			"duration": "",
+			"tasks": [],
+			"stack": [],
+			"dateStart": 2007,
+			"dateEnd": 2008
+		}
+	],
+	"skills": {
+		"stacks": [
+			{
+				"type": "Principales compétences",
+				"stack": ["TypeScript", "Node.js", "React / NextJs"]
+			},
+			{
+				"type": "Principales qualités",
+				"stack": ["Autonomie", "Flexibilité et Adaptation", "Esprit critique"]
+			}
+		]
+	}
 }

@@ -36,9 +36,10 @@
 #### **[Next.js](https://nextjs.org/)** 
 Next.js permet de créer des applications en étendant les fonctionnalités de **React**.
 
-####  [ESLint](https://eslint.org)
-ESLint analyse le code pour pour vérifier entre autre les règles et conventions de codage ainsi que les sources d'erreur courantes pour anticiper les problèmes
+####  [@biomejs/biome](https://biomejs.dev/)
+Biome analyse le code pour pour vérifier entre autre les règles et conventions de codage ainsi que les sources d'erreur courantes pour anticiper les problèmes
 L'analyse est effectuée en temps réèl pendant le développement grâce à la prise en charge des IDE, mais aussi et surtout en intégration continue pendant la phase de build.
+Pourquoi biome plutot qu'eslint ? Plus rapide, et moins de dépendences à ajouter à la main.
 
 ## Monitoring
 #### [Snyk.io](https://snyk.io) [![Known Vulnerabilities](https://snyk.io/test/github/jbigman/cv-react/badge.svg)](https://snyk.io/test/github/jbigman/cv-react)

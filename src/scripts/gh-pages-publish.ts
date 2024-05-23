@@ -6,13 +6,15 @@ import * as ghpages from 'gh-pages'
 const config = {
   repo: 'https://github.com/jbigman/jbigman.github.io.git',
   branch: 'master',
-  dest: 'react'
+  dest: 'react',
 }
 
-ghpages.publish('build', config, (err: any) => {
-  console.log(`${err}`)
-  console.log(`Published on ${config.repo.split('/')[4]}/${config.dest}`)
-  console.log(`Branch:${config.branch}`)
-}).catch((e: any) => {
-  console.log(e)
-})
+ghpages
+  .publish('build', config, (err: any) => {
+    console.log(`${err}`)
+    console.log(`Published on ${config.repo.split('/')[4]}/${config.dest}`)
+    console.log(`Branch:${config.branch}`)
+  })
+  .catch((e: any) => {
+    console.log(e)
+  })
