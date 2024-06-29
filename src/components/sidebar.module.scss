@@ -2,49 +2,29 @@
 
 .clickable {
   text-decoration: none;
-  color: $text-primary !important;
+  color: white;
   &:hover {
-    color: $text-secondary !important;
+    color: $yellow !important;
   }
 }
 
 .sidebar {
-  display: flex;
-  flex-direction: column;
+  background-color: #252e38;
+  color: white;
+  display: flex; 
+  padding: $main-padding calc(2 *  $main-padding);
   align-items: center;
-  flex-wrap: wrap;
-  width : $sidebar-width;
-  padding: $main-padding;
-  background-color: $lighter-background;
-  color: $text-primary;
-  gap: $gap;
-  
-  h1, h2, h3, h4, h5 {
-    // Force les couleurs avec important (light), parceque le next build change l'ordre des css (modules)
-    color: white !important;
-  }
-  
-  h1 {
-    text-align: center;
-    margin-block-end: 0.17em;
-  }
-  
-  h2 {
-    font-size: 1.1em;
-    margin-top: 0px;
-    color: $text-secondary !important;
-  }
-  
+  //height: 150px;
+
   .imageContainer {
-    padding-bottom: 1em;
     display: flex;
     justify-content: center;
     
     img {
       -webkit-transform: scaleX(-1);
       transform: scaleX(-1);
-      border-radius: 50%;
-      width: 250px !important;
+      width: 125px !important;
+      height: 125px !important;
       
       &:hover {
         transform: scaleX(-1) scale(1.1);
@@ -52,151 +32,95 @@
       }
     }
   }
-}
 
-.list {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: $gap;
-}
+  .right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
 
-.skills {
-  width: 100%;
-  justify-content: space-around;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  gap: $gap;
-  
-  > div {
-    align-items: flex-start;
+  .clickable {
+    text-decoration: none;
+  }
+
+  h1,h2,h3,h4,h5 {
+    // Force les couleurs avec important (light), parceque le next build change l'ordre des css (modules)
+    color: white !important;
   }
   
-  .lot {
-    padding-top: 1em;
+  h1 {
+    font-size: 18px;
+    margin-bottom: 0.3em;
   }
-  .skill {
-    padding : 0 1em;
+  h2 {
+    font-size: 16px;
+    margin-bottom: 1.5em;
+    // Force les couleurs avec important (light), parceque le next build change l'ordre des css (modules)
+    color: $yellow !important;
   }
-}
-
-.pdf {
-  border-radius: 15px;
-  display: flex;
-  justify-content: center;
-  padding: 1em 0;
   
-  > div {
-    border: 1px solid $text-secondary;
+  .pdf {
+    display: none;
+  }
+
+  .list {
+    padding: $main-padding;
+    display: flex;
+    flex-direction: row;
+    gap: calc(3 * $main-padding);
+    justify-content: center;
+  }
+
+  .pdf {
     border-radius: 15px;
     display: flex;
     justify-content: center;
-    padding: 1em;
-    width: fit-content;
+    padding: 1em 0;
     
-    &:hover {
-      cursor: pointer;
-      color: $text-secondary;
-    }
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .sidebar {
-    justify-content: space-around;
-    width: calc(100vw - 2 * $main-padding);
-    max-width : calc(100vw - 2 * $main-padding);
-    min-height: 80vh;
-    padding:  $main-padding;
-    
-    .imageContainer {
-      img {
-        width: 200px !important;
+    > div {
+      border: 1px solid $text-secondary;
+      border-radius: 15px;
+      display: flex;
+      justify-content: center;
+      padding: 1em;
+      width: fit-content;
+      
+      &:hover {
+        cursor: pointer;
+        color: $text-secondary;
       }
     }
-    
-    .skills {
+  }
+  
+}
+
+.element {
+  .title {
+    font-size: 13px;
+  }
+  .content {
+    font-size: 17px;
+    font-weight: 600;
+  }
+}
+@media screen and (max-width: 768px) {
+  
+  .sidebar {
+    .list {
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
+      gap: 1em;
+      justify-content: center;
+      flex-wrap: wrap;
+      align-items: center;
     }
   }
 }
 
 @media screen and (max-width: 500px) {
-  .sidebar {
-    .skills {
-      display: flex;
-      flex-direction: column;
-      > div {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-      }
-    }
-  }
+
 }
 
-@media (prefers-color-scheme: light) {
-  .sidebar {
-    background-color: $light-lighter-background;
-    h2 {
-      color: $light-text-subtitle !important;
-    }
-  }
-  
-  .pdf {
-    > div {
-      border: 1px solid $text-secondary;
-    }
-  }
-}
 @media print {
-  $text-secondary : gray;
-  
-  .clickable {
-    text-decoration: none;
-    color: #282828 !important;
-  }
-  
-  .sidebar {
-    width: calc(100vw - 2 * $main-padding);
-    max-width : calc(100vw - 2 * $main-padding);
-    min-height: fit-content;
-    background-color: #fff;
-    color: #282828;
-    padding: 0 $main-padding;
-    align-items: center;
-    justify-content: space-around;
-    
-    h1,h2,h3,h4,h5 {
-      // Force les couleurs avec important (light), parceque le next build change l'ordre des css (modules)
-      color: $light-text-secondary !important;
-    }
-    
-    h1 {
-      margin-block-start: 0;
-    }
-    h2 {
-      font-size: 1.1em;
-      margin-top: 0px;
-      // Force les couleurs avec important (light), parceque le next build change l'ordre des css (modules)
-      color: $text-secondary !important;
-    }
-    
-    .imageContainer {
-      img {
-        width: 200px !important;
-      }
-    }
-    .skills {
-      display: flex;
-      flex-direction: row;
-    }
-    
-    .pdf {
-      display: none;
-    }
-  }
 }

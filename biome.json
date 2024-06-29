@@ -9,7 +9,7 @@
 			"recommended": true,
 			"suspicious": {
 				"noExplicitAny": "warn",
-				"noArrayIndexKey": "warn"
+				"noArrayIndexKey": "off"
 			},
 			"correctness": {
 				"useExhaustiveDependencies": "warn"
@@ -34,7 +34,6 @@
 	},
 	"javascript": {
 		"formatter": {
-			"trailingComma": "es5",
 			"semicolons": "asNeeded",
 			"quoteStyle": "single",
 			"indentStyle": "space"

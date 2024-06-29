@@ -1,7 +1,7 @@
 {
 	"nom": "GAMBIN",
 	"prenom": "Jérémie",
-	"address": "Rennes ou Remote",
+	"address": "Rennes, France",
 	"email": "jeremie.gambin@gmail.com",
 	"phone": "06.24.89.44.49",
 	"stackOverFlowUrl": "https://stackoverflow.com/users/2988788",
@@ -9,7 +9,7 @@
 	"githubUrl": "https://github.com/jbigman",
 	"description": "Développeur expérimenté en applications web et mobiles, spécialisé en TypeScript, Node.js et React. Mes réalisations incluent la création d'une plateforme de réservation avec systèmes de paiement pour LaPetitePouzerie.fr et l'implémentation d'un moteur de recherche pour les jeux vidéo sur Gamewisher.com. À la recherche d'un poste de développeur à CoderPad, où je pourrais apporter mes compétences en développement front-end et back-end dans un environnement Agile, pour soutenir votre équipe Tech à renforcer vos produits et assurer leur évolutions.",
 	"experiences": [
-		[{
+		{
 			"title": "Fondateur et Développeur Full Stack ",
 			"description": "",
 			"company": "Gamewisher.com",
@@ -24,36 +24,43 @@
 				"TypeScript"
 			],
 			"dateEnd": "Depuis 2022"
-		}],
-		[
-			{
-				"title": "[Remote] Freelance",
-				"company": "LaPetitePouzerie.fr",
-				"link": "https://www.LaPetitePouzerie.fr",
-				"tasks": [
-					"Création d'une plateforme de réservation incluant paiement et gestion de disponibilités, en utilisant <b>TypeScript</b>, <b>Node.js</b>, <b>React</b> et les <b>GitHub Actions</b>"
-				],
-				"stack": [
-					"Nest.js",
-					"Next.js",
-					"MongoDB",
-					"TypeScript",
-					"Github Actions",
-					"API Stripe"
-				],
-				"dateStart": "2024",
-				"dateEnd": "2 mois"
-			},
-			{
-				"title": "[Remote] Freelance",
-				"company": "Eric C - Entrepreneur",
-				"tasks": ["Développement d'une application mobile pour la gestion des équipements matériels via Bluetooth, en utilisant <b>TypeScript</b> et <b>React-native</b>"],
-				"stack": ["Typescript", "React native", "Bluetooth"],
-				"dateStart": "2022",
-				"dateEnd": "1 mois"
-			}
-		],
-		[{
+		},
+		{
+			"title": "[Remote] Freelance",
+			"company": "LaPetitePouzerie.fr",
+			"link": "https://www.LaPetitePouzerie.fr",
+			"tasks": [
+				"Création d'une plateforme de réservation incluant paiement et gestion de disponibilités, en utilisant <b>TypeScript</b>, <b>Node.js</b>, <b>React</b> et les <b>GitHub Actions</b>"
+			],
+			"stack": [
+				"Nest.js",
+				"Next.js",
+				"MongoDB",
+				"TypeScript",
+				"Github Actions",
+				"API Stripe"
+			],
+			"dateStart": "2024",
+			"dateEnd": "2 mois"
+		},
+		{
+			"title": "[Remote] Freelance",
+			"company": "Eric C - Entrepreneur",
+			"tasks": ["Développement d'une application mobile pour la gestion des équipements matériels via Bluetooth, en utilisant <b>TypeScript</b> et <b>React-native</b>"],
+			"stack": ["Typescript", "React native", "Bluetooth"],
+			"dateStart": "2022",
+			"dateEnd": "1 mois"
+		},
+		{
+			"title": "Créateur de contenu",
+			"company": "TAF Jeux Mobile",
+			"link": "https://www.youtube.com/c/TAFJeuxMobile",
+			"tasks": ["Guides, de présentations et de reportages sur les jeux mobile (Youtube, Twitch)"],
+			"stack": ["Communication", "Recherche", "Rédaction", "Montage vidéo"],
+			"dateStart": 2018,
+			"dateEnd": 2022
+		},
+		{
 			"title": "Tech Lead Application Android",
 			"company": "Thales",
 			"tasks": [
@@ -63,11 +70,11 @@
 			"stack": ["Typescript", "React native", "Jenkins", "MQTT", "Tests unitaires"],
 			"dateStart": 2017,
 			"dateEnd": 2018
-		}],
-		[{
+		},
+		{
 			"title": "Développeur Full stack et Scrum master",
 			"company": "Thales",
-			"tasks": [ "Conception et développement d'un produit billettique dans une équipe <b>Agile (Scrum)</b> de 10 personnes, en utilisant <b>PostgreSQL</b>, <b>Java</b>, Angular et une <b>intégration continue</b> orchestrée par Jenkins" ],
+			"tasks": [ "Conception et développement d'un produit billettique dans un environnement <b>Agile (Scrum)</b>, en utilisant JAVA, Angular et une <b>intégration continue</b> orchestrée par Jenkins" ],
 			"stack": [
 				"JAVA Spring",
 				"Hibernate",
@@ -79,12 +86,11 @@
 			],
 			"dateStart": 2013,
 			"dateEnd": 2017
-		}],
-		[{
+		},
+		{
 			"title": "Développeur Full Stack",
 			"company": "Thales",
-			"tasks": ["Développement <b>Back-office</b> pour le système billettique d'Auckland, Nouvelle-Zélande, en C# et ASP.NET",
-		"Développement d'un éditeur XML pour les opérateurs de transport de Lisbonne, en C# et WPF."],
+			"tasks": ["Développement pour le système billettique d'Auckland, Nouvelle-Zélande, en C# et ASP.NET"],
 			"stack": [
 				"ASP.Net",
 				"C#",
@@ -94,19 +100,37 @@
 				"LINQ",
 				"SQL Server"
 			],
-			"dateStart": 2008,
+			"dateStart": 2010,
 			"dateEnd": 2013
-		}]
+		},
+		{
+			"title": "Développeur logiciel",
+			"company": "Thales",
+			"duration": "(Alternance)",
+			"tasks": ["Développement d'un éditeur XML pour les opérateurs de transport de Lisbonne, en C# et WPF."],
+			"stack": ["C#", "WPF", ".NET 3.5", "MEF", "LINQ", "XML", "XSD"],
+			"dateStart": 2008,
+			"dateEnd": 2010
+		},
+		{
+			"title": "Fondateur",
+			"company": "Gaminiature",
+			"duration": "",
+			"tasks": ["Création d'une société de e-commerce pour la vente de véhicules miniatures."],
+			"stack": ["PHP", "Magento", "mySQL", "seo"],
+			"dateStart": 2008,
+			"dateEnd": 2009
+		}
 	],
 	"formations": [
-		[{
+		{
 			"title": "Master : Ingénierie de développement logiciel et système",
 			"company": "CFA AFTI, Orsay",
 			"tasks": [],
 			"stack": [],
 			"dateEnd": 2010
-		}],
-		[{
+		},
+		{
 			"title": "Licence Informatique",
 			"description": "",
 			"company": "Paris Sorbonne Université - Institut Galilée",
@@ -114,7 +138,7 @@
 			"tasks": [],
 			"stack": [],
 			"dateEnd": 2008
-		}]
+		}
 	],
 	"skills": [
 		{

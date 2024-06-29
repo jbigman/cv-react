@@ -1,5 +1,5 @@
 import type { IExperience } from './IExperience'
-import type { ISkills } from './ISkills'
+import type { ISkill } from './ISkill'
 
 export interface ICuriculum {
   nom: string
@@ -13,5 +13,5 @@ export interface ICuriculum {
 
   experiences: IExperience[]
   formations: IExperience[]
-  skills: ISkills
+  skills: ISkill[]
 }

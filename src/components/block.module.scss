@@ -1,0 +1,13 @@
+@import '../css/index.scss';
+
+.main {
+  background-color: white;
+  padding: $main-padding;
+  margin-bottom: $main-padding;
+}
+
+@media screen and (max-width: 768px) {
+ }
+
+@media print {
+}

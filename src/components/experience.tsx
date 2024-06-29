@@ -1,62 +1,74 @@
 import type { IExperience } from '../Interface/IExperience'
-import Cartouche from '../components/cartouche'
 import experienceStyles from './experience.module.scss'
 
-const Experience = (props: { exp: IExperience }) => {
-  return (
-    <div className={experienceStyles.experience}>
-      <div className={experienceStyles.date}>
-        <span>{props.exp.dateStart}</span>
-        <span>{props.exp.dateEnd}</span>
-      </div>
-      <div className={`${experienceStyles.decorator}`} />
-      <div className={`${experienceStyles.details} column`}>
-        <h3 className={experienceStyles.title}>{props.exp.title}</h3>
-        {props.exp.link ? (
+const Experience = (props: {data: IExperience[] }) => {
+
+  const expContent = (exp: IExperience) => {
+    return (
+      <>
+        <div className={`${experienceStyles.subtile}`}>
+        {exp.link ? (
           <a
-            href={props.exp.link}
+            href={exp.link}
             target="_blank"
-            className={`${experienceStyles.company} ${experienceStyles.shift}`}
+            className={`${experienceStyles.company}`}
             rel="noreferrer"
           >
-            {props.exp.company}{' '}
-            {props.exp.duration && (
+            {exp.company}
+            {exp.duration && (
               <span className={experienceStyles.duration}>
-                {props.exp.duration}
+                {exp.duration}
               </span>
             )}
           </a>
         ) : (
           <div
-            className={`${experienceStyles.company} ${experienceStyles.shift}`}
+            className={`${experienceStyles.company}`}
           >
-            {props.exp.company}{' '}
-            {props.exp.duration && (
+            {exp.company}
+            {exp.duration && (
               <span className={experienceStyles.duration}>
-                {props.exp.duration}
+                {exp.duration}
               </span>
             )}
           </div>
         )}
-        <div className={`${experienceStyles.shift}`}>
-          {props.exp.description}
-        </div>
-        <ul className={`${experienceStyles.shift} column`}>
-          {props.exp.tasks.map((task) => {
-            return <li key={task}>{task}</li>
-          })}
-        </ul>
-        {props.exp.stack.length > 0 && (
-          <div className={experienceStyles.cartouches}>
-            <b>{'Compétences: '}</b>
-            {props.exp.stack.map((tech: string, index: number) => {
-              return <Cartouche key={index} name={tech} />
-            })}
+          
+          <div className='row'>
+            <span>{exp.dateStart}</span>
+            { exp.dateStart && exp.dateEnd && '-' }
+            <span>{exp.dateEnd}</span>
           </div>
-        )}
+        </div>
+        {
+          exp.tasks.length > 0 &&  
+          <div className={`${experienceStyles.shift}`}>
+            {exp.tasks.map((task) => {
+              return (
+                <div key={task}>
+                  {/* biome-ignore lint/security/noDangerouslySetInnerHtml: <explanation> */}
+                  <div dangerouslySetInnerHTML={{__html: task}} />
+                </div>
+            )})}
+          </div>
+        } 
+      </>
+    )
+  }
+
+  if (props.data && props.data.length > 0)
+    return (
+      <div className={experienceStyles.experience}>
+        <div className={`${experienceStyles.details} column`}>
+          <h3 className={experienceStyles.title}>{props.data[0].title}</h3>
+          {
+            props.data.map((elem) => {
+              return expContent(elem)
+            })
+          }      
+        </div>
       </div>
-    </div>
-  )
+    )
 }
 
 export default Experience
