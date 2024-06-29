@@ -1,7 +1,7 @@
 {
 	"nom": "GAMBIN",
 	"prenom": "Jérémie",
-	"address": "Rennes ou Remote",
+	"address": "Rennes Remote",
 	"email": "jeremie.gambin@gmail.com",
 	"phone": "06.24.89.44.49",
 	"stackOverFlowUrl": "https://stackoverflow.com/users/2988788",
@@ -27,7 +27,7 @@
 		}],
 		[
 			{
-				"title": "[Remote] Freelance",
+				"title": "Freelance & remote",
 				"company": "LaPetitePouzerie.fr",
 				"link": "https://www.LaPetitePouzerie.fr",
 				"tasks": [
@@ -67,7 +67,7 @@
 		[{
 			"title": "Développeur Full stack et Scrum master",
 			"company": "Thales",
-			"tasks": [ "Conception et développement d'un produit billettique dans une équipe <b>Agile (Scrum)</b> de 10 personnes, en utilisant <b>PostgreSQL</b>, <b>Java</b>, Angular et une <b>intégration continue</b> orchestrée par Jenkins" ],
+			"tasks": [ "Conception et développement d'un produit billettique dans une équipe <b>Agile (Scrum)</b> de 10 personnes, en utilisant <b>PostgreSQL</b>, <b>Java</b>, <b>Angular</b> et une <b>intégration continue</b> orchestrée par Jenkins" ],
 			"stack": [
 				"JAVA Spring",
 				"Hibernate",
@@ -83,8 +83,23 @@
 		[{
 			"title": "Développeur Full Stack",
 			"company": "Thales",
-			"tasks": ["Développement <b>Back-office</b> pour le système billettique d'Auckland, Nouvelle-Zélande, en C# et ASP.NET",
-		"Développement d'un éditeur XML pour les opérateurs de transport de Lisbonne, en C# et WPF."],
+			"tasks": ["Développement <b>Back-office</b> pour le système billettique d'Auckland, Nouvelle-Zélande, en <b>C#</b> et <b>ASP.NET</b>"],
+			"stack": [
+				"ASP.Net",
+				"C#",
+				"WCF",
+				"Entity Framework",
+				".NET 3.5",
+				"LINQ",
+				"SQL Server"
+			],
+			"dateStart": 2010,
+			"dateEnd": 2013
+		}],
+		[{
+			"title": "Développeur Logiciel",
+			"company": "Thales",
+			"tasks": [ "Développement d'un éditeur XML pour les opérateurs de transport de Lisbonne, en <b>C#</b> et <b>WPF</b>"],
 			"stack": [
 				"ASP.Net",
 				"C#",
@@ -95,7 +110,7 @@
 				"SQL Server"
 			],
 			"dateStart": 2008,
-			"dateEnd": 2013
+			"dateEnd": 2010
 		}]
 	],
 	"formations": [

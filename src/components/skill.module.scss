@@ -3,9 +3,11 @@
 .main {
   display: flex;
   flex-direction: row;
-  background-color: $gray-light;
   margin-bottom: 1em;
-  padding: 10px;
+
+  background-color: $background-color-light;
+  padding: $main-padding;
+  margin-bottom: 1em;
 
   .title {
     font-weight: 600;
@@ -17,17 +19,14 @@
   }
   
   .icon {
-    margin-right: 5px;
+    margin-right: 10px;
     &.legend {
-      background-color: #f96249;
+      background-color: $highlight;
       padding: 5px;
-      height: 40px;
-      width: 40px;
+      height: 30px;
+      width: 30px;
     }
-    margin-right: 5px;
     &.white {
-      background-color: #fff;
-      padding: 5px;
       height: 40px;
       width: 40px;
     }
@@ -40,7 +39,8 @@
     font-weight: 600;
     text-decoration: none;
     &.silver {
-      color: #b6a28b;
+      color: $text-primary;
+      font-weight: 400;
     }
   }
 

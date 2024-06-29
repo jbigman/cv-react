@@ -3,13 +3,13 @@
 .experience {
   display: flex;
   flex-direction: row;
-  background-color: $gray-light;
-  margin-bottom: 1em;
-  padding: 10px;
+
+  background-color: $background-color-light;
+  padding: $main-padding;
+  margin-bottom: $main-padding;
 
   .shift {
     padding-left: $main-padding;
-    padding-top: $gap;
   }
   .subtile {
     display: flex;
@@ -18,7 +18,8 @@
   }
   b {
     color: $legend;
-    font-weight: 600;
+    font-family: $font-text-bold;
+    font-weight: 400;
   }
 
   &>div:last-child {
@@ -27,15 +28,14 @@
   }
   
   .title {
-    font-weight: 600;
+    font-family: $font-text-bold;
   }
     
   .company {
     width: fit-content;
-    color: $text-subtitle;
+    color: $text-company;
     padding-top: 0;
     padding-bottom: 0;
-    font-weight: 600;
     text-decoration: none;
     font-style: italic;
     
@@ -59,17 +59,6 @@
   .experience {
     &>div:last-child {
       padding-left: 0.7em;
-    }
-  }
-}
-
-@media (prefers-color-scheme: light) {
-  .experience {
-    .company {
-      color: $light-text-subtitle;
-      .duration {
-        color: $light-text-primary;
-      }
     }
   }
 }

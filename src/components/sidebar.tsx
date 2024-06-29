@@ -1,12 +1,14 @@
 import Image from 'next/image'
-import { FiPrinter } from 'react-icons/fi'
+import { FiMapPin, FiMail, FiPhone } from 'react-icons/fi'
 import photo from '../../public/img/photo-profil-b&w.png'
 import cv from '../json/curiculum.json'
 import sidebarStyles from './sidebar.module.scss'
+import Block from './block'
+import type { ReactElement } from 'react'
 
 const SideBar = () => {
 
-  const Element = (props: {title: string, children: any}) => {
+  const Element = (props: {title: ReactElement, children: any}) => {
     return (
       <div className={sidebarStyles.element}>
         <div className={sidebarStyles.title}>
@@ -30,30 +32,45 @@ const SideBar = () => {
           sizes="100vw"
           style={{ width: '100%', height: 'auto' }}
         />
+        <h1>Jérémie GAMBIN</h1>
       </div>
       <div className={sidebarStyles.right}>
-        <h1 style={{marginBottom: '0.3em'}}>Jérémie GAMBIN</h1>
-        <h2>Développeur Full Stack</h2>
         <div className={sidebarStyles.list}>
-          <Element title={'Location'}>
+          <Element title={<FiMapPin />}>
             <div> {cv.address}</div>
           </Element>
-
-          <Element title={'Email'}>
+          <Element title={<FiMail />}>
             <a href={`mailto:${cv.email}`} className={sidebarStyles.clickable}>
               {' '}
               {cv.email}
             </a>
           </Element>
-
-          
-          <Element title={'Phone'}>
+          <Element title={<FiPhone />}>
             <a href={`tel:${cv.phone}`} className={sidebarStyles.clickable}>
               {' '}
               {cv.phone}
             </a>
           </Element>
         </div>
+        <Block title={'Développeur Full Stack'}>
+          <ul style={{padding : '12px', fontSize: '14px'}}>
+            <li>
+              9 ans d'expérience en développement Full stack en front et back office.
+            </li>
+            <li>
+              5 ans d'expérience en développement Agile
+            </li>
+            <li>
+              3 projets réalisés en remote
+            </li>
+            <li>
+              2 applications Android
+            </li>
+            <li>
+              Conduite de projets de la conception à la livraison finale
+            </li>
+          </ul>
+          </Block>
       </div>
     </div>
   )

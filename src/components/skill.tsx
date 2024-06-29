@@ -45,11 +45,11 @@ const Skill = (props: { data: ISkill }) => {
         }
         {
           props.data.icon === 'linkedin' && 
-          <LinkedInIcon className={`${skillStyles.icon}`} />
+          <LinkedInIcon className={`${skillStyles.icon} ${skillStyles.white}`} size={30}/>
         }
         {
           props.data.icon === 'github' && 
-          <GithubIcon className={`${skillStyles.icon}`} />
+          <GithubIcon className={`${skillStyles.icon} ${skillStyles.white}`} size={30}/>
         }
         {
           props.data.icon === 'cg' && 
