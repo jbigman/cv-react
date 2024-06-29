@@ -8,7 +8,7 @@
 
   
 
-- Se déclanche sur n'importe quelle push/merge de la branche master. (Tuto complet dispo sur https://github.com/gregrickaby/nextjs-github-pages)
+- Se déclenche sur n'importe quelle push/merge de la branche master. (Tuto complet dispo sur https://github.com/gregrickaby/nextjs-github-pages)
 
   
 
