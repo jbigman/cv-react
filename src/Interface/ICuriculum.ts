@@ -11,7 +11,7 @@ export interface ICuriculum {
   stackOverFlowUrl?: string
   drivingLicence?: string
 
-  experiences: IExperience[]
-  formations: IExperience[]
+  experiences: IExperience[][]
+  formations: IExperience[][]
   skills: ISkill[]
 }
