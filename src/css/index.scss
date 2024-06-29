@@ -1,6 +1,5 @@
 @import './variables.scss';
 
-/*****/
 .row { 
   display: flex;
   flex-direction: row; 
@@ -41,7 +40,6 @@
   }
   
 }
-
 @media print {
   .hidden-small {
     display: none;
@@ -49,9 +47,5 @@
   
   .hidden-large {
     display: inherit;
-  }
-  
-  .no-print {
-    display: none;
   }
 }

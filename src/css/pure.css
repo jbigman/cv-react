@@ -14,3 +14,6 @@
     print-color-adjust: exact !important;
 }
 
+html, body {
+    height: 297mm;
+}

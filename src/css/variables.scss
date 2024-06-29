@@ -1,32 +1,29 @@
 $dark-blue : 03111a;
 $blue : #0e476a;
-$peach : #FF806F;
-$orange : #FF943D;
+$legend : #f96249;
+$bg : #e7e9eb;
+$gray-light : #f2f2f2;
+$yellow: #f2bb13;
 /*
 Dark mode
 */
-// $lighter-background : #03111a;
-// $background : #051e2d;
-// $text-primary : rgb(255,255,255,0.87);
-// $text-secondary : $peach;
-// $text-subtitle: #ffc3a2;
 $lighter-background : rgba(40,40,40);
-$background : rgb(60, 60, 60, 1);
-$text-primary : rgb(232, 234, 237);
-$text-secondary : rgb(138, 180, 248);
-$text-subtitle: rgb(138, 180, 248, 0.7);
+$background : $bg;
+$text-primary : #454c55;
+$text-secondary : #454c55;
+$text-subtitle: $legend;
 
 /*
 Light mode
 */
-$light-lighter-background : $blue;
-$light-background : white;
+$light-lighter-background : $bg;
+$light-background : $bg;
 $light-text-primary: #282828;
 $light-text-secondary: $blue;
-$light-text-subtitle: $peach;
+$light-text-subtitle: $legend;
 
 /** **/
-$main-padding : 1em;
+$main-padding : 12px;
 $sidebar-width : 300px;
 $gap: 0.3em;
 
