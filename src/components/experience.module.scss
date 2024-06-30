@@ -18,8 +18,7 @@
   }
   b {
     color: $legend;
-    font-family: $font-text-bold;
-    font-weight: 400;
+    font-weight: 800;
   }
 
   &>div:last-child {
@@ -28,7 +27,7 @@
   }
   
   .title {
-    font-family: $font-text-bold;
+    font-weight: 800;
   }
     
   .company {

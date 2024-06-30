@@ -47,8 +47,6 @@
   }
 
   h1 {
-    font-family: $font-title;
-    font-weight: 400;
     font-size: 26px;
     margin: 0.3em;
   }
@@ -108,7 +106,7 @@
   }
   .content {
     font-size: 12px;
-    font-family: $font-text-bold;
+    font-weight: 800;
   }
 }
 @media screen and (max-width: 768px) {

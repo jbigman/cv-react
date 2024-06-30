@@ -1,33 +1,14 @@
 @import './variables.scss';
-
-@font-face {
-  font-family: $font-text;
-  src: url("/cv-react/public/fonts/Roboto-Regular.ttf"), url("/cv-react/fonts/Roboto-Regular.ttf");
-}
-@font-face {
-  font-family: $font-text-bold;
-  src: url("/cv-react/public/fonts/Roboto-Bold.ttf"), url("/fonts/Roboto-Bold.ttf") ;
-}
-
-@font-face {
-  font-family: $font-title;
-  src: url("/cv-react/public/fonts/BebasNeue-Regular.ttf"), url("/fonts/BebasNeue-Regular.ttf");
-}
-
-@font-face {
-  font-family: $font-text-medium;
-  src: url("/cv-react/public/fonts/Roboto-Medium.ttf"), url("/fonts/Roboto-Medium.ttf");
-}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Glitch&display=swap');
 
 /* force background colors in print */
 * {
-  font-family:  $font-text, Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
   -webkit-print-color-adjust: exact !important;   /* Chrome, Safari 6 – 15.3, Edge */
   print-color-adjust: exact !important;
   
   body {
     overflow-x: hidden;
-    font-family: $font-text, Roboto, sans-serif;
     margin: 0;
     font-size: 14px;
     -webkit-font-smoothing: antialiased;
