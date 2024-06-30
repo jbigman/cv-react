@@ -9,7 +9,7 @@ import Skill from './skill'
 const Curiculum = () => {
   return (
     <div className={styles.body}>
-      <div >
+      <div style={{ maxWidth: '210mm' }} >
         <SideBar />
         <div className={styles.main}>
         <div className={styles.content}>
