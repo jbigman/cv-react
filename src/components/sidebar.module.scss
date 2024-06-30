@@ -1,4 +1,4 @@
-@import '../css/index.scss';
+@import '../css/variables.scss';
 
 .clickable {
   text-decoration: none;
@@ -114,6 +114,7 @@
 @media screen and (max-width: 768px) {
   
   .sidebar {
+    flex-direction: column;
     .list {
       display: flex;
       flex-direction: column;
@@ -122,6 +123,11 @@
       flex-wrap: wrap;
       align-items: center;
     }
+
+  }
+  
+  .title {
+    display: flex;
   }
 }
 
