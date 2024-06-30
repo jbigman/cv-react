@@ -55,10 +55,10 @@ const SideBar = () => {
         <Block title={'Développeur Full Stack'}>
           <ul style={{padding : '12px', fontSize: '14px'}}>
             <li>
-              9 ans d'expérience en développement Full stack en front et back office.
+              9 ans d'expérience en développement Full-Stack Back et Front office.
             </li>
             <li>
-              5 ans d'expérience en développement Agile
+              5 ans d'expérience en méthodologie Agile
             </li>
             <li>
               3 projets réalisés en remote
