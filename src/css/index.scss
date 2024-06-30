@@ -2,21 +2,21 @@
 
 @font-face {
   font-family: $font-text;
-  src: url("/cv-react/fonts/Roboto-Regular.ttf"), url("/cv-react/fonts/Roboto-Regular.ttf");
+  src: url("/cv-react/public/fonts/Roboto-Regular.ttf"), url("/cv-react/fonts/Roboto-Regular.ttf");
 }
 @font-face {
   font-family: $font-text-bold;
-  src: url("/cv-react/fonts/Roboto-Bold.ttf"), url("/fonts/Roboto-Bold.ttf") ;
+  src: url("/cv-react/public/fonts/Roboto-Bold.ttf"), url("/fonts/Roboto-Bold.ttf") ;
 }
 
 @font-face {
   font-family: $font-title;
-  src: url("/cv-react/fonts/BebasNeue-Regular.ttf"), url("/fonts/BebasNeue-Regular.ttf");
+  src: url("/cv-react/public/fonts/BebasNeue-Regular.ttf"), url("/fonts/BebasNeue-Regular.ttf");
 }
 
 @font-face {
   font-family: $font-text-medium;
-  src: url("/cv-react/fonts/Roboto-Medium.ttf"), url("/fonts/Roboto-Medium.ttf");
+  src: url("/cv-react/public/fonts/Roboto-Medium.ttf"), url("/fonts/Roboto-Medium.ttf");
 }
 
 /* force background colors in print */
