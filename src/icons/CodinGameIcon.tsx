@@ -1,8 +1,8 @@
 export const CodinGameIcon = ( props: { size?: number, className : string }) => {
-    const size = props.size ? props.size : 40
+    const size = props.size ? props.size : 35
     return (
         <svg fill="#0a66c2" data-name="Layer 1" id="Layer_1"width={size} height={size} xmlns="http://www.w3.org/2000/svg"
-        className={props.className} viewBox="0 0 2083 2083" >
+        className={props.className} viewBox="0 0 2083 2083" style={{padding: '5px'}} >
             <title>CG</title>
             <path d="M0 0h2083v2083H0z" fill="#fcd207"/>
             <g fill="#1f2528">

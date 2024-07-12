@@ -3,6 +3,7 @@ import cv from '../json/curiculum.json'
 import Block from './block'
 import styles from './curiculum.module.scss'
 import Experience from './experience'
+import NetWork from './network'
 import SideBar from './sidebar'
 import Skill from './skill'
 
@@ -20,11 +21,59 @@ const Curiculum = () => {
                   {cv.experiences.map((exp: IExperience[], index: number) => {
                     return <Experience key={index} data={exp} />
                   })}
-              </Block>              
+              </Block>   
+              <Block title={'Autres activités'}>
+                {/* <Experience data={
+                  [{
+                    title: "Community Manager",
+                    tasks : [ "Administration, gestion et animation d'une communauté comptant 3000 membres"],
+                    stack: [],
+                    company: "Discord gaming",
+                    dateStart: 'Depuis 2018',
+                    link: "https://discord.gg/JMvuZkz",
+                  }]
+                }/>
+                <Experience data={
+                  [{
+                    title: "Créateur de contenu",
+                    tasks : [ "Tutoriels, conseils et reportages sur les jeux mobile"],
+                    stack: [],
+                    company: "Youtube : TAF Jeux Mobile",
+                    dateEnd: '2022',
+                    dateStart: '2020',
+                    link: "https://discord.gg/JMvuZkz",
+                  }]
+                }/> */}
+                 <Skill data={
+                  {
+                    type: 'other',
+                    icon: "discord",
+                    name: "Community Manager",
+                    subtitle: "Administration et gestion d'un serveur gaming comptant 3000 membres",
+                    link: "https://www.youtube.com/c/TAFJeuxMobile",
+                  }
+                }/>
+               <Skill data={
+                {
+                  type: 'other',
+                  icon: "youtube",
+                  name: "TAF Jeux Mobile",
+                  subtitle: "Tutoriels, conseils et reportages sur les jeux mobile",
+                  link: "https://www.youtube.com/c/TAFJeuxMobile",
+                }
+              }/> 
+             </Block>            
             </div>
           </div>   
-          <div style={{flex:2}}>    
-            <Block title={"Principales compétences "}>        
+          <div style={{flex:2}}>   
+            <Block title={"Compétences relationnelles"}>        
+              {cv.skills.filter((s) => s.type === 'soft').map((skill) => {
+                  return (
+                    <Skill data={skill} key={skill.name} />
+                  )
+              })}
+            </Block> 
+            <Block title={"Compétences techniques"}>        
               {cv.skills.filter((s) => s.type === 'hard').map((skill) => {
                   return (
                     <Skill data={skill} key={skill.name} />
@@ -32,45 +81,34 @@ const Curiculum = () => {
               })}
             </Block>
 
-            <Block title={"Retrouvez moi en ligne"}>  
-                <Skill data={{
-                  type: "string",
-                  icon: "linkedin",
-                  name: "LinkedIn.com",
-                  subtitle: "/in/jeremiegambin",
-                  link: "https://www.linkedin.com/in/jeremiegambin/"
-                }} />
-                <Skill data={{
-                  type: "string",
-                  icon: "cg",
-                  name: "CodinGame.com",
-                  subtitle: "/jBigman",
-                  link: "https://www.codingame.com/profile/262698c2b361339f78efcf6f014e5b231298241"
-                }} />      
-                <Skill data={{
-                  type: "string",
-                  icon: "github",
-                  name: "Github.com",
-                  subtitle: "/jBigman",
-                  link: "https://github.com/jbigman"
-                }} />
-            </Block>
-            <Block title={'Autres activités'}>
-               <Skill data={
-                {
-                  type: 'other',
-                  icon: "youtube",
-                  name: "TAF Jeux Mobile",
-                  subtitle: "Guides, présentations et reportages sur les jeux mobile",
-                  link: "https://www.youtube.com/c/TAFJeuxMobile",
-                }
-              }/>
-             </Block> 
             <Block title={'Formation'}>
               {cv.formations.map((exp: IExperience[]) => {
                 return <Experience key={exp[0].title} data={exp} />
               })}
             </Block> 
+            
+            <Block title={"Retrouvez moi en ligne"}> 
+              <NetWork data={[{
+                  type: "string",
+                  icon: "linkedin",
+                  name: "LinkedIn.com",
+                  subtitle: "/in/jeremiegambin",
+                  link: "https://www.linkedin.com/in/jeremiegambin/"
+                },{
+                  type: "string",
+                  icon: "cg",
+                  name: "CodinGame.com",
+                  subtitle: "/jBigman",
+                  link: "https://www.codingame.com/profile/262698c2b361339f78efcf6f014e5b231298241"
+                },{
+                  type: "string",
+                  icon: "github",
+                  name: "Github.com",
+                  subtitle: "/jBigman",
+                  link: "https://github.com/jbigman"
+                }]} /> 
+            </Block>
+           
           </div>   
         </div>
           

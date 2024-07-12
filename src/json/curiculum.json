@@ -1,7 +1,7 @@
 {
 	"nom": "GAMBIN",
 	"prenom": "Jérémie",
-	"address": "Rennes, Remote",
+	"address": "Rennes, Télétravail",
 	"email": "jeremie.gambin@gmail.com",
 	"phone": "06.24.89.44.49",
 	"stackOverFlowUrl": "https://stackoverflow.com/users/2988788",
@@ -15,7 +15,7 @@
 			"company": "Gamewisher.com",
 			"link": "https://www.gamewisher.com",
 			"tasks": [
-				"Développement d'un moteur de recherche pour les jeux vidéo mobiles, en utilisant <b>TypeScript</b>, <b>Nest.js</b>, <b>Next.js</b> et une intégration continue assurée par <b>GitHub Actions</b>"
+				"Création d'un moteur de recherche pour les jeux vidéo mobiles, en utilisant <b>TypeScript</b>, <b>Nest.js</b>, <b>Next.js</b> et <b>GitHub Actions</b>"
 			],
 			"stack": [
 				"Node.js / Nest.js",
@@ -27,11 +27,12 @@
 		}],
 		[
 			{
-				"title": "Freelance & remote",
+				"title": "En indépendant et en télétravail",
 				"company": "LaPetitePouzerie.fr",
 				"link": "https://www.LaPetitePouzerie.fr",
 				"tasks": [
-					"Création d'une plateforme de réservation incluant paiement et gestion de disponibilités, en utilisant <b>TypeScript</b>, <b>Node.js</b>, <b>React</b> et les <b>GitHub Actions</b>"
+					"Création d'une plateforme de réservation incluant paiement et gestion de disponibilités, en utilisant <b>TypeScript</b>, <b>Node.js</b>, <b>React</b> et les <b>GitHub Actions</b>",
+					"Collaboration avec une designeuse et ses maquettes <b>Figma</b>."
 				],
 				"stack": [
 					"Nest.js",
@@ -47,7 +48,7 @@
 			{
 				"title": "[Remote] Freelance",
 				"company": "Eric C - Entrepreneur",
-				"tasks": ["Développement d'une application mobile pour la gestion des équipements matériels via Bluetooth, en utilisant <b>TypeScript</b> et <b>React-native</b>"],
+				"tasks": ["Développement d'une application mobile pour la gestion des équipements matériels via Bluetooth, en utilisant <b>TypeScript</b> et <b>React-native</b>."],
 				"stack": ["Typescript", "React native", "Bluetooth"],
 				"dateStart": "2022",
 				"dateEnd": "1 mois"
@@ -57,17 +58,17 @@
 			"title": "Tech Lead Application Android",
 			"company": "Thales",
 			"tasks": [
-				"Développement d'une application Android pour le réseau de transport de bus danois, en utilisant <b>TypeScript</b> et <b>React-native</b>",
-				"Formation d'un apprenti"
+				"Développement d'une application Android pour le réseau de transport de bus danois, en utilisant <b>TypeScript</b> et <b>React-native</b>.",
+				"Formation d'un apprenti."
 			],
-			"stack": ["Typescript", "React native", "Jenkins", "MQTT", "Tests unitaires"],
+			"stack": ["Typescript", "React native", "Jenkins", "MQTT", "Tests unitaires."],
 			"dateStart": 2017,
 			"dateEnd": 2018
 		}],
 		[{
 			"title": "Développeur Full stack et Scrum master",
 			"company": "Thales",
-			"tasks": [ "Conception et développement d'un produit billettique dans une équipe <b>Agile (Scrum)</b> de 10 personnes, en utilisant <b>PostgreSQL</b>, <b>Java</b>, <b>Angular</b> et une <b>intégration continue</b> orchestrée par Jenkins" ],
+			"tasks": [ "Conception d'un produit billettique dans une équipe <b>Agile (Scrum)</b> de 10 personnes, en utilisant <b>PostgreSQL</b>, Java, Angular en intégration continue." ],
 			"stack": [
 				"JAVA Spring",
 				"Hibernate",
@@ -81,42 +82,20 @@
 			"dateEnd": 2017
 		}],
 		[{
-			"title": "Développeur Full Stack",
+			"title": "Développeur Full Stack C# / ASP.NET",
 			"company": "Thales",
-			"tasks": ["Développement <b>Back-office</b> pour le système billettique d'Auckland, Nouvelle-Zélande, en <b>C#</b> et <b>ASP.NET</b>"],
-			"stack": [
-				"ASP.Net",
-				"C#",
-				"WCF",
-				"Entity Framework",
-				".NET 3.5",
-				"LINQ",
-				"SQL Server"
+			"tasks": [
+				"Développement d'un logiciel de configuration système ainsi que du Back-office pour le système billettique de plusieurs opérateurs de transport."
 			],
-			"dateStart": 2010,
-			"dateEnd": 2013
-		}],
-		[{
-			"title": "Développeur Logiciel",
-			"company": "Thales",
-			"tasks": [ "Développement d'un éditeur XML pour les opérateurs de transport de Lisbonne, en <b>C#</b> et <b>WPF</b>"],
-			"stack": [
-				"ASP.Net",
-				"C#",
-				"WCF",
-				"Entity Framework",
-				".NET 3.5",
-				"LINQ",
-				"SQL Server"
-			],
+			"stack": [],
 			"dateStart": 2008,
-			"dateEnd": 2010
+			"dateEnd": 2013
 		}]
 	],
 	"formations": [
 		[{
-			"title": "Master : Ingénierie de développement logiciel et système",
-			"company": "CFA AFTI, Orsay",
+			"title": "Expert en conduite et ingénierie de développement logiciel et système",
+			"company": "Master au CFA AFTI, Orsay",
 			"tasks": [],
 			"stack": [],
 			"dateEnd": 2010
@@ -142,7 +121,7 @@
 		{
 			"type": "hard",
 			"icon": "node",
-			"name": "Node.js"
+			"name": "Node.js / Nest.js"
 		},
 		{
 			"type": "hard",
@@ -151,20 +130,21 @@
 		},
 		{
 			"type": "soft",
-			"icon": "",
+			"icon": "brain",
 			"name": "Autonomie",
-			"subtitle": "Remote friendly"
+			"subtitle": "Formation continue et veille technologique régulière."
+		},
+		{
+			"type": "soft",
+			"icon": "autonomie",
+			"name": "Partage & Bienveillance",
+			"subtitle": "j'accompagne et soutien mes collègues afin de progresser ensemble."
 		},
 		{
 			"type": "soft",
 			"icon": "fire",
-			"name": "Adaptation",
-			"subtitle": "Et flexibilité"
-		},
-		{
-			"type": "soft",
-			"icon": "brain",
-			"name": "Esprit critique"
+			"name": "Esprit d'équipe",
+			"subtitle": "Je délègue et organise des ateliers participatifs pour favoriser les collaborations."
 		}
 	]
 }

@@ -10,6 +10,7 @@ import { YoutubeIcon } from '../icons/YoutubeIcon'
 import { LinkedInIcon } from '../icons/LinkedInIcon'
 import { CodinGameIcon } from '../icons/CodinGameIcon'
 import { GithubIcon } from '../icons/GithubIcon'
+import { DiscordIcon } from '../icons/DiscordIcon'
 
 const Skill = (props: { data: ISkill }) => {
   return (
@@ -28,7 +29,7 @@ const Skill = (props: { data: ISkill }) => {
           <ReactIcon className={skillStyles.icon} />
         }
         {
-          props.data.name === 'Autonomie' && 
+          props.data.icon === 'autonomie' && 
           <AutonomieIcon className={`${skillStyles.icon} ${skillStyles.legend}`} size={30}/>
         }
         {
@@ -54,6 +55,10 @@ const Skill = (props: { data: ISkill }) => {
         {
           props.data.icon === 'cg' && 
           <CodinGameIcon className={`${skillStyles.icon}`} />
+        }
+        {
+          props.data.icon === 'discord' && 
+          <DiscordIcon className={`${skillStyles.icon}`} />
         }
         <div className={`${skillStyles.details} column`}>
           <h3 className={skillStyles.title}>{props.data.name}</h3>
