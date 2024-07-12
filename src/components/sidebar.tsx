@@ -52,19 +52,24 @@ const SideBar = () => {
             </a>
           </Element>
         </div>
-        <Block title={'Manager & Tech lead Full Stack'}>
+        <Block title={'Fullstack Developer'}>
           <ul style={{padding : '12px', fontSize: '14px'}}>
             <li>
-              Conduite de projets de la conception à la livraison finale.
+              10 ans d'expérience en développement Full-Stack
             </li>
             <li>
-              9 ans d'expérience en développement Full-Stack.
+              Experience eprouvée en UI/UX au fil des années
             </li>
             <li>
-              5 ans d'expérience en méthodologie Agile.
+               Maîtrise des services d'API REST.
             </li>
             <li>
-              3 projets réalisés en autonomie.
+              Solide experience en web scrapping
+            </li>
+            
+            <br/>
+            <li>
+              Bonus : 142 vidéos sur les jeux mobile publiées sur ma chaîne gaming
             </li>
           </ul>
           </Block>

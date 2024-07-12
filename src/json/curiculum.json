@@ -7,7 +7,7 @@
 	"stackOverFlowUrl": "https://stackoverflow.com/users/2988788",
 	"drivingLicence": "Permis B",
 	"githubUrl": "https://github.com/jbigman",
-	"description": "Développeur expérimenté en applications web et mobiles, spécialisé en TypeScript, Node.js et React. Mes réalisations incluent la création d'une plateforme de réservation avec systèmes de paiement pour LaPetitePouzerie.fr et l'implémentation d'un moteur de recherche pour les jeux vidéo sur Gamewisher.com. À la recherche d'un poste de développeur à CoderPad, où je pourrais apporter mes compétences en développement front-end et back-end dans un environnement Agile, pour soutenir votre équipe Tech à renforcer vos produits et assurer leur évolutions.",
+	"description": "Développeur expérimenté en applications web et mobile, spécialisé en TypeScript, Node.js et React. Mes réalisations incluent la création d'une plateforme de réservation avec systèmes de paiement pour LaPetitePouzerie.fr et l'implémentation d'un moteur de recherche pour les jeux vidéo sur Gamewisher.com. À la recherche d'un poste de développeur à CoderPad, où je pourrais apporter mes compétences en développement front-end et back-end dans un environnement Agile, pour soutenir votre équipe Tech à renforcer vos produits et assurer leur évolutions.",
 	"experiences": [
 		[{
 			"title": "Fondateur et Développeur Full Stack ",
@@ -15,7 +15,8 @@
 			"company": "Gamewisher.com",
 			"link": "https://www.gamewisher.com",
 			"tasks": [
-				"Création d'un moteur de recherche pour les jeux vidéo mobiles, en utilisant <b>TypeScript</b>, <b>Nest.js</b>, <b>Next.js</b> et <b>GitHub Actions</b>"
+				"Création d'un moteur de recherche pour les jeux vidéo mobile dont les données sont majoritairement issues de <b>Web Scrapping</b> / <b>Data crawling</b>",
+				"Plateforme conçue en utilisant <b>TypeScript</b>, <b>Nest.js</b>, <b>Next.js</b> et <b>GitHub Actions</b>"
 			],
 			"stack": [
 				"Node.js / Nest.js",
@@ -58,17 +59,18 @@
 			"title": "Tech Lead Application Android",
 			"company": "Thales",
 			"tasks": [
-				"Développement d'une application Android pour le réseau de transport de bus danois, en utilisant <b>TypeScript</b> et <b>React-native</b>.",
-				"Formation d'un apprenti."
+				"Développement d'une application Android pour le réseau de transport de bus danois, en utilisant <b>TypeScript</b> et <b>React-native</b>."
 			],
 			"stack": ["Typescript", "React native", "Jenkins", "MQTT", "Tests unitaires."],
 			"dateStart": 2017,
 			"dateEnd": 2018
 		}],
 		[{
-			"title": "Développeur Full stack et Scrum master",
+			"title": "Développeur Full-stack Java / Angular",
 			"company": "Thales",
-			"tasks": [ "Conception d'un produit billettique dans une équipe <b>Agile (Scrum)</b> de 10 personnes, en utilisant <b>PostgreSQL</b>, Java, Angular en intégration continue." ],
+			"tasks": [ 
+				"Conception d'un produit billettique incluant un back-office avec son <b>dashboard</b> de monitoring d'activité, dans une équipe <b>Agile (Scrum)</b> de 10 personnes"
+		],
 			"stack": [
 				"JAVA Spring",
 				"Hibernate",
@@ -82,7 +84,7 @@
 			"dateEnd": 2017
 		}],
 		[{
-			"title": "Développeur Full Stack C# / ASP.NET",
+			"title": "Développeur Full-stack .Net",
 			"company": "Thales",
 			"tasks": [
 				"Développement d'un logiciel de configuration système ainsi que du Back-office pour le système billettique de plusieurs opérateurs de transport."
@@ -93,6 +95,13 @@
 		}]
 	],
 	"formations": [
+		[{
+			"title": "Ergonomie et UX Web, Mobile",
+			"company": "LudoTIC Consulting",
+			"tasks": [],
+			"stack": [],
+			"dateEnd": 2014
+		}],
 		[{
 			"title": "Expert en conduite et ingénierie de développement logiciel et système",
 			"company": "Master au CFA AFTI, Orsay",
@@ -121,7 +130,8 @@
 		{
 			"type": "hard",
 			"icon": "node",
-			"name": "Node.js / Nest.js"
+			"name": "Node.js / Nest.js",
+			"subtitle": "Avec BDD SQL ou NoSQL"
 		},
 		{
 			"type": "hard",
@@ -132,19 +142,13 @@
 			"type": "soft",
 			"icon": "brain",
 			"name": "Autonomie",
-			"subtitle": "Formation continue et veille technologique régulière."
+			"subtitle": "J'effectue une veille technologique et une formation en continue"
 		},
 		{
 			"type": "soft",
 			"icon": "autonomie",
 			"name": "Partage & Bienveillance",
 			"subtitle": "j'accompagne et soutien mes collègues afin de progresser ensemble."
-		},
-		{
-			"type": "soft",
-			"icon": "fire",
-			"name": "Esprit d'équipe",
-			"subtitle": "Je délègue et organise des ateliers participatifs pour favoriser les collaborations."
 		}
 	]
 }
