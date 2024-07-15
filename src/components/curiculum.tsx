@@ -49,7 +49,7 @@ const Curiculum = () => {
                     type: 'other',
                     icon: "discord",
                     name: "Community Manager",
-                    subtitle: "Administration et gestion d'un serveur gaming comptant 3000 membres",
+                    subtitle: "Manages and administers a gaming server with about 3000 members",
                     link: "https://www.youtube.com/c/TAFJeuxMobile",
                   }
                 }/>
@@ -58,7 +58,7 @@ const Curiculum = () => {
                   type: 'other',
                   icon: "youtube",
                   name: "TAF Jeux Mobile",
-                  subtitle: "Tutoriels, conseils et reportages sur les jeux mobile",
+                  subtitle: "Tutorials, advice, and reports on mobile games",
                   link: "https://www.youtube.com/c/TAFJeuxMobile",
                 }
               }/> 
@@ -87,7 +87,7 @@ const Curiculum = () => {
               })}
             </Block> 
             
-            <Block title={"Retrouvez moi en ligne"}> 
+            <Block title={"FIND ME ONLINE"}> 
               <NetWork data={[{
                   type: "string",
                   icon: "linkedin",

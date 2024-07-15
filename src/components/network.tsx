@@ -1,5 +1,5 @@
 import type { ISkill } from '../Interface/ISkill'
-import styles from './skill.module.scss'
+import styles from './network.module.scss'
 import { TypeScriptIcon } from '../icons/TypeScriptIcon'
 import { NodeJsIcon } from '../icons/NodeJsIcon'
 import { ReactIcon } from '../icons/ReactIcon'

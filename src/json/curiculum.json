@@ -1,7 +1,7 @@
 {
 	"nom": "GAMBIN",
 	"prenom": "Jérémie",
-	"address": "Rennes, Télétravail",
+	"address": "Rennes, Remote",
 	"email": "jeremie.gambin@gmail.com",
 	"phone": "06.24.89.44.49",
 	"stackOverFlowUrl": "https://stackoverflow.com/users/2988788",
@@ -15,8 +15,8 @@
 			"company": "Gamewisher.com",
 			"link": "https://www.gamewisher.com",
 			"tasks": [
-				"Création d'un moteur de recherche pour les jeux vidéo mobile dont les données sont majoritairement issues de <b>Web Scrapping</b> / <b>Data crawling</b>",
-				"Plateforme conçue en utilisant <b>TypeScript</b>, <b>Nest.js</b>, <b>Next.js</b> et <b>GitHub Actions</b>"
+				"Created a search engine for mobile video games with data primarily sourced from <b>web scraping/data crawling</b>",
+				"Platform designed using <b>TypeScript</b>, <b>Nest.js</b>, <b>Next.js</b> and <b>GitHub Actions</b>"
 			],
 			"stack": [
 				"Node.js / Nest.js",
@@ -24,16 +24,16 @@
 				"MongoDB",
 				"TypeScript"
 			],
-			"dateEnd": "Depuis 2022"
+			"dateEnd": "Since 2022"
 		}],
 		[
 			{
-				"title": "En indépendant et en télétravail",
+				"title": "Freelance and remote work",
 				"company": "LaPetitePouzerie.fr",
 				"link": "https://www.LaPetitePouzerie.fr",
 				"tasks": [
-					"Création d'une plateforme de réservation incluant paiement et gestion de disponibilités, en utilisant <b>TypeScript</b>, <b>Node.js</b>, <b>React</b> et les <b>GitHub Actions</b>",
-					"Collaboration avec une designeuse et ses maquettes <b>Figma</b>."
+					"Created a booking platform including payment and availability management using <b>TypeScript</b>, <b>Node.js</b>, <b>React</b> and <b>GitHub Actions</b>",
+					"Collaborated with a designer and integrated her <b>Figma mockups</b>"
 				],
 				"stack": [
 					"Nest.js",
@@ -44,32 +44,32 @@
 					"API Stripe"
 				],
 				"dateStart": "2024",
-				"dateEnd": "2 mois"
+				"dateEnd": "2 months"
 			},
 			{
 				"title": "[Remote] Freelance",
 				"company": "Eric C - Entrepreneur",
-				"tasks": ["Développement d'une application mobile pour la gestion des équipements matériels via Bluetooth, en utilisant <b>TypeScript</b> et <b>React-native</b>."],
+				"tasks": ["Developed a mobile application for equipment management via Bluetooth using <b>TypeScript</b> and <b>React-native</b>"],
 				"stack": ["Typescript", "React native", "Bluetooth"],
 				"dateStart": "2022",
-				"dateEnd": "1 mois"
+				"dateEnd": "1 month"
 			}
 		],
 		[{
-			"title": "Tech Lead Application Android",
+			"title": "Tech Lead Android Application",
 			"company": "Thales",
 			"tasks": [
-				"Développement d'une application Android pour le réseau de transport de bus danois, en utilisant <b>TypeScript</b> et <b>React-native</b>."
+				"Developed an Android application for the Danish bus transport network using <b>TypeScript</b> and <b>React-native</b>."
 			],
 			"stack": ["Typescript", "React native", "Jenkins", "MQTT", "Tests unitaires."],
 			"dateStart": 2017,
 			"dateEnd": 2018
 		}],
 		[{
-			"title": "Développeur Full-stack Java / Angular",
+			"title": "Full Stack Developer",
 			"company": "Thales",
 			"tasks": [ 
-				"Conception d'un produit billettique incluant un back-office avec son <b>dashboard</b> de monitoring d'activité, dans une équipe <b>Agile (Scrum)</b> de 10 personnes"
+				"Designed a ticketing product including a back-office with an <b>activity monitoring dashboard</b> within an <b>Agile (Scrum)</b> team of 10 people using <b>Java</b> and <b>Angular</b>"
 		],
 			"stack": [
 				"JAVA Spring",
@@ -84,10 +84,10 @@
 			"dateEnd": 2017
 		}],
 		[{
-			"title": "Développeur Full-stack .Net",
+			"title": "Full Stack Developer",
 			"company": "Thales",
 			"tasks": [
-				"Développement d'un logiciel de configuration système ainsi que du Back-office pour le système billettique de plusieurs opérateurs de transport."
+				"Developed a system configuration software as well as the back-office for the ticketing system of several transport operators using <b>C#</b> and <b>ASP.Net</b>"
 			],
 			"stack": [],
 			"dateStart": 2008,
@@ -96,21 +96,21 @@
 	],
 	"formations": [
 		[{
-			"title": "Ergonomie et UX Web, Mobile",
+			"title": "Web and Mobile Ergonomics and UX",
 			"company": "LudoTIC Consulting",
 			"tasks": [],
 			"stack": [],
 			"dateEnd": 2014
 		}],
 		[{
-			"title": "Expert en conduite et ingénierie de développement logiciel et système",
+			"title": "Expert in Software and System Development Engineering",
 			"company": "Master au CFA AFTI, Orsay",
 			"tasks": [],
 			"stack": [],
 			"dateEnd": 2010
 		}],
 		[{
-			"title": "Licence Informatique",
+			"title": "Bachelor's in Computer Science",
 			"description": "",
 			"company": "Paris Sorbonne Université - Institut Galilée",
 			"duration": "",
@@ -124,14 +124,13 @@
 			"type": "hard",
 			"icon":"ts",
 			"name": "TypeScript",
-			"subtitle": "Certification CodinGame",
+			"subtitle": "CodinGame Certification ",
 			"link": "https://www.codingame.com/certification/nxSxPg_AI-hssnpcSACqag"
 		},
 		{
 			"type": "hard",
 			"icon": "node",
-			"name": "Node.js / Nest.js",
-			"subtitle": "Avec BDD SQL ou NoSQL"
+			"name": "Node.js / Nest.js"
 		},
 		{
 			"type": "hard",
@@ -141,14 +140,14 @@
 		{
 			"type": "soft",
 			"icon": "brain",
-			"name": "Autonomie",
-			"subtitle": "J'effectue une veille technologique et une formation en continue"
+			"name": "Autonomy",
+			"subtitle": "I conduct continuous technological watch and training"
 		},
 		{
 			"type": "soft",
 			"icon": "autonomie",
-			"name": "Partage & Bienveillance",
-			"subtitle": "j'accompagne et soutien mes collègues afin de progresser ensemble."
+			"name": "Knowlegde sharing",
+			"subtitle": "I support and assist my colleagues to progress together"
 		}
 	]
 }
