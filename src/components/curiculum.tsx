@@ -17,12 +17,12 @@ const Curiculum = () => {
           <div style={{flex:3}}>
             <div className={styles.about}>
               
-              <Block title={'Expérience'}>
+              <Block title={'EXPERIENCES'}>
                   {cv.experiences.map((exp: IExperience[], index: number) => {
                     return <Experience key={index} data={exp} />
                   })}
               </Block>   
-              <Block title={'Autres activités'}>
+              <Block title={'Other activities'}>
                 {/* <Experience data={
                   [{
                     title: "Community Manager",
@@ -66,14 +66,14 @@ const Curiculum = () => {
             </div>
           </div>   
           <div style={{flex:2}}>   
-            <Block title={"Compétences relationnelles"}>        
+            <Block title={"Soft skills"}>        
               {cv.skills.filter((s) => s.type === 'soft').map((skill) => {
                   return (
                     <Skill data={skill} key={skill.name} />
                   )
               })}
             </Block> 
-            <Block title={"Compétences techniques"}>        
+            <Block title={"Hard skills"}>        
               {cv.skills.filter((s) => s.type === 'hard').map((skill) => {
                   return (
                     <Skill data={skill} key={skill.name} />
