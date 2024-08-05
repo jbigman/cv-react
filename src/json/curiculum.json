@@ -1,13 +1,20 @@
 {
 	"nom": "GAMBIN",
 	"prenom": "Jérémie",
-	"address": "Rennes, Remote",
+	"address": "Rennes, Télétravail",
 	"email": "jeremie.gambin@gmail.com",
 	"phone": "06.24.89.44.49",
+	"title": "Lead Developer TypeScript",
+	"punchLines": [
+		"Conduite de projets de la conception à la livraison finale",
+		"10 ans d'expérience en développement Full-Stack",
+		"5 ans d'expérience en méthodologie Agile",
+		"Test, intégration et deploiement continu sur tous mes projets"
+	],
 	"stackOverFlowUrl": "https://stackoverflow.com/users/2988788",
 	"drivingLicence": "Permis B",
 	"githubUrl": "https://github.com/jbigman",
-	"description": "Développeur expérimenté en applications web et mobile, spécialisé en TypeScript, Node.js et React. Mes réalisations incluent la création d'une plateforme de réservation avec systèmes de paiement pour LaPetitePouzerie.fr et l'implémentation d'un moteur de recherche pour les jeux vidéo sur Gamewisher.com. À la recherche d'un poste de développeur à CoderPad, où je pourrais apporter mes compétences en développement front-end et back-end dans un environnement Agile, pour soutenir votre équipe Tech à renforcer vos produits et assurer leur évolutions.",
+	"description": "Développeur expérimenté en applications web et mobiles, spécialisé en TypeScript, Node.js et React. Mes réalisations incluent la création d'une plateforme de réservation avec systèmes de paiement pour LaPetitePouzerie.fr et l'implémentation d'un moteur de recherche pour les jeux vidéo sur Gamewisher.com. À la recherche d'un poste de développeur à CoderPad, où je pourrais apporter mes compétences en développement front-end et back-end dans un environnement Agile, pour soutenir votre équipe Tech à renforcer vos produits et assurer leur évolutions.",
 	"experiences": [
 		[{
 			"title": "Fondateur et Développeur Full Stack ",
@@ -15,8 +22,7 @@
 			"company": "Gamewisher.com",
 			"link": "https://www.gamewisher.com",
 			"tasks": [
-				"Created a search engine for mobile video games with data primarily sourced from <b>web scraping/data crawling</b>",
-				"Platform designed using <b>TypeScript</b>, <b>Nest.js</b>, <b>Next.js</b> and <b>GitHub Actions</b>"
+				"Création d'un moteur de recherche pour les jeux vidéo mobiles, en utilisant <b>TypeScript</b>, <b>Nest.js</b>, <b>Next.js</b>, <b>Vitest</b> et <b>GitHub Actions</b>"
 			],
 			"stack": [
 				"Node.js / Nest.js",
@@ -24,16 +30,15 @@
 				"MongoDB",
 				"TypeScript"
 			],
-			"dateEnd": "Since 2022"
+			"dateEnd": "Depuis 2022"
 		}],
 		[
 			{
-				"title": "Freelance and remote work",
+				"title": "En indépendant et en télétravail",
 				"company": "LaPetitePouzerie.fr",
 				"link": "https://www.LaPetitePouzerie.fr",
 				"tasks": [
-					"Created a booking platform including payment and availability management using <b>TypeScript</b>, <b>Node.js</b>, <b>React</b> and <b>GitHub Actions</b>",
-					"Collaborated with a designer and integrated her <b>Figma mockups</b>"
+					"Création d'une plateforme de réservation incluant paiement et gestion de disponibilités, en utilisant <b>TypeScript</b>, <b>Node.js</b>, <b>React</b>, <b>Vitest</b> et <b>GitHub Actions</b>"
 				],
 				"stack": [
 					"Nest.js",
@@ -44,33 +49,32 @@
 					"API Stripe"
 				],
 				"dateStart": "2024",
-				"dateEnd": "2 months"
+				"dateEnd": "2 mois"
 			},
 			{
 				"title": "[Remote] Freelance",
 				"company": "Eric C - Entrepreneur",
-				"tasks": ["Developed a mobile application for equipment management via Bluetooth using <b>TypeScript</b> and <b>React-native</b>"],
+				"tasks": ["Développement d'une application mobile pour la gestion des équipements matériels via Bluetooth, en utilisant <b>TypeScript</b>, <b>React-native</b> et une intégration continue sous Jenkins"],
 				"stack": ["Typescript", "React native", "Bluetooth"],
 				"dateStart": "2022",
-				"dateEnd": "1 month"
+				"dateEnd": "1 mois"
 			}
 		],
 		[{
-			"title": "Tech Lead Android Application",
+			"title": "Tech Lead Application Android",
 			"company": "Thales",
 			"tasks": [
-				"Developed an Android application for the Danish bus transport network using <b>TypeScript</b> and <b>React-native</b>."
+				"Développement d'une application Android pour le réseau de transport de bus danois, en utilisant <b>TypeScript</b> et <b>React-native</b>.",
+				"Encadrement d'un apprenti."
 			],
 			"stack": ["Typescript", "React native", "Jenkins", "MQTT", "Tests unitaires."],
 			"dateStart": 2017,
 			"dateEnd": 2018
 		}],
 		[{
-			"title": "Full Stack Developer",
+			"title": "Développeur Full stack et Scrum master",
 			"company": "Thales",
-			"tasks": [ 
-				"Designed a ticketing product including a back-office with an <b>activity monitoring dashboard</b> within an <b>Agile (Scrum)</b> team of 10 people using <b>Java</b> and <b>Angular</b>"
-		],
+			"tasks": [ "Conception d'un produit billettique dans une équipe <b>Agile</b> de 10 personnes, en utilisant Java, Angular, <b>PostgreSQL</b> et une intégration continue sous Jenkins" ],
 			"stack": [
 				"JAVA Spring",
 				"Hibernate",
@@ -84,10 +88,10 @@
 			"dateEnd": 2017
 		}],
 		[{
-			"title": "Full Stack Developer",
+			"title": "Développeur Full Stack",
 			"company": "Thales",
 			"tasks": [
-				"Developed a system configuration software as well as the back-office for the ticketing system of several transport operators using <b>C#</b> and <b>ASP.Net</b>"
+				"Développement d'un logiciel de configuration système ainsi que du Back-office pour le système billettique de plusieurs opérateurs de transport, en utilisant C#, ASP.Net et <b>Microsoft SQLServer</b>"
 			],
 			"stack": [],
 			"dateStart": 2008,
@@ -96,21 +100,14 @@
 	],
 	"formations": [
 		[{
-			"title": "Web and Mobile Ergonomics and UX",
-			"company": "LudoTIC Consulting",
-			"tasks": [],
-			"stack": [],
-			"dateEnd": 2014
-		}],
-		[{
-			"title": "Expert in Software and System Development Engineering",
+			"title": "Expert en conduite et ingénierie de développement logiciel et système",
 			"company": "Master au CFA AFTI, Orsay",
 			"tasks": [],
 			"stack": [],
 			"dateEnd": 2010
 		}],
 		[{
-			"title": "Bachelor's in Computer Science",
+			"title": "Licence Informatique",
 			"description": "",
 			"company": "Paris Sorbonne Université - Institut Galilée",
 			"duration": "",
@@ -124,7 +121,7 @@
 			"type": "hard",
 			"icon":"ts",
 			"name": "TypeScript",
-			"subtitle": "CodinGame Certification ",
+			"subtitle": "Certification CodinGame",
 			"link": "https://www.codingame.com/certification/nxSxPg_AI-hssnpcSACqag"
 		},
 		{
@@ -140,14 +137,20 @@
 		{
 			"type": "soft",
 			"icon": "brain",
-			"name": "Autonomy",
-			"subtitle": "I conduct continuous technological watch and training"
+			"name": "Autonomie",
+			"subtitle": "Je me forme et j'effectue une veille technologique en continue."
 		},
 		{
 			"type": "soft",
 			"icon": "autonomie",
-			"name": "Knowlegde sharing",
-			"subtitle": "I support and assist my colleagues to progress together"
+			"name": "Partage & Bienveillance",
+			"subtitle": "J'accompagne et soutiens mes collègues afin de progresser ensemble."
+		},
+		{
+			"type": "soft",
+			"icon": "fire",
+			"name": "Esprit d'équipe",
+			"subtitle": "Je délègue et organise des ateliers participatifs pour favoriser les collaborations."
 		}
 	]
 }

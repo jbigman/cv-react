@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import { FiMapPin, FiMail, FiPhone } from 'react-icons/fi'
-import photo from '../../public/img/photo-profil-b&w.png'
+import photo from '../../public/img/avatar.png'
 import cv from '../json/curiculum.json'
 import sidebarStyles from './sidebar.module.scss'
 import Block from './block'

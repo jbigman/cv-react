@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import { FiMapPin, FiMail, FiPhone } from 'react-icons/fi'
-import photo from '../../public/img/photo-profil-b&w.png'
+import photo from '../../public/img/avatar.png'
 import cv from '../json/curiculum.json'
 import sidebarStyles from './sidebar.module.scss'
 import Block from './block'
@@ -32,7 +32,7 @@ const SideBar = () => {
           sizes="100vw"
           style={{ width: '100%', height: 'auto' }}
         />
-        <h1>Jérémie GAMBIN</h1>
+        <h1>{cv.prenom} {cv.nom}</h1>
       </div>
       <div className={sidebarStyles.right}>
         <div className={sidebarStyles.list}>
@@ -54,23 +54,14 @@ const SideBar = () => {
         </div>
         <Block title={'Fullstack Developer'}>
           <ul style={{padding : '12px', fontSize: '14px'}}>
-            <li>
-              10 years of experience in Full-Stack development
-            </li>
-            <li>
-              Proven experience in UI/UX over the years
-            </li>
-            <li>
-              Mastery of REST API services
-            </li>
-            <li>
-              Solid experience in web scraping
-            </li>
-            
-            <br/>
-            <li>
-              Bonus: 142 videos on mobile games published on my gaming channel
-            </li>
+            {
+              cv.punchLines.map((punchline) => {
+                return (
+                  <li key={punchline}>{punchline}</li>
+                  
+                )
+              })
+            }
           </ul>
           </Block>
       </div>

@@ -11,7 +11,7 @@ const Curiculum = () => {
   return (
     <div className={styles.body}>
       <div style={{ maxWidth: '210mm' }} >
-        <SideBar />
+        <SideBar/>
         <div className={styles.main}>
         <div className={styles.content}>
           <div style={{flex:3}}>
@@ -23,45 +23,24 @@ const Curiculum = () => {
                   })}
               </Block>   
               <Block title={'Autres activités'}>
-                {/* <Experience data={
-                  [{
-                    title: "Community Manager",
-                    tasks : [ "Administration, gestion et animation d'une communauté comptant 3000 membres"],
-                    stack: [],
-                    company: "Discord gaming",
-                    dateStart: 'Depuis 2018',
-                    link: "https://discord.gg/JMvuZkz",
-                  }]
+                <Skill data={
+                  {
+                    type: 'other',
+                    icon: "cg",
+                    name: "CodinGame Summer Challenge 2024",
+                    subtitle: "Top 167 Global / Top 1 Javascript",
+                    link: "https://www.codingame.com/contests/summer-challenge-2024-olymbits/leaderboard/global?column=LANGUAGE&value=Javascript",
+                  }
                 }/>
-                <Experience data={
-                  [{
-                    title: "Créateur de contenu",
-                    tasks : [ "Tutoriels, conseils et reportages sur les jeux mobile"],
-                    stack: [],
-                    company: "Youtube : TAF Jeux Mobile",
-                    dateEnd: '2022',
-                    dateStart: '2020',
-                    link: "https://discord.gg/JMvuZkz",
-                  }]
-                }/> */}
-                 <Skill data={
+                <Skill data={
                   {
                     type: 'other',
                     icon: "discord",
                     name: "Community Manager",
-                    subtitle: "Manages and administers a gaming server with about 3000 members",
+                    subtitle: "Gère et administre un serveur Discord comptant ~3000 membres",
                     link: "https://www.youtube.com/c/TAFJeuxMobile",
                   }
-                }/>
-               <Skill data={
-                {
-                  type: 'other',
-                  icon: "youtube",
-                  name: "TAF Jeux Mobile",
-                  subtitle: "Tutorials, advice, and reports on mobile games",
-                  link: "https://www.youtube.com/c/TAFJeuxMobile",
-                }
-              }/> 
+                }/>     
              </Block>            
             </div>
           </div>   
@@ -87,7 +66,7 @@ const Curiculum = () => {
               })}
             </Block> 
             
-            <Block title={"FIND ME ONLINE"}> 
+            <Block title={"Me retrouver en ligne"}> 
               <NetWork data={[{
                   type: "string",
                   icon: "linkedin",
