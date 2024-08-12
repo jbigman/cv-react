@@ -8,7 +8,7 @@
 	"punchLines": [
 		"Conduite de projets de la conception à la livraison finale",
 		"10 ans d'expérience en développement Full-Stack",
-		"5 ans d'expérience en méthodologie Agile",
+		"Experience Solide en API RESTFul",
 		"Test, intégration et deploiement continu sur tous mes projets"
 	],
 	"stackOverFlowUrl": "https://stackoverflow.com/users/2988788",
@@ -17,12 +17,12 @@
 	"description": "Développeur expérimenté en applications web et mobiles, spécialisé en TypeScript, Node.js et React. Mes réalisations incluent la création d'une plateforme de réservation avec systèmes de paiement pour LaPetitePouzerie.fr et l'implémentation d'un moteur de recherche pour les jeux vidéo sur Gamewisher.com. À la recherche d'un poste de développeur à CoderPad, où je pourrais apporter mes compétences en développement front-end et back-end dans un environnement Agile, pour soutenir votre équipe Tech à renforcer vos produits et assurer leur évolutions.",
 	"experiences": [
 		[{
-			"title": "Fondateur et Développeur Full Stack ",
+			"title": "Entreprenariat et Développeur Full Stack ",
 			"description": "",
 			"company": "Gamewisher.com",
 			"link": "https://www.gamewisher.com",
 			"tasks": [
-				"Création d'un moteur de recherche pour les jeux vidéo mobiles, en utilisant <b>TypeScript</b>, <b>Nest.js</b>, <b>Next.js</b>, <b>Vitest</b> et <b>GitHub Actions</b>"
+				"Création d'une plateforme communautaire autour des jeux mobiles en utilisant <b>TypeScript</b>, <b>Nest.js</b>, <b>Next.js</b>, <b>Vitest</b> et <b>GitHub Actions</b>"
 			],
 			"stack": [
 				"Node.js / Nest.js",
@@ -30,7 +30,7 @@
 				"MongoDB",
 				"TypeScript"
 			],
-			"dateEnd": "Depuis 2022"
+			"dateEnd": "Depuis 2019"
 		}],
 		[
 			{
@@ -54,7 +54,7 @@
 			{
 				"title": "[Remote] Freelance",
 				"company": "Eric C - Entrepreneur",
-				"tasks": ["Développement d'une application mobile pour la gestion des équipements matériels via Bluetooth, en utilisant <b>TypeScript</b>, <b>React-native</b> et une intégration continue sous Jenkins"],
+				"tasks": ["Développement d'une application mobile pour la gestion des équipements matériels via Bluetooth, en utilisant <b>TypeScript</b>, <b>React-native</b>"],
 				"stack": ["Typescript", "React native", "Bluetooth"],
 				"dateStart": "2022",
 				"dateEnd": "1 mois"
@@ -64,8 +64,7 @@
 			"title": "Tech Lead Application Android",
 			"company": "Thales",
 			"tasks": [
-				"Développement d'une application Android pour le réseau de transport de bus danois, en utilisant <b>TypeScript</b> et <b>React-native</b>.",
-				"Encadrement d'un apprenti."
+				"Développement d'une application Android pour le réseau de transport de bus danois, en utilisant <b>TypeScript</b> et <b>React-native</b>."
 			],
 			"stack": ["Typescript", "React native", "Jenkins", "MQTT", "Tests unitaires."],
 			"dateStart": 2017,
@@ -74,16 +73,8 @@
 		[{
 			"title": "Développeur Full stack et Scrum master",
 			"company": "Thales",
-			"tasks": [ "Conception d'un produit billettique dans une équipe <b>Agile</b> de 10 personnes, en utilisant Java, Angular, <b>PostgreSQL</b> et une intégration continue sous Jenkins" ],
-			"stack": [
-				"JAVA Spring",
-				"Hibernate",
-				"Docker",
-				"Jenkins",
-				"jUnit",
-				"Angular",
-				"Sass"
-			],
+			"tasks": [ "Conception d'un produit billettique dans une <b>équipe Agile de 10 personnes</b> , en utilisant <b>Java</b>, <b>Angular</b>, <b>PostgreSQL</b> et une intégration continue sous Jenkins" ],
+			"stack": [ ],
 			"dateStart": 2013,
 			"dateEnd": 2017
 		}],
@@ -91,7 +82,7 @@
 			"title": "Développeur Full Stack",
 			"company": "Thales",
 			"tasks": [
-				"Développement d'un logiciel de configuration système ainsi que du Back-office pour le système billettique de plusieurs opérateurs de transport, en utilisant C#, ASP.Net et <b>Microsoft SQLServer</b>"
+				"Développement de logiciels et du Back-office dans une <b>équipe de 6-8 personnes</b> pour le système billettique de plusieurs opérateurs de transport, en utilisant <b>C#</b>, <b>ASP.Net</b> et <b>Microsoft SQLServer</b>"
 			],
 			"stack": [],
 			"dateStart": 2008,
