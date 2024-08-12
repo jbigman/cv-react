@@ -22,7 +22,7 @@ const Curiculum = () => {
                     return <Experience key={index} data={exp} />
                   })}
               </Block>   
-              <Block title={'Other activities'}>
+              {/* <Block title={'Other activities'}> */}
                 {/* <Experience data={
                   [{
                     title: "Community Manager",
@@ -44,7 +44,7 @@ const Curiculum = () => {
                     link: "https://discord.gg/JMvuZkz",
                   }]
                 }/> */}
-                 <Skill data={
+                 {/* <Skill data={
                   {
                     type: 'other',
                     icon: "discord",
@@ -52,8 +52,8 @@ const Curiculum = () => {
                     subtitle: "Manages and administers a gaming server with about 3000 members",
                     link: "https://www.youtube.com/c/TAFJeuxMobile",
                   }
-                }/>
-               <Skill data={
+                }/> */}
+               {/* <Skill data={
                 {
                   type: 'other',
                   icon: "youtube",
@@ -61,8 +61,8 @@ const Curiculum = () => {
                   subtitle: "Tutorials, advice, and reports on mobile games",
                   link: "https://www.youtube.com/c/TAFJeuxMobile",
                 }
-              }/> 
-             </Block>            
+              }/>  */}
+             {/* </Block>             */}
             </div>
           </div>   
           <div style={{flex:2}}>   

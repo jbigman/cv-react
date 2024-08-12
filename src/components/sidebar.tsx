@@ -52,24 +52,19 @@ const SideBar = () => {
             </a>
           </Element>
         </div>
-        <Block title={'Fullstack Developer'}>
+        <Block title={'Architecte et Fullstack Developer'}>
           <ul style={{padding : '12px', fontSize: '14px'}}>
             <li>
               10 years of experience in Full-Stack development
             </li>
             <li>
-              Proven experience in UI/UX over the years
+              2 projects built from scratch using ReactJS/NextJs
             </li>
             <li>
-              Mastery of REST API services
+              100+ tutorials or documentaries published on my youtube channel
             </li>
             <li>
-              Solid experience in web scraping
-            </li>
-            
-            <br/>
-            <li>
-              Bonus: 142 videos on mobile games published on my gaming channel
+              20+ news or guides written on Gamewisher.com
             </li>
           </ul>
           </Block>

@@ -10,13 +10,13 @@
 	"description": "Développeur expérimenté en applications web et mobile, spécialisé en TypeScript, Node.js et React. Mes réalisations incluent la création d'une plateforme de réservation avec systèmes de paiement pour LaPetitePouzerie.fr et l'implémentation d'un moteur de recherche pour les jeux vidéo sur Gamewisher.com. À la recherche d'un poste de développeur à CoderPad, où je pourrais apporter mes compétences en développement front-end et back-end dans un environnement Agile, pour soutenir votre équipe Tech à renforcer vos produits et assurer leur évolutions.",
 	"experiences": [
 		[{
-			"title": "Fondateur et Développeur Full Stack ",
+			"title": "Entrepreneur and Full Stack developer",
 			"description": "",
 			"company": "Gamewisher.com",
 			"link": "https://www.gamewisher.com",
 			"tasks": [
-				"Created a search engine for mobile video games with data primarily sourced from <b>web scraping/data crawling</b>",
-				"Platform designed using <b>TypeScript</b>, <b>Nest.js</b>, <b>Next.js</b> and <b>GitHub Actions</b>"
+				"Created a search engine for mobile video games. It allows the community to leave reviews and write articles, and <b>I have written about twenty articles</b> ",
+				"The platform is designed using <b>TypeScript</b>, Nest.js, <b>Next.js</b> and GitHub Actions"
 			],
 			"stack": [
 				"Node.js / Nest.js",
@@ -26,14 +26,27 @@
 			],
 			"dateEnd": "Since 2022"
 		}],
+		[{
+			"title": "Community manager and Content creator",
+			"description": "",
+			"company": "Youtube @TAFJeuxMobile",
+			"link": "https://www.youtube.com/@TAFJeuxMobile",
+			"tasks": [
+				"Published 100+ documentaries, guides, and tutorials. In <b>English</b> or French",
+				"Leads and animates a gaming discord server with about 3000 members, and I am still actively doing so in 2024"
+			],
+			"stack": [ ],
+			"dateStart": "2019",
+			"dateEnd": "2022"
+		}],
 		[
 			{
 				"title": "Freelance and remote work",
 				"company": "LaPetitePouzerie.fr",
 				"link": "https://www.LaPetitePouzerie.fr",
 				"tasks": [
-					"Created a booking platform including payment and availability management using <b>TypeScript</b>, <b>Node.js</b>, <b>React</b> and <b>GitHub Actions</b>",
-					"Collaborated with a designer and integrated her <b>Figma mockups</b>"
+					"Created from scratch a booking platform including payment and availability management using <b>TypeScript</b>, Node.js, <b>React</b> and GitHub Actions",
+					"Collaborated with a designer and integrated her Figma mockups"
 				],
 				"stack": [
 					"Nest.js",
@@ -69,7 +82,8 @@
 			"title": "Full Stack Developer",
 			"company": "Thales",
 			"tasks": [ 
-				"Designed a ticketing product including a back-office with an <b>activity monitoring dashboard</b> within an <b>Agile (Scrum)</b> team of 10 people using <b>Java</b> and <b>Angular</b>"
+				"Designed components in a ticketing product within an <b>Agile (Scrum)</b> team of 10 people using <b>Java</b>, <b>Spring</b> and <b>Angular</b>",
+				"Managed and mentored front-end developers, ensuring best practices and standards were followed."
 		],
 			"stack": [
 				"JAVA Spring",
@@ -87,7 +101,7 @@
 			"title": "Full Stack Developer",
 			"company": "Thales",
 			"tasks": [
-				"Developed a system configuration software as well as the back-office for the ticketing system of several transport operators using <b>C#</b> and <b>ASP.Net</b>"
+				"Developed in a team of 8 people a system configuration software as well as the back-office for the ticketing system of several transport operators using <b>C#</b> and <b>ASP.Net</b>"
 			],
 			"stack": [],
 			"dateStart": 2008,
