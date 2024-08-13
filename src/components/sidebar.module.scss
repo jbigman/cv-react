@@ -23,8 +23,8 @@
     align-items: center;
     
     img {
-      -webkit-transform: scaleX(-1);
-      transform: scaleX(-1);
+     // -webkit-transform: scaleX(-1);
+     // transform: scaleX(-1);
       border-radius: 50%;
       width: 170px !important;
       height: 170px !important;
@@ -48,7 +48,7 @@
 
   h1 {
     font-size: 26px;
-    margin: 0.5em;
+    margin: 15px 0 0 0;
   }
   h1,h2,h3,h4,h5 {
     // Force les couleurs avec important (light), parceque le next build change l'ordre des css (modules)

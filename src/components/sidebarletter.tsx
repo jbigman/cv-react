@@ -6,7 +6,7 @@ import sidebarStyles from './sidebar.module.scss'
 import Block from './block'
 import type { ReactElement } from 'react'
 
-const SideBar = () => {
+const SideBarLetter = () => {
 
   const Element = (props: {title: ReactElement, children: any}) => {
     return (
@@ -32,10 +32,10 @@ const SideBar = () => {
           sizes="100vw"
           style={{ width: '100%', height: 'auto' }}
         />
-        <h1>{cv.prenom} {cv.nom}</h1>
       </div>
       <div className={sidebarStyles.right}>
-        <div className={sidebarStyles.list}>
+      <h1>Jérémie GAMBIN</h1>
+        <Block title={'Fullstack Developer'}>
           <Element title={<FiMapPin />}>
             <div> {cv.address}</div>
           </Element>
@@ -51,22 +51,11 @@ const SideBar = () => {
               {cv.phone}
             </a>
           </Element>
-        </div>
-        <Block title={'Senior Fullstack Developer'}>
-          <ul style={{padding : '12px', fontSize: '14px'}}>
-            {
-              cv.punchLines.map((punchline) => {
-                return (
-                  <li key={punchline}>{punchline}</li>
-                  
-                )
-              })
-            }
-          </ul>
-          </Block>
+
+        </Block>
       </div>
     </div>
   )
 }
 
-export default SideBar
+export default SideBarLetter
