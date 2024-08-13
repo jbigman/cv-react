@@ -4,6 +4,12 @@
   margin-bottom: $main-padding;
 }
 
+.content {
+  display: flex;
+  flex-direction: column;
+  gap : $gap;
+}
+
 @media screen and (max-width: 768px) {
  }
 
