@@ -1,6 +1,7 @@
+import type { CSSProperties, ReactElement } from 'react'
 import styles from './block.module.scss'
 
-const Block = (props: { title: string, children: any, style?: any }) => {
+const Block = (props: { title: string, children: ReactElement | ReactElement[], style?: CSSProperties }) => {
   return (
     <div className={styles.main} style={props.style}>
       <h2 className={styles.title}>

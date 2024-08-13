@@ -8,7 +8,7 @@ import type { ReactElement } from 'react'
 
 const SideBarLetter = () => {
 
-  const Element = (props: {title: ReactElement, children: any}) => {
+  const Element = (props: {title: ReactElement, children: ReactElement | ReactElement[]}) => {
     return (
       <div className={sidebarStyles.element}>
         <div className={sidebarStyles.title}>
