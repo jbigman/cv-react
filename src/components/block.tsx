@@ -6,7 +6,7 @@ const Block = (props: { title: string, children: any, style?: any }) => {
       <h2 className={styles.title}>
         {props.title}
       </h2>
-      <div  className={styles.content}>
+      <div className={styles.content}>
         {props.children}
       </div>
     </div>
