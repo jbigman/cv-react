@@ -52,6 +52,18 @@ const Experience = (props: {data: IExperience[] }) => {
             )})}
           </div>
         } 
+        {
+          exp.stack.length > 0 &&  
+          <div className={`${experienceStyles.shift}`}>
+            {exp.stack.map((task) => {
+              return (
+                <div key={task}>
+                  {/* biome-ignore lint/security/noDangerouslySetInnerHtml: <explanation> */}
+                  <div dangerouslySetInnerHTML={{__html: task}} />
+                </div>
+            )})}
+          </div>
+        } 
       </>
     )
   }

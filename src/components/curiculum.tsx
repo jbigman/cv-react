@@ -22,26 +22,6 @@ const Curiculum = () => {
                     return <Experience key={index} data={exp} />
                   })}
               </Block>   
-              <Block title={'Autres activités'}>
-                <Skill data={
-                  {
-                    type: 'other',
-                    icon: "cg",
-                    name: "CodinGame Summer Challenge 2024",
-                    subtitle: "Top 167 Global / Top 1 Javascript",
-                    link: "https://www.codingame.com/contests/summer-challenge-2024-olymbits/leaderboard/global?column=LANGUAGE&value=Javascript",
-                  }
-                }/>
-                <Skill data={
-                  {
-                    type: 'other',
-                    icon: "discord",
-                    name: "Community Manager",
-                    subtitle: "Gère et administre un serveur Discord comptant ~3000 membres",
-                    link: "https://www.youtube.com/c/TAFJeuxMobile",
-                  }
-                }/>     
-             </Block>            
             </div>
           </div>   
           <div style={{flex:2}}>   

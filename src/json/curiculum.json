@@ -17,45 +17,36 @@
 	"description": "Développeur expérimenté en applications web et mobiles, spécialisé en TypeScript, Node.js et React. Mes réalisations incluent la création d'une plateforme de réservation avec systèmes de paiement pour LaPetitePouzerie.fr et l'implémentation d'un moteur de recherche pour les jeux vidéo sur Gamewisher.com. À la recherche d'un poste de développeur à CoderPad, où je pourrais apporter mes compétences en développement front-end et back-end dans un environnement Agile, pour soutenir votre équipe Tech à renforcer vos produits et assurer leur évolutions.",
 	"experiences": [
 		[{
-			"title": "Entreprenariat et Développeur Full Stack ",
+			"title": "Entrepreneur et Développeur Full Stack ",
 			"description": "",
 			"company": "Gamewisher.com",
 			"link": "https://www.gamewisher.com",
 			"tasks": [
-				"Création d'une plateforme communautaire autour des jeux mobiles en utilisant <b>TypeScript</b>, <b>Nest.js</b>, <b>Next.js</b>, <b>Vitest</b> et <b>GitHub Actions</b>"
+				"Conception de A à Z d'une plateforme communautaire complète avec une base de données de plus de 10 000 jeux mobiles, un moteur de recherche intuitif, et un système permettant à la communauté de rédiger ses propres articles."
 			],
 			"stack": [
-				"Node.js / Nest.js",
-				"React / Next.js",
-				"MongoDB",
-				"TypeScript"
+				"Stack: <b>TypeScript</b> ▪️ <b>Nest.js</b> ▪️ <b>React</b> ▪️ <b>MongoDB</b> ▪️ <b>Docker</b> ▪️ <b>Github Actions</b>"
 			],
 			"dateEnd": "Depuis 2019"
-		}],
-		[
+		},
 			{
 				"title": "En indépendant et en télétravail",
 				"company": "LaPetitePouzerie.fr",
 				"link": "https://www.LaPetitePouzerie.fr",
 				"tasks": [
-					"Création d'une plateforme de réservation incluant paiement et gestion de disponibilités, en utilisant <b>TypeScript</b>, <b>Node.js</b>, <b>React</b>, <b>Vitest</b> et <b>GitHub Actions</b>"
+					"Création complète d'une plateforme de réservation, incluant le paiement et la gestion des disponibilités. Le site a été conçu en respectant scrupuleusement chaque détail de la maquette Figma."
 				],
 				"stack": [
-					"Nest.js",
-					"Next.js",
-					"MongoDB",
-					"TypeScript",
-					"Github Actions",
-					"API Stripe"
-				],
+					"Stack: <b>TypeScript</b> ▪️ <b>Nest.js</b> ▪️ <b>Next.js</b> ▪️ <b>MongoDB</b> ▪️ <b>Docker</b> ▪️ <b>API Stripe</b>"
+			],
 				"dateStart": "2024",
 				"dateEnd": "2 mois"
 			},
 			{
 				"title": "[Remote] Freelance",
 				"company": "Eric C - Entrepreneur",
-				"tasks": ["Développement d'une application mobile pour la gestion des équipements matériels via Bluetooth, en utilisant <b>TypeScript</b>, <b>React-native</b>"],
-				"stack": ["Typescript", "React native", "Bluetooth"],
+				"tasks": ["Développement d'une application mobile pour la gestion des équipements matériels via Bluetooth."],
+				"stack": ["Stack: <b>TypeScript</b> ▪️ <b>React Native</b> ▪️ <b>Bluetooth</b>"],
 				"dateStart": "2022",
 				"dateEnd": "1 mois"
 			}
@@ -64,17 +55,20 @@
 			"title": "Tech Lead Application Android",
 			"company": "Thales",
 			"tasks": [
-				"Développement d'une application Android pour le réseau de transport de bus danois, en utilisant <b>TypeScript</b> et <b>React-native</b>."
+				"Développement d'une application Android pour les chauffeurs de bus du réseau danois, facilitant la gestion des voyages, la vente de tickets et la configuration des valideurs."
 			],
-			"stack": ["Typescript", "React native", "Jenkins", "MQTT", "Tests unitaires."],
+			"stack": ["Stack: <b>TypeScript</b> ▪️ <b>React Native</b> ▪️ <b>Intégration continue Jenkins</b>"],
 			"dateStart": 2017,
 			"dateEnd": 2018
 		}],
 		[{
 			"title": "Développeur Full stack et Scrum master",
 			"company": "Thales",
-			"tasks": [ "Conception d'un produit billettique dans une <b>équipe Agile de 10 personnes</b> , en utilisant <b>Java</b>, <b>Angular</b>, <b>PostgreSQL</b> et une intégration continue sous Jenkins" ],
-			"stack": [ ],
+			"tasks": [ 
+				"Développement des fonctionnalités clés pour l'API, le front-end et le back-end au sein d'une <b>équipe Agile de 10 personnes</b>, tout en garantissant la qualité du code.",
+				"Gestion des cérémonies et de la communication externe en tant que Scrum Master."
+		 ],
+			"stack": ["Stack: <b>Java</b> ▪️ <b>Angular</b> ▪️ <b>PostgreSQL</b> ▪️ <b>RabbitMQ</b> ▪️ <b>Intégration continue Jenkins</b>"],
 			"dateStart": 2013,
 			"dateEnd": 2017
 		}],
@@ -82,14 +76,21 @@
 			"title": "Développeur Full Stack",
 			"company": "Thales",
 			"tasks": [
-				"Développement de logiciels et du Back-office dans une <b>équipe de 6-8 personnes</b> pour le système billettique de plusieurs opérateurs de transport, en utilisant <b>C#</b>, <b>ASP.Net</b> et <b>Microsoft SQLServer</b>"
+				"Développement de logiciels et du back-office dans une <b>équipe de 8 personnes</b> pour le système billettique de plusieurs opérateurs de transport"
 			],
-			"stack": [],
+			"stack": ["Stack: <b>C#</b> ▪️ <b>ASP.Net</b> ▪️ <b>Microsoft SQL Server</b>"],
 			"dateStart": 2008,
 			"dateEnd": 2013
 		}]
 	],
 	"formations": [
+		[{
+			"title": "Ergonomie et UX des logiciels",
+			"company": "Ludotic, Paris",
+			"tasks": [],
+			"stack": [],
+			"dateEnd": 2014
+		}],
 		[{
 			"title": "Expert en conduite et ingénierie de développement logiciel et système",
 			"company": "Master au CFA AFTI, Orsay",
@@ -123,7 +124,7 @@
 		{
 			"type": "hard",
 			"icon": "react",
-			"name": "React / NextJs"
+			"name": "React / Next.js"
 		},
 		{
 			"type": "soft",
@@ -136,12 +137,6 @@
 			"icon": "autonomie",
 			"name": "Partage & Bienveillance",
 			"subtitle": "J'accompagne et soutiens mes collègues afin de progresser ensemble."
-		},
-		{
-			"type": "soft",
-			"icon": "fire",
-			"name": "Esprit d'équipe",
-			"subtitle": "Je délègue et organise des ateliers participatifs pour favoriser les collaborations."
 		}
 	]
 }
