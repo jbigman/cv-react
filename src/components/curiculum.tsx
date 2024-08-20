@@ -22,6 +22,18 @@ const Curiculum = () => {
                     return <Experience key={index} data={exp} />
                   })}
               </Block>   
+              {/* <Block title={'Autres activités'}>
+
+               <Skill data={
+                {
+                  type: 'other',
+                  icon: "youtube",
+                  name: "Community Manager et Créateur de contenu",
+                  subtitle: "Gestion d'une communauté discord gaming comptant ~3000 membres. Réalisation de guides, de présentations et de reportages.",
+                  link: "https://www.youtube.com/c/TAFJeuxMobile",
+                }
+              }/> 
+              </Block>    */}
             </div>
           </div>   
           <div style={{flex:2}}>   

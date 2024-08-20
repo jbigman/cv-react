@@ -1,7 +1,7 @@
 {
 	"nom": "GAMBIN",
 	"prenom": "Jérémie",
-	"address": "Rennes, Télétravail",
+	"address": "Nantes, Télétravail",
 	"email": "jeremie.gambin@gmail.com",
 	"phone": "06.24.89.44.49",
 	"title": "Lead Developer TypeScript",
@@ -9,7 +9,7 @@
 		"Conduite de projets de la conception à la livraison finale",
 		"10 ans d'expérience en développement Full-Stack",
 		"Experience Solide en API RESTFul",
-		"Test, intégration et deploiement continu sur tous mes projets"
+		" Test, intégration et deploiement continu sur tous mes projets"
 	],
 	"stackOverFlowUrl": "https://stackoverflow.com/users/2988788",
 	"drivingLicence": "Permis B",
@@ -17,27 +17,27 @@
 	"description": "Développeur expérimenté en applications web et mobiles, spécialisé en TypeScript, Node.js et React. Mes réalisations incluent la création d'une plateforme de réservation avec systèmes de paiement pour LaPetitePouzerie.fr et l'implémentation d'un moteur de recherche pour les jeux vidéo sur Gamewisher.com. À la recherche d'un poste de développeur à CoderPad, où je pourrais apporter mes compétences en développement front-end et back-end dans un environnement Agile, pour soutenir votre équipe Tech à renforcer vos produits et assurer leur évolutions.",
 	"experiences": [
 		[{
-			"title": "Entrepreneur et Développeur Full Stack ",
+			"title": "Entrepreneur & CTO",
 			"description": "",
 			"company": "Gamewisher.com",
 			"link": "https://www.gamewisher.com",
 			"tasks": [
-				"Conception de A à Z d'une plateforme communautaire complète avec une base de données de plus de 10 000 jeux mobiles, un moteur de recherche intuitif, et un système permettant à la communauté de rédiger ses propres articles."
+				"Conception de A à Z d'une plateforme communautaire autour des jeux mobile. Avec une base de données de plus de 10 000 jeux, un moteur de recherche intuitif, et un système permettant à la communauté de rédiger ses propres avis et articles."
 			],
 			"stack": [
-				"Stack: <b>TypeScript</b> ▪️ <b>Nest.js</b> ▪️ <b>React</b> ▪️ <b>MongoDB</b> ▪️ <b>Docker</b> ▪️ <b>Github Actions</b>"
+				"<b>TypeScript</b> ▪️ <b>Nest.js</b> ▪️ <b>Next.js</b> ▪️ <b>MongoDB</b> ▪️ <b>Docker</b> ▪️ <b>Github Actions</b>"
 			],
 			"dateEnd": "Depuis 2019"
-		},
-			{
+		}],
+			[{
 				"title": "En indépendant et en télétravail",
 				"company": "LaPetitePouzerie.fr",
 				"link": "https://www.LaPetitePouzerie.fr",
 				"tasks": [
-					"Création complète d'une plateforme de réservation, incluant le paiement et la gestion des disponibilités. Le site a été conçu en respectant scrupuleusement chaque détail de la maquette Figma."
+					"Création complète d'une plateforme de réservation"
 				],
 				"stack": [
-					"Stack: <b>TypeScript</b> ▪️ <b>Nest.js</b> ▪️ <b>Next.js</b> ▪️ <b>MongoDB</b> ▪️ <b>Docker</b> ▪️ <b>API Stripe</b>"
+					"<b>TypeScript</b> ▪️ <b>Nest.js</b> ▪️ <b>Next.js</b> ▪️ <b>MongoDB</b> ▪️ <b>Docker</b> ▪️ <b>API Stripe</b>"
 			],
 				"dateStart": "2024",
 				"dateEnd": "2 mois"
@@ -45,40 +45,41 @@
 			{
 				"title": "[Remote] Freelance",
 				"company": "Eric C - Entrepreneur",
-				"tasks": ["Développement d'une application mobile pour la gestion des équipements matériels via Bluetooth."],
-				"stack": ["Stack: <b>TypeScript</b> ▪️ <b>React Native</b> ▪️ <b>Bluetooth</b>"],
+				"tasks": ["Développement d'une application mobile type télécommande Bluetooth"],
+				"stack": ["<b>TypeScript</b> ▪️ <b>React Native</b>"],
 				"dateStart": "2022",
 				"dateEnd": "1 mois"
 			}
 		],
 		[{
 			"title": "Tech Lead Application Android",
-			"company": "Thales",
+			"company": "Thales - Systèmes billétiques",
 			"tasks": [
-				"Développement d'une application Android pour les chauffeurs de bus du réseau danois, facilitant la gestion des voyages, la vente de tickets et la configuration des valideurs."
+				"Développement d'une application Android pour le réseau de bus danois, facilitant la vente de tickets et la configuration des valideurs."
 			],
-			"stack": ["Stack: <b>TypeScript</b> ▪️ <b>React Native</b> ▪️ <b>Intégration continue Jenkins</b>"],
+			"stack": ["<b>TypeScript</b> ▪️ <b>React Native</b> ▪️ <b>MQTT</b> ▪️ <b>Intégration continue Jenkins</b>"],
 			"dateStart": 2017,
 			"dateEnd": 2018
 		}],
 		[{
-			"title": "Développeur Full stack et Scrum master",
-			"company": "Thales",
+			"title": "Scrum master et Développeur Full stack",
+			"company": "Thales - Systèmes billétiques",
 			"tasks": [ 
-				"Développement des fonctionnalités clés pour l'API, le front-end et le back-end au sein d'une <b>équipe Agile de 10 personnes</b>, tout en garantissant la qualité du code.",
-				"Gestion des cérémonies et de la communication externe en tant que Scrum Master."
+				"- Gestion des cérémonies et de la communication externe en tant que Scrum Master",
+				"- Recrutement et formation d'un apprenti",
+				"- Développement des fonctionnalités clés pour l'API, le front-end et le back-end au sein d'une <b>équipe Agile de 10 personnes</b>"
 		 ],
-			"stack": ["Stack: <b>Java</b> ▪️ <b>Angular</b> ▪️ <b>PostgreSQL</b> ▪️ <b>RabbitMQ</b> ▪️ <b>Intégration continue Jenkins</b>"],
+			"stack": ["<b>Java</b> ▪️ <b>Angular</b> ▪️ <b>PostgreSQL</b> ▪️ <b>RabbitMQ</b> ▪️ <b>Intégration continue Jenkins</b> ▪️ <b>RabbitMQ</b>"],
 			"dateStart": 2013,
 			"dateEnd": 2017
 		}],
 		[{
 			"title": "Développeur Full Stack",
-			"company": "Thales",
+			"company": "Thales - Systèmes billétiques",
 			"tasks": [
-				"Développement de logiciels et du back-office dans une <b>équipe de 8 personnes</b> pour le système billettique de plusieurs opérateurs de transport"
+				"Développement de logiciels / back-office dans une <b>équipe de 8 personnes</b>"
 			],
-			"stack": ["Stack: <b>C#</b> ▪️ <b>ASP.Net</b> ▪️ <b>Microsoft SQL Server</b>"],
+			"stack": ["<b>C#</b> ▪️ <b>ASP.Net</b> ▪️ <b>Microsoft SQL Server</b>"],
 			"dateStart": 2008,
 			"dateEnd": 2013
 		}]
