@@ -57,8 +57,7 @@ const SideBar = () => {
             {
               cv.punchLines.map((punchline) => {
                 return (
-                  <li key={punchline}>{punchline}</li>
-                  
+                  <li style={{lineHeight: '20px'}} key={punchline}>{punchline}</li>
                 )
               })
             }
