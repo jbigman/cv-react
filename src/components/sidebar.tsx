@@ -52,7 +52,7 @@ const SideBar = () => {
             </a>
           </Element>
         </div>
-        <Block title={'Senior Fullstack Developer'}>
+        <Block title={cv.title}>
           <ul style={{padding : '12px', fontSize: '14px'}}>
             {
               cv.punchLines.map((punchline) => {

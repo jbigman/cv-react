@@ -4,12 +4,12 @@
 	"address": "Nantes, Télétravail",
 	"email": "jeremie.gambin@gmail.com",
 	"phone": "06.24.89.44.49",
-	"title": "Lead Developer TypeScript",
+	"title": "Développeur fullstack TypeScript",
 	"punchLines": [
 		"Conduite de projets de la conception à la livraison finale",
 		"10 ans d'expérience en développement Full-Stack",
-		"Experience Solide en API RESTFul",
-		"Tests, intégration, et déploiement continus sur tous mes projets"
+		"Expérience solide en TypeScript et en API RESTful",
+		"Tests, intégration, et déploiement continu sur tous mes projets"
 	],
 	"stackOverFlowUrl": "https://stackoverflow.com/users/2988788",
 	"drivingLicence": "Permis B",
@@ -22,11 +22,13 @@
 			"company": "Gamewisher.com",
 			"link": "https://www.gamewisher.com",
 			"tasks": [
-				"Conception complète de l'API et du front-end",
-				"Tests, intégration et deploiement continu sur services cloud"
+				"<b>Conception du serveur de données accessible via une API publique RESTful</b>",
+				"Scrapping et <b>aggrégation de données non structurées externes</b>",
+				"<b>Création du site</b> responsive destiné à la communauté de joueurs",
+				"Tests, intégration et <b>déploiement continu</b> sur services cloud"
 			],
 			"stack": [
-				"Stack: <b>TypeScript</b> ▪️ <b>Nest.js</b> ▪️ <b>React</b> ▪️ <b>MongoDB</b> ▪️ <b>Docker</b> ▪️ <b>Github Actions</b>"
+				"Stack : <b>TypeScript</b> ▪️ NestJs ▪️ <b>NextJs</b> ▪️ <b>MongoDB</b> ▪️ <b>Docker</b> ▪️ Github Actions"
 			],
 			"dateEnd": "Depuis 2019"
 		},
@@ -36,12 +38,11 @@
 			"link": "https://www.LaPetitePouzerie.fr",
 			"description" : "Plateforme de réservation de gîte incluant le paiement et la gestion des disponibilités",
 			"tasks": [
-				"<b>Développement du site en collaboration avec <a href=\"https://www.linkedin.com/in/d%C3%A9borah-buret-17408b118/\">Deborat buret</a>, designeuse.</b>",
-				"Conception complète de l'API, du front-end et du back end",
+				"<b>Conception complète de l'API, du front-end et du back end</b>",
 				"Intégration avec l'API de paiement Stripe."
 			],
 			"stack": [
-				"Stack: <b>TypeScript</b> ▪️ <b>Nest.js</b> ▪️ <b>Next.js</b> ▪️ <b>MongoDB</b> ▪️ <b>Docker</b> ▪️ <b>API Stripe</b>"
+				"Stack : <b>TypeScript</b> ▪️ NestJs ▪️ <b>NextJs</b> ▪️ <b>MongoDB</b> ▪️ <b>Docker</b> ▪️ API Stripe"
 		],
 			"dateStart": "2024",
 			"dateEnd": "2 mois"
@@ -49,44 +50,44 @@
 		[{
 				"title": "Développeur d'applications android professionnelles",
 				"company": "Eric C. Entrepreneur",
-				"description" : "Application android métier pour paramétrer l'ouverture de porte de laboratoires",
-				"tasks": [ "Développement complet d'un produit minimum viable."],
-				"stack": [""],
+				"description" : "Application android métier pour paramétrer l'ouverture de portes de laboratoires",
+				"tasks": [ "Développement complet d'un <b>Produit Minimum Viable</b>."],
+				
+				"stack": ["Stacks: <b>TypeScript</b> ▪️ React Native</b> ▪️ Bluetooth"],
 				"dateStart": "2022",
 				"dateEnd": "1 mois"
 			}
 		,{
 			"title": "Tech Lead Application Android",
 			"company": "Thales",
-			"description" : "Application Android pour les chauffeurs de bus du réseau de transport Danois, permettant la gestion des voyages, la vente de tickets et la configuration des valideur",
+			"description" : "Application Android pour les chauffeurs de bus du réseau de transport danois, permettant la gestion des voyages, la vente de tickets et la configuration des valideurs",
 			"tasks": [
 				"Développement de l'application avec un Product Owner danois."
 			],
-			"stack": ["Stacks: <b>TypeScript</b> ▪️ <b>React Native</b> ▪️ <b>Intégration continue</b>"],
+			"stack": ["Stacks: <b>TypeScript</b> ▪️ <b>Intégration continue</b> ▪️ React Native"],
 			"dateStart": 2017,
 			"dateEnd": 2018
 		}],
 		[{
 			"title": "Développeur Full stack et Scrum master",
 			"company": "Thales",
-			"description" : "Système permettant la gestion des titres de transport déployé chez de nombreux opérateurs de transport à l'international",
+			"description" : "Système déployé chez de nombreux opérateurs de transport à l'international permettant la gestion des titres de transport",
 			"tasks": [ 
-				"<b>Traitement des flux de transactions</b> remontés par les équipements", 
-				"Création des fonctionnalités clés de l'API reposant sur <b>PostgreSQL</b>.", 
-				"<b>Développement des portails destinés aux guichetiers (suivi des voyages, gestion des cartes, abonnements) et aux administrateurs (monitoring du système et des équipements).</b>",
-				"Organisation des cérémonies Scrum et communication externe en tant que Scrum Master, dans une <b>équipe Agile de 10 personnes</b>."
+				"<b>Création des fonctionnalités clés de l'API</b>", 
+				"<b>Développement des portails destinés aux administrateurs</b> (monitoring du système et des équipements) <b>ainsi qu'aux voyageurs et guichetiers</b> (suivi des voyages, gestion des cartes, abonnements).",
+				"Organisation des cérémonies Scrum et <b>communication en tant que Scrum Master</b>, dans une <b>équipe Agile de 10 personnes</b>."
 		 ],
-			"stack": ["Stack: <b>Java</b> ▪️ <b>Angular</b> ▪️ <b>PostgreSQL</b> ▪️ <b>Docker</b> ▪️ <b>RabbitMQ</b> ▪️ <b>I/C Jenkins</b>"],
+			"stack": ["Stack : Java ▪️ Angular ▪️ <b>PostgreSQL</b> ▪️ <b>Docker</b> ▪️ RabbitMQ ▪️ I/C Jenkins"],
 			"dateStart": 2013,
 			"dateEnd": 2017
 		},{
 			"title": "Saas destiné aux guichetiers et aux admins",
 			"company": "",
-			"description" : "Système billétique déployé pour le système de transport d'Auckland, NZ.",
+			"description" : "Système billetique déployé pour le système de transport d'Auckland, NZ.",
 			"tasks": [
 				"Développement du back-office au sein d'une équipe de 8 personnes"
 			],
-			"stack": ["Stack: <b>C#</b> ▪️ <b>ASP.Net</b> ▪️ <b>Microsoft SQL Server</b>"],
+			"stack": ["Stack : C# ▪️ ASP.Net ▪️ Microsoft SQL Server"],
 			"dateStart": 2008,
 			"dateEnd": 2013
 		}]
@@ -138,7 +139,7 @@
 			"type": "soft",
 			"icon": "brain",
 			"name": "Autonomie",
-			"subtitle": "Je me forme et j'effectue une veille technologique en continue."
+			"subtitle": "Je me forme et j'effectue une veille technologique en continu."
 		},
 		{
 			"type": "soft",
