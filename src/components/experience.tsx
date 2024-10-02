@@ -50,15 +50,15 @@ const Experience = (props: {data: IExperience[] }) => {
         }
         {
           exp.tasks.length > 0 &&  
-          <div className={`${experienceStyles.shift}`}>
+          <ul className={`${experienceStyles.shift}`}>
             {exp.tasks.map((task) => {
               return (
-                <div key={task}>
+                <li key={task}>
                   {/* biome-ignore lint/security/noDangerouslySetInnerHtml: <explanation> */}
-                  <div dangerouslySetInnerHTML={{__html: task}} />
-                </div>
+                  <span dangerouslySetInnerHTML={{__html: task}} />
+                </li>
             )})}
-          </div>
+          </ul>
         } 
         {
           exp.stack.length > 0 &&  

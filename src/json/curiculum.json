@@ -4,9 +4,9 @@
 	"address": "Nantes, Télétravail",
 	"email": "jeremie.gambin@gmail.com",
 	"phone": "06.24.89.44.49",
-	"title": "Développeur fullstack TypeScript",
+	"title": "Senior Fullstack Engineer TypeScript",
 	"punchLines": [
-		"Conduite de projets de la conception à la livraison finale",
+		"Conduite de projets web et mobiles de la conception à la livraison",
 		"10 ans d'expérience en développement Full-Stack",
 		"Expérience solide en TypeScript et en API RESTful",
 		"Tests, intégration, et déploiement continu sur tous mes projets"
@@ -22,13 +22,12 @@
 			"company": "Gamewisher.com",
 			"link": "https://www.gamewisher.com",
 			"tasks": [
-				"<b>Conception du serveur de données accessible via une API publique RESTful</b>",
-				"Scrapping et <b>aggrégation de données non structurées externes</b>",
-				"<b>Création du site</b> responsive destiné à la communauté de joueurs",
-				"Tests, intégration et <b>déploiement continu</b> sur services cloud"
+				"Conception du serveur de données accessible via une API RESTful",
+				"Création de la plateforme web destinée à la communauté de joueurs",
+				"Tests, intégration et déploiement continu sur services cloud"
 			],
 			"stack": [
-				"Stack : <b>TypeScript</b> ▪️ NestJs ▪️ <b>NextJs</b> ▪️ <b>MongoDB</b> ▪️ <b>Docker</b> ▪️ Github Actions"
+				"Stack : <b>TypeScript</b> ▪️ <b>NestJs</b> ▪️ <b>NextJs</b> ▪️ MongoDB ▪️ Docker ▪️ <b>Github CI/CD </b>"
 			],
 			"dateEnd": "Depuis 2019"
 		},
@@ -38,22 +37,22 @@
 			"link": "https://www.LaPetitePouzerie.fr",
 			"description" : "Plateforme de réservation de gîte incluant le paiement et la gestion des disponibilités",
 			"tasks": [
-				"<b>Conception complète de l'API, du front-end et du back end</b>",
+				"Conception complète de l'API, du back-end et du front-end",
 				"Intégration avec l'API de paiement Stripe."
 			],
 			"stack": [
-				"Stack : <b>TypeScript</b> ▪️ NestJs ▪️ <b>NextJs</b> ▪️ <b>MongoDB</b> ▪️ <b>Docker</b> ▪️ API Stripe"
+				"Stack : <b>TypeScript</b> ▪️ <b>NestJs</b> ▪️ <b>NextJs</b> ▪️ MongoDB ▪️ Docker ▪️ <b>Github Actions</b>"
 		],
 			"dateStart": "2024",
 			"dateEnd": "2 mois"
 		}],
 		[{
-				"title": "Développeur d'applications android professionnelles",
+				"title": "Développeur d'applications android",
 				"company": "Eric C. Entrepreneur",
 				"description" : "Application android métier pour paramétrer l'ouverture de portes de laboratoires",
-				"tasks": [ "Développement complet d'un <b>Produit Minimum Viable</b>."],
+				"tasks": [ "Développement complet d'un Produit Minimum Viable."],
 				
-				"stack": ["Stacks: <b>TypeScript</b> ▪️ React Native</b> ▪️ Bluetooth"],
+				"stack": ["Stacks: <b>TypeScript</b> ▪️ <b>React Native</b> ▪️ Bluetooth"],
 				"dateStart": "2022",
 				"dateEnd": "1 mois"
 			}
@@ -62,9 +61,9 @@
 			"company": "Thales",
 			"description" : "Application Android pour les chauffeurs de bus du réseau de transport danois, permettant la gestion des voyages, la vente de tickets et la configuration des valideurs",
 			"tasks": [
-				"Développement de l'application avec un Product Owner danois."
+				"Développement de l'application avec un Product Owner anglophone."
 			],
-			"stack": ["Stacks: <b>TypeScript</b> ▪️ <b>Intégration continue</b> ▪️ React Native"],
+			"stack": ["Stacks: <b>TypeScript</b> ▪️ <b>React Native</b> ▪️ <b>Intégration continue via Jenkins</b>"],
 			"dateStart": 2017,
 			"dateEnd": 2018
 		}],
@@ -73,11 +72,11 @@
 			"company": "Thales",
 			"description" : "Système déployé chez de nombreux opérateurs de transport à l'international permettant la gestion des titres de transport",
 			"tasks": [ 
-				"<b>Création des fonctionnalités clés de l'API</b>", 
-				"<b>Développement des portails destinés aux administrateurs</b> (monitoring du système et des équipements) <b>ainsi qu'aux voyageurs et guichetiers</b> (suivi des voyages, gestion des cartes, abonnements).",
+				"Création des fonctionnalités clés de l'API", 
+				"Développement des portails destinés aux administrateurs (monitoring du système et des équipements) ainsi qu'aux voyageurs et guichetiers (suivi des voyages, gestion des cartes, abonnements).",
 				"Organisation des cérémonies Scrum et <b>communication en tant que Scrum Master</b>, dans une <b>équipe Agile de 10 personnes</b>."
 		 ],
-			"stack": ["Stack : Java ▪️ Angular ▪️ <b>PostgreSQL</b> ▪️ <b>Docker</b> ▪️ RabbitMQ ▪️ I/C Jenkins"],
+			"stack": ["Stack : Java ▪️ Angular ▪️ <b>PostgreSQL</b> ▪️ Docker ▪️ RabbitMQ ▪️ <b>IC Jenkins</>"],
 			"dateStart": 2013,
 			"dateEnd": 2017
 		},{

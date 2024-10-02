@@ -24,7 +24,7 @@ const Curiculum = () => {
               </Block>   
             </div>
           </div>   
-          <div style={{flex:2}}>   
+          <div style={{width: "282px"}}>   
             <Block title={"Compétences relationnelles"}>        
               {cv.skills.filter((s) => s.type === 'soft').map((skill) => {
                   return (
