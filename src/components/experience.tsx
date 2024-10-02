@@ -1,3 +1,4 @@
+import { Fragment } from 'react'
 import type { IExperience } from '../Interface/IExperience'
 import experienceStyles from './experience.module.scss'
 
@@ -5,7 +6,7 @@ const Experience = (props: {data: IExperience[] }) => {
 
   const expContent = (exp: IExperience) => {
     return (
-      <>
+      <Fragment key={Experience.name}>
         <div className={`${experienceStyles.subtile}`}>
         {exp.link ? (
           <a
@@ -71,7 +72,7 @@ const Experience = (props: {data: IExperience[] }) => {
             )})}
           </div>
         } 
-      </>
+      </Fragment>
     )
   }
 
