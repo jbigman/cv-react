@@ -4,11 +4,11 @@
 	"address": "Nantes, Télétravail",
 	"email": "jeremie.gambin@gmail.com",
 	"phone": "06.24.89.44.49",
-	"title": "Senior Fullstack Engineer TypeScript",
+	"title": "Senior Développeur Front-End",
 	"punchLines": [
-		"Conduite de projets web et mobiles de la conception à la livraison",
 		"10 ans d'expérience en développement Full-Stack",
-		"Expérience solide en TypeScript et en API RESTful",
+		"Conception de projets de A à Z",
+		"Expertise en NextJs, React 18 et Hooks",
 		"Tests, intégration, et déploiement continu sur tous mes projets"
 	],
 	"stackOverFlowUrl": "https://stackoverflow.com/users/2988788",
@@ -18,16 +18,16 @@
 	"experiences": [
 		[{
 			"title": "Indépendant et Développeur Full Stack",
-			"description": "Saas communautaire incluant un moteur de recherche multifiltre, des articles et avis",
+			"description": "SaaS communautaire incluant un moteur de recherche multifiltre, des articles et avis",
 			"company": "Gamewisher.com",
 			"link": "https://www.gamewisher.com",
 			"tasks": [
-				"Conception du serveur de données accessible via une API RESTful",
 				"Création de la plateforme web destinée à la communauté de joueurs",
-				"Tests, intégration et déploiement continu sur services cloud"
+				"Conception du serveur de données accessible via une API RESTful",
+				"Tests, intégration et déploiement automatisé"
 			],
 			"stack": [
-				"Stack : <b>TypeScript</b> ▪️ <b>NestJs</b> ▪️ <b>NextJs</b> ▪️ MongoDB ▪️ Docker ▪️ <b>Github CI/CD </b>"
+				"Stack : <b>TypeScript</b> ▪️ <b>NextJs / React18</b> ▪️ NestJs ▪️ MongoDB ▪️ Docker ▪️ <b>Github CI/CD </b>"
 			],
 			"dateEnd": "Depuis 2019"
 		},
@@ -38,23 +38,24 @@
 			"description" : "Plateforme de réservation de gîte incluant le paiement et la gestion des disponibilités",
 			"tasks": [
 				"Conception complète de l'API, du back-end et du front-end",
-				"Intégration avec l'API de paiement Stripe."
+				"Intégration avec l'API de paiement Stripe.",
+				"Collaboration avec un UX designer"
 			],
 			"stack": [
-				"Stack : <b>TypeScript</b> ▪️ <b>NestJs</b> ▪️ <b>NextJs</b> ▪️ MongoDB ▪️ Docker ▪️ <b>Github Actions</b>"
+				"Stack : <b>TypeScript</b> ▪️ <b>NextJs</b> ▪️ NestJs ▪️ MongoDB ▪️ Docker ▪️ <b>Github Actions</b>"
 		],
 			"dateStart": "2024",
 			"dateEnd": "2 mois"
 		}],
 		[{
-				"title": "Développeur d'applications android",
+				"title": "Développeur d'applications Android",
 				"company": "Eric C. Entrepreneur",
-				"description" : "Application android métier pour paramétrer l'ouverture de portes de laboratoires",
+				"description" : "Application Android métier pour paramétrer l'ouverture de portes de laboratoires",
 				"tasks": [ "Développement complet d'un Produit Minimum Viable."],
 				
-				"stack": ["Stacks: <b>TypeScript</b> ▪️ <b>React Native</b> ▪️ Bluetooth"],
-				"dateStart": "2022",
-				"dateEnd": "1 mois"
+				"stack": ["Stack: <b>TypeScript</b> ▪️ React Native ▪️ Bluetooth"],
+				"dateStart": "Octobre 2022",
+				"dateEnd": ""
 			}
 		,{
 			"title": "Tech Lead Application Android",
@@ -63,7 +64,7 @@
 			"tasks": [
 				"Développement de l'application avec un Product Owner anglophone."
 			],
-			"stack": ["Stacks: <b>TypeScript</b> ▪️ <b>React Native</b> ▪️ <b>Intégration continue via Jenkins</b>"],
+			"stack": ["Stack: <b>TypeScript</b> ▪️ React Native ▪️ <b>Intégration continue via Jenkins</b>"],
 			"dateStart": 2017,
 			"dateEnd": 2018
 		}],
@@ -72,8 +73,8 @@
 			"company": "Thales",
 			"description" : "Système déployé chez de nombreux opérateurs de transport à l'international permettant la gestion des titres de transport",
 			"tasks": [ 
-				"Création des fonctionnalités clés de l'API", 
 				"Développement des portails destinés aux administrateurs (monitoring du système et des équipements) ainsi qu'aux voyageurs et guichetiers (suivi des voyages, gestion des cartes, abonnements).",
+				"Conception et implémentation des fonctionnalités clés de l'API.", 
 				"Organisation des cérémonies Scrum et <b>communication en tant que Scrum Master</b>, dans une <b>équipe Agile de 10 personnes</b>."
 		 ],
 			"stack": ["Stack : Java ▪️ Angular ▪️ <b>PostgreSQL</b> ▪️ Docker ▪️ RabbitMQ ▪️ <b>IC Jenkins</>"],
@@ -101,7 +102,7 @@
 		}],
 		[{
 			"title": "Expert en conduite et ingénierie de développement logiciel et système",
-			"company": "Master au CFA AFTI, Orsay",
+			"company": "Master ETGL au CFA AFTI, Orsay",
 			"tasks": [],
 			"stack": [],
 			"dateEnd": 2010
@@ -126,25 +127,31 @@
 		},
 		{
 			"type": "hard",
-			"icon": "node",
-			"name": "Node.js / Nest.js"
-		},
-		{
-			"type": "hard",
 			"icon": "react",
 			"name": "React / Next.js"
 		},
 		{
+			"type": "hard",
+			"icon": "node",
+			"name": "Node.js / Nest.js"
+		},
+		{
+			"type": "soft",
+			"icon": "fire",
+			"name": "Rigueur et organisation",
+			"subtitle": "Gestion autonome des priorités, structure et optimise le code"
+		},
+		{
 			"type": "soft",
 			"icon": "brain",
-			"name": "Autonomie",
-			"subtitle": "Je me forme et j'effectue une veille technologique en continu."
+			"name": "Curiosité",
+			"subtitle": "Volonté d'apprendre et d'améliorer ses compétences en continu"
 		},
 		{
 			"type": "soft",
 			"icon": "autonomie",
-			"name": "Partage & Bienveillance",
-			"subtitle": "J'accompagne et soutiens mes collègues afin de progresser ensemble."
+			"name": "Esprit d'équipe",
+			"subtitle": "Aptitude à travailler en collaboration avec des équipes pluridisciplinaires"
 		}
 	]
 }
