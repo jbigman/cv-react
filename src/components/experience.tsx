@@ -80,7 +80,7 @@ const Experience = (props: {data: IExperience[] }) => {
     return (
       <div className={experienceStyles.experience}>
         <div className={`${experienceStyles.details} column`}>
-          <h3 className={experienceStyles.title}>{props.data[0].title}</h3>
+        <h3 className={experienceStyles.title}>{props.data[0].title}</h3>
           {
             props.data.map((elem) => {
               return expContent(elem)

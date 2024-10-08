@@ -4,11 +4,11 @@
 	"address": "Nantes, Télétravail",
 	"email": "jeremie.gambin@gmail.com",
 	"phone": "06.24.89.44.49",
-	"title": "Senior Développeur Front-End",
+	"title": "Développeur Full-Stack Senior ",
 	"punchLines": [
 		"10 ans d'expérience en développement Full-Stack",
-		"Conception de projets de A à Z",
-		"Expertise en NextJs, React 18 et Hooks",
+		"Certifications Javascript et Typescript",
+		"Expertise solide en API REST, NestJs et React18",
 		"Tests, intégration, et déploiement continu sur tous mes projets"
 	],
 	"stackOverFlowUrl": "https://stackoverflow.com/users/2988788",
@@ -17,77 +17,75 @@
 	"description": "Développeur expérimenté en applications web et mobiles, spécialisé en TypeScript, Node.js et React. Mes réalisations incluent la création d'une plateforme de réservation avec systèmes de paiement pour LaPetitePouzerie.fr et l'implémentation d'un moteur de recherche pour les jeux vidéo sur Gamewisher.com. À la recherche d'un poste de développeur à CoderPad, où je pourrais apporter mes compétences en développement front-end et back-end dans un environnement Agile, pour soutenir votre équipe Tech à renforcer vos produits et assurer leur évolutions.",
 	"experiences": [
 		[{
-			"title": "Indépendant et Développeur Full Stack",
-			"description": "SaaS communautaire incluant un moteur de recherche multifiltre, des articles et avis",
+			"title": "Entreprenariat",
+			"description": "Creation d'entreprise : Moteur de recherche et plateforme communautaire de partage",
 			"company": "Gamewisher.com",
 			"link": "https://www.gamewisher.com",
 			"tasks": [
-				"Création de la plateforme web destinée à la communauté de joueurs",
-				"Conception du serveur de données accessible via une API RESTful",
-				"Tests, intégration et déploiement automatisé"
+				"Développement complet du site internet avec <b>React18</b> et <b>Next.js</b>, incluant l’interface utilisateur et la gestion des performances front-end",
+				"Utilisation de <b>MongoDB</b> pour le stockage et la gestion des données.",
+				"Conception et mise en place du backend via une <b>API RESTful</b> basée sur <b>NestJS</b>, garantissant la communication fluide entre le front-end et le serveur.",
+				"Automatisation des tests, de l'intégration continue et du déploiement via <b>Vitest</b> et <b>Github Actions</b>, assurant une livraison rapide et de haute qualité.",
+				"Participation à des <a href=\"https://github.com/facundoolano/google-play-scraper\">projets open source</a> de scrapping de donnée"
 			],
-			"stack": [
-				"Stack : <b>TypeScript</b> ▪️ <b>NextJs / React18</b> ▪️ NestJs ▪️ MongoDB ▪️ Docker ▪️ <b>Github CI/CD </b>"
-			],
+			"stack": [],
 			"dateEnd": "Depuis 2019"
-		},
-		{
-			"title": "En indépendant et en télétravail",
+		}],
+		[		{
+			"title": "Développeur Full-Stack Freelance",
 			"company": "LaPetitePouzerie.fr",
 			"link": "https://www.LaPetitePouzerie.fr",
 			"description" : "Plateforme de réservation de gîte incluant le paiement et la gestion des disponibilités",
 			"tasks": [
-				"Conception complète de l'API, du back-end et du front-end",
-				"Intégration avec l'API de paiement Stripe.",
-				"Collaboration avec un UX designer"
+				"Conception complète de l'API, du back-end et du front-end avec <b>TypeScript</b>, <b>NestJs</b> et <b>Next.js</b>, garantissant une architecture cohérente et performante.",
+				"Intégration de l'API de paiement Stripe, facilitant des transactions sécurisées.",
+				"Collaboration avec un UX designer pour assurer une expérience utilisateur optimale, en cohérence avec les meilleures pratiques en matière de design."
 			],
 			"stack": [
-				"Stack : <b>TypeScript</b> ▪️ <b>NextJs</b> ▪️ NestJs ▪️ MongoDB ▪️ Docker ▪️ <b>Github Actions</b>"
 		],
-			"dateStart": "2024",
-			"dateEnd": "2 mois"
-		}],
-		[{
-				"title": "Développeur d'applications Android",
+			"dateStart": "Mars - Avril 2024",
+			"dateEnd": ""
+		},{
+				"title": "",
 				"company": "Eric C. Entrepreneur",
 				"description" : "Application Android métier pour paramétrer l'ouverture de portes de laboratoires",
-				"tasks": [ "Développement complet d'un Produit Minimum Viable."],
-				
-				"stack": ["Stack: <b>TypeScript</b> ▪️ React Native ▪️ Bluetooth"],
+				"tasks": [ "Développement d'une application mobile MVP en <b>TypeScript</b> et <b>React Native</b>"],
+				"stack": [],
 				"dateStart": "Octobre 2022",
 				"dateEnd": ""
 			}
-		,{
-			"title": "Tech Lead Application Android",
-			"company": "Thales",
-			"description" : "Application Android pour les chauffeurs de bus du réseau de transport danois, permettant la gestion des voyages, la vente de tickets et la configuration des valideurs",
-			"tasks": [
-				"Développement de l'application avec un Product Owner anglophone."
-			],
-			"stack": ["Stack: <b>TypeScript</b> ▪️ React Native ▪️ <b>Intégration continue via Jenkins</b>"],
-			"dateStart": 2017,
-			"dateEnd": 2018
-		}],
+		],
 		[{
 			"title": "Développeur Full stack et Scrum master",
 			"company": "Thales",
+			"description" : "Application Android pour les chauffeurs de bus du réseau de transport danois, permettant la gestion des voyages, la vente de tickets et la configuration des valideurs",
+			"tasks": [
+				"Développement réalisé en collaboration avec un Product Owner anglophone en utilisant <b>TypeScript</b>, <b>React Native</b> et MQTT"
+			],
+			"stack": [],
+			"dateStart": 2017,
+			"dateEnd": 2018
+		},{
+			"title": "",
+			"company": "",
 			"description" : "Système déployé chez de nombreux opérateurs de transport à l'international permettant la gestion des titres de transport",
 			"tasks": [ 
-				"Développement des portails destinés aux administrateurs (monitoring du système et des équipements) ainsi qu'aux voyageurs et guichetiers (suivi des voyages, gestion des cartes, abonnements).",
-				"Conception et implémentation des fonctionnalités clés de l'API.", 
-				"Organisation des cérémonies Scrum et <b>communication en tant que Scrum Master</b>, dans une <b>équipe Agile de 10 personnes</b>."
+				"Conception et implémentation des fonctionnalités clés de l'<b>API REST</b> en Java sur un socle <b>PostgreSQL</b> et en utilisant le broker <b>RabbitMQ</b>", 
+				"Développement en <b>Angular</b> du backend et des front-ends destinés aux administrateurs, guichetiers et voyageurs (monitoring équipement, suivi des voyages, gestion des cartes, abonnements).",
+				"Tests automatisés : Mise en place de tests unitaires et d'intégration (<b>JUnit</b>) pour améliorer la couverture de code (80%) et la stabilité.",
+				"<b>Scrum master dans une équipe Agile de 10 personnes</b>."
 		 ],
-			"stack": ["Stack : Java ▪️ Angular ▪️ <b>PostgreSQL</b> ▪️ Docker ▪️ RabbitMQ ▪️ <b>IC Jenkins</>"],
+			"stack": [],
 			"dateStart": 2013,
 			"dateEnd": 2017
 		},{
-			"title": "Saas destiné aux guichetiers et aux admins",
+			"title": "",
 			"company": "",
 			"description" : "Système billetique déployé pour le système de transport d'Auckland, NZ.",
 			"tasks": [
-				"Développement du back-office au sein d'une équipe de 8 personnes"
+				"Développement du back-office au sein d'<b>une équipe de 8 personnes</b> dans l'écosystème .net (C# ▪️ ASP.Net ▪️ <b>NUnit</b> ▪️ <b>Microsoft SQL Server</b>)"
 			],
-			"stack": ["Stack : C# ▪️ ASP.Net ▪️ Microsoft SQL Server"],
+			"stack": [],
 			"dateStart": 2008,
 			"dateEnd": 2013
 		}]
@@ -151,7 +149,7 @@
 			"type": "soft",
 			"icon": "autonomie",
 			"name": "Esprit d'équipe",
-			"subtitle": "Aptitude à travailler en collaboration avec des équipes pluridisciplinaires"
+			"subtitle": "Apte à communiquer et à collaborer avec des équipes pluridisciplinaires"
 		}
 	]
 }

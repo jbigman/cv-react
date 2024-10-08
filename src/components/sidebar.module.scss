@@ -26,8 +26,9 @@
      // -webkit-transform: scaleX(-1);
      // transform: scaleX(-1);
       border-radius: 50%;
-      width: 170px !important;
-      height: 170px !important;
+      $img-size : 140px !important;
+      width: $img-size;
+      height: $img-size;
       
       &:hover {
         transform: scaleX(-1) scale(1.1);
