@@ -1,15 +1,15 @@
 {
 	"nom": "GAMBIN",
 	"prenom": "Jérémie",
-	"address": "Nantes, Télétravail",
+	"address": "Rennes, Télétravail",
 	"email": "jeremie.gambin@gmail.com",
 	"phone": "06.24.89.44.49",
 	"title": "Développeur Full-Stack Senior ",
 	"punchLines": [
+		"Conduite de projets de la conception à la livraison finale",
 		"10 ans d'expérience en développement Full-Stack",
-		"Certifications Javascript et Typescript",
-		"Expertise solide en API REST, NestJs et React18",
-		"Tests, intégration, et déploiement continu sur tous mes projets"
+		"Expertise solide en conception d'API REST",
+		"Pratiques DevOps : Git, Tests, intégration, et déploiement continu"
 	],
 	"stackOverFlowUrl": "https://stackoverflow.com/users/2988788",
 	"drivingLicence": "Permis B",
@@ -39,7 +39,7 @@
 			"tasks": [
 				"Conception complète de l'API, du back-end et du front-end avec <b>TypeScript</b>, <b>NestJs</b> et <b>Next.js</b>, garantissant une architecture cohérente et performante.",
 				"Intégration de l'API de paiement Stripe, facilitant des transactions sécurisées.",
-				"Collaboration avec un UX designer pour assurer une expérience utilisateur optimale, en cohérence avec les meilleures pratiques en matière de design."
+				"<b>Collaboration avec un UX designer</b> pour assurer une expérience utilisateur optimale, en cohérence avec les meilleures pratiques en matière de design."
 			],
 			"stack": [
 		],
@@ -72,7 +72,7 @@
 			"tasks": [ 
 				"Conception et implémentation des fonctionnalités clés de l'<b>API REST</b> en Java sur un socle <b>PostgreSQL</b> et en utilisant le broker <b>RabbitMQ</b>", 
 				"Développement en <b>Angular</b> du backend et des front-ends destinés aux administrateurs, guichetiers et voyageurs (monitoring équipement, suivi des voyages, gestion des cartes, abonnements).",
-				"Tests automatisés : Mise en place de tests unitaires et d'intégration (<b>JUnit</b>) pour améliorer la couverture de code (80%) et la stabilité.",
+				"Tests automatisés : Mise en place de tests unitaires et d'intégration pour améliorer la couverture de code (80%) et la stabilité.",
 				"<b>Scrum master dans une équipe Agile de 10 personnes</b>."
 		 ],
 			"stack": [],
@@ -83,7 +83,7 @@
 			"company": "",
 			"description" : "Système billetique déployé pour le système de transport d'Auckland, NZ.",
 			"tasks": [
-				"Développement du back-office au sein d'<b>une équipe de 8 personnes</b> dans l'écosystème .net (C# ▪️ ASP.Net ▪️ <b>NUnit</b> ▪️ <b>Microsoft SQL Server</b>)"
+				"Développement du back-office au sein d'<b>une équipe de 8 personnes</b> dans l'écosystème .net (C# ▪️ ASP.Net ▪️ <b>Microsoft SQL Server</b>)"
 			],
 			"stack": [],
 			"dateStart": 2008,
@@ -135,19 +135,19 @@
 		},
 		{
 			"type": "soft",
-			"icon": "fire",
+			"icon": "brain",
 			"name": "Rigueur et organisation",
 			"subtitle": "Gestion autonome des priorités, structure et optimise le code"
 		},
 		{
 			"type": "soft",
-			"icon": "brain",
+			"icon": "autonomie",
 			"name": "Curiosité",
 			"subtitle": "Volonté d'apprendre et d'améliorer ses compétences en continu"
 		},
 		{
 			"type": "soft",
-			"icon": "autonomie",
+			"icon": "fire",
 			"name": "Esprit d'équipe",
 			"subtitle": "Apte à communiquer et à collaborer avec des équipes pluridisciplinaires"
 		}
