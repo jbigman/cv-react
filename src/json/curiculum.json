@@ -9,7 +9,7 @@
 		"Conduite de projets de la conception à la livraison finale",
 		"10 ans d'expérience en développement Full-Stack",
 		"Expertise solide en conception d'API REST",
-		"Pratiques DevOps : Git, Tests, intégration, et déploiement continu"
+		"Tests, intégration, et déploiement continu sur tous mes projets"
 	],
 	"stackOverFlowUrl": "https://stackoverflow.com/users/2988788",
 	"drivingLicence": "Permis B",
@@ -25,8 +25,7 @@
 				"Développement complet du site internet avec <b>React18</b> et <b>Next.js</b>, incluant l’interface utilisateur et la gestion des performances front-end",
 				"Utilisation de <b>MongoDB</b> pour le stockage et la gestion des données.",
 				"Conception et mise en place du backend via une <b>API RESTful</b> basée sur <b>NestJS</b>, garantissant la communication fluide entre le front-end et le serveur.",
-				"Automatisation des tests, de l'intégration continue et du déploiement via <b>Vitest</b> et <b>Github Actions</b>, assurant une livraison rapide et de haute qualité.",
-				"Participation à des <a href=\"https://github.com/facundoolano/google-play-scraper\">projets open source</a> de scrapping de donnée"
+				"Automatisation des tests, de l'intégration continue et du déploiement via <b>Vitest</b> et <b>Github Actions</b>, assurant une livraison rapide et de haute qualité."
 			],
 			"stack": [],
 			"dateEnd": "Depuis 2019"
@@ -70,7 +69,7 @@
 			"company": "",
 			"description" : "Système déployé chez de nombreux opérateurs de transport à l'international permettant la gestion des titres de transport",
 			"tasks": [ 
-				"Conception et implémentation des fonctionnalités clés de l'<b>API REST</b> en Java sur un socle <b>PostgreSQL</b> et en utilisant le broker <b>RabbitMQ</b>", 
+				"Conception et implémentation des fonctionnalités clés de l'<b>API REST</b> en <b>Java</b> sur un socle <b>PostgreSQL</b> et en utilisant le broker <b>RabbitMQ</b>", 
 				"Développement en <b>Angular</b> du backend et des front-ends destinés aux administrateurs, guichetiers et voyageurs (monitoring équipement, suivi des voyages, gestion des cartes, abonnements).",
 				"Tests automatisés : Mise en place de tests unitaires et d'intégration pour améliorer la couverture de code (80%) et la stabilité.",
 				"<b>Scrum master dans une équipe Agile de 10 personnes</b>."
@@ -83,7 +82,7 @@
 			"company": "",
 			"description" : "Système billetique déployé pour le système de transport d'Auckland, NZ.",
 			"tasks": [
-				"Développement du back-office au sein d'<b>une équipe de 8 personnes</b> dans l'écosystème .net (C# ▪️ ASP.Net ▪️ <b>Microsoft SQL Server</b>)"
+				"Développement du back-office au sein d'<b>une équipe de 8 personnes</b> dans l'écosystème .net (<b>C# ▪️ ASP.Net ▪️ Microsoft SQL Server</b>)"
 			],
 			"stack": [],
 			"dateStart": 2008,
