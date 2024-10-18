@@ -1,7 +1,7 @@
 {
 	"nom": "GAMBIN",
 	"prenom": "Jérémie",
-	"address": "Rennes, Télétravail",
+	"address": "Nantes, Télétravail",
 	"email": "jeremie.gambin@gmail.com",
 	"phone": "06.24.89.44.49",
 	"title": "Développeur Full-Stack Senior ",
@@ -17,7 +17,7 @@
 	"description": "Développeur expérimenté en applications web et mobiles, spécialisé en TypeScript, Node.js et React. Mes réalisations incluent la création d'une plateforme de réservation avec systèmes de paiement pour LaPetitePouzerie.fr et l'implémentation d'un moteur de recherche pour les jeux vidéo sur Gamewisher.com. À la recherche d'un poste de développeur à CoderPad, où je pourrais apporter mes compétences en développement front-end et back-end dans un environnement Agile, pour soutenir votre équipe Tech à renforcer vos produits et assurer leur évolutions.",
 	"experiences": [
 		[{
-			"title": "Entreprenariat",
+			"title": "Entrepreneuriat",
 			"description": "Creation d'entreprise : Moteur de recherche et plateforme communautaire de partage",
 			"company": "Gamewisher.com",
 			"link": "https://www.gamewisher.com",
@@ -25,10 +25,11 @@
 				"Développement complet du site internet avec <b>React18</b> et <b>Next.js</b>, incluant l’interface utilisateur et la gestion des performances front-end",
 				"Utilisation de <b>MongoDB</b> pour le stockage et la gestion des données.",
 				"Conception et mise en place du backend via une <b>API RESTful</b> basée sur <b>NestJS</b>, garantissant la communication fluide entre le front-end et le serveur.",
-				"Automatisation des tests, de l'intégration continue et du déploiement via <b>Vitest</b> et <b>Github Actions</b>, assurant une livraison rapide et de haute qualité."
+				"Automatisation des tests, de l'intégration continue et du déploiement via <b>Vitest</b>, <b>Docker</b> et <b>Github Actions</b>, assurant une livraison rapide et de haute qualité."
 			],
 			"stack": [],
-			"dateEnd": "Depuis 2019"
+			"dateStart": "2019",
+			"dateEnd": "2024"
 		}],
 		[		{
 			"title": "Développeur Full-Stack Freelance",
