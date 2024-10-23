@@ -21,12 +21,13 @@
   .subtile {
     display: flex;
     justify-content: space-between;
-    font-size: 0.9em;
+    font-size: 11px;
     align-items: center;
   }
   b {
     color: $legend;
     font-weight: 600;
+    font-size: 13px;
   }
 
   &>div:last-child {
