@@ -16,7 +16,7 @@
 		"web-vitals": "^4.2.3"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "1.9.3",
+		"@biomejs/biome": "1.9.4",
 		"@types/gh-pages": "^6.1.0",
 		"gh-pages": "^6.1.1"
 	},
