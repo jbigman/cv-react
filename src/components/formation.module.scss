@@ -1,6 +1,6 @@
 @import '../css/variables.scss';
 
-.experience {
+.formation {
   display: flex;
   flex-direction: row;
 
@@ -27,7 +27,7 @@
   b {
     color: $legend;
     font-weight: 600;
-    font-size: 12px;
+    font-size: 13px;
   }
 
   &>div:last-child {

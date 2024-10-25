@@ -5,6 +5,7 @@ import cv from '../json/curiculum.json'
 import sidebarStyles from './sidebar.module.scss'
 import Block from './block'
 import type { ReactElement } from 'react'
+import NetWork from './network'
 
 const SideBar = () => {
 
@@ -23,6 +24,27 @@ const SideBar = () => {
 
   return (
     <div className={sidebarStyles.sidebar}>
+      <div className='column'>
+        <NetWork data={[{
+                        type: "string",
+                        icon: "linkedin",
+                        name: "LinkedIn.com",
+                        subtitle: "/in/jeremiegambin",
+                        link: "https://www.linkedin.com/in/jeremiegambin/"
+                      },{
+                        type: "string",
+                        icon: "cg",
+                        name: "CodinGame.com",
+                        subtitle: "/jBigman",
+                        link: "https://www.codingame.com/profile/262698c2b361339f78efcf6f014e5b231298241"
+                      },{
+                        type: "string",
+                        icon: "github",
+                        name: "Github.com",
+                        subtitle: "/jBigman",
+                        link: "https://github.com/jbigman"
+                      }]}/>
+      </div>
       <div className={sidebarStyles.imageContainer}>
         <Image
           src={photo}

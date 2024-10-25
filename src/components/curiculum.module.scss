@@ -64,9 +64,9 @@
   h6 {
     color:$text-secondary;
     margin: 0;
-    margin-bottom: $gap;
-    
+    margin-bottom: 0;
   }
+  
   h1 { 
     font-size: 32px; 
     text-transform: uppercase;
@@ -90,8 +90,7 @@
   }
 
   h3 {
-    margin-top: 4px;
-    margin-bottom: 6px;
+    margin-bottom: 0;
   }
 
    h4, h5 {
@@ -107,7 +106,7 @@
 }
 
 .main {
-  padding:  $main-padding calc(2* $main-padding);
+  padding: 0 $double-padding;
   .shift {
     padding-left: 0.1in;
   }
