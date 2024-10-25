@@ -1,60 +1,64 @@
 {
 	"nom": "GAMBIN",
 	"prenom": "Jérémie",
-	"address": "La Roche-sur-Yon",
+	"address": "Rennes, full remote",
 	"email": "jeremie.gambin@gmail.com",
 	"phone": "06.24.89.44.49",
-	"title": "Développeur Full-Stack Senior ",
+	"title": "Igloo sauvage Full-Stack",
 	"punchLines": [
-		"Conduite de projets de la conception à la livraison finale",
 		"10 ans d'expérience en développement Full-Stack",
-		"Expertise solide en conception d'API REST",
+		"Conduite de projets de la conception à la livraison finale",
 		"Tests, intégration, et déploiement continu sur tous mes projets"
 	],
 	"stackOverFlowUrl": "https://stackoverflow.com/users/2988788",
 	"drivingLicence": "Permis B",
 	"githubUrl": "https://github.com/jbigman",
+	"linkedInUrl": "https://www.linkedin.com/in/jeremiegambin/",
 	"description": "Développeur expérimenté en applications web et mobiles, spécialisé en TypeScript, Node.js et React. Mes réalisations incluent la création d'une plateforme de réservation avec systèmes de paiement pour LaPetitePouzerie.fr et l'implémentation d'un moteur de recherche pour les jeux vidéo sur Gamewisher.com. À la recherche d'un poste de développeur à CoderPad, où je pourrais apporter mes compétences en développement front-end et back-end dans un environnement Agile, pour soutenir votre équipe Tech à renforcer vos produits et assurer leur évolutions.",
 	"experiences": [
 		[{
-			"title": "Fondateur de Gamewisher.com",
-			"description": "Création d'une plateforme communautaire incluant un moteur de recherche ainsi que des avis et articles rédigés par la communauté (équipe : seul)",
+			"title": "Fondateur de la plateforme communautaire Gamewisher.com dédiée aux jeux mobiles (en autonomie)",
+			"description": "",
 			"company": "Gamewisher.com - Entrepreneuriat",
 			"link": "https://www.gamewisher.com",
 			"tasks": [
-				"<b>Conception intégrale du site web </b> avec <b>React 18</b> et <b>Next.js</b> incluant des composants réutilisables et des optimisations de performance pour améliorer l'expérience utilisateur, y compris l'analyse des temps de chargement des pages.",
-				"<b>Mise en œuvre des meilleures pratiques SEO</b>, incluant l'optimisation des balises méta, la création d'URL conviviales, l'amélioration des performances de chargement des pages, et la mise en place d'un fichier sitemap.xml",
-				"<b>Développement d'une API RESTful</b> avec <b>NestJS</b>, comprenant une architecture en micro services, pour gérer l'authentification ou les algorithmes de recherche de données",
-				"<b>Mise en place de MongoDB</b>, incluant la conception de schémas adaptés et l'optimisation des requêtes pour des performances accrues.",
-				"<b>Configuration de l'intégration continue et du déploiement continu (CI/CD)</b> avec <b>Vitest</b> et <b>GitHub Actions</b> pour des pipelines automatisés. Deploiement dans des conteneurs <b>Docker</b>, garantissant la qualité du code avant le déploiement"
+				"<b>Conception intégrale de la plateforme</b> avec <b>React</b> et <b>Next.js</b> et de l'API RESTful</b> avec <b>NestJS</b> et <b>MongoDB</b>",
+				"<b>Configuration de la pipeline CI/CD</b> avec <b>Vitest</b> et <b>GitHub Actions</b> et deploiements dans des conteneurs <b>Docker</b>"
+			],
+			"stack": [],
+			"dateStart": "2022",
+			"dateEnd": "2024"
+		},
+		{
+			"title": "",
+			"description": "",
+			"company": "TAF Jeux mobile - 2k abos sur Youtube, Idem Twitch",
+			"link": "https://www.youtube.com/c/TAFJeuxMobile",
+			"tasks": [
 			],
 			"stack": [],
 			"dateStart": "2019",
-			"dateEnd": "2024"
+			"dateEnd": "2022"
 		}],
 		[		{
-			"title": "Développeur Full-Stack - Node/React",
+			"title": "Conception intégral en <b>TypeScript</b>, <b>NestJS</b> et <b>NextJs</b> du site de réservation (en collaboration avec une UX designer)",
 			"company": "LaPetitePouzerie.fr - freelance",
 			"link": "https://www.LaPetitePouzerie.fr",
-			"description" : " Développement intégral d'un site de réservation incluant paiement et gestion des disponibilités pour un gîte. (Seul en collaboration avec une UX designer)",
+			"description" : "",
 			"tasks": [
-				"<b>Analyse des besoins clients : </b> Réunions hebdomadaires pour comprendre les attentes et définir les règles fonctionnelles et techniques.",
-				"<b>Architecture complète de l'application :</b> Conception de l'API, du backend et du frontend, utilisant <b>TypeScript</b> et <b>NestJS</b>",
-				"<b>Collaboration avec une designer UX</b> : Travail étroit avec un designer pour concevoir une interface intuitive et conviviale.",
-				"<b>Intégration du processus de paiement :</b> Définition du parcours utilisateur pour le paiement, sécurisé par l'API Stripe."
+				"<b>Analyse des besoins avec les hôtes </b> pour définir les règles fonctionnelles."
 			],
 			"stack": [
 		],
 			"dateStart": "Mars - Avril 2024",
 			"dateEnd": ""
 		}],[{
-				"title": "Développeur application Mobile - React Native",
+				"title": "Développement d'une App Android en <b>React Native</b> pour la gérer l'ouverture de sas de laboratoire (en autonomie)",
 				"company": "Eric C. Entrepreneur - freelance",
-				"description" : "Développement d'une application Android pour la gestion de l'ouverture des portes de laboratoires. (Seul en collaboration avec un dev hardware)",
+				"description" : "",
 				"tasks": [ 
-					"<b>Collaboration avec le client :</b> Échanges et démonstrations hebdomadaires pour définir et développer les fonctionnalités du MVP.",
-					"<b>Communication avec le développeur du boîtier de contrôle : </b> Définition du protocole de communication Bluetooth.",
-					"<b>Création du MVP</b>   en <b>TypeScript</b> et <b>React Native</b>"
+					"<b>Analyse des besoins :</b> Échanges et démonstrations hebdomadaires pour définir et développer les fonctionnalités du MVP.",
+					"<b>Communication avec le développeur du boîtier de contrôle : </b> Définition du protocole de communication Bluetooth."
 				],
 				"stack": [],
 				"dateStart": "Octobre 2022",
@@ -62,55 +66,43 @@
 			}
 		],
 		[{
-			"title": "Développeur application Mobile - React Native",
+			"title": "Développement d'une App Android en <b>React Native</b> pour chauffeurs de bus du Danemark permettant la gestion des voyages, la vente de tickets et la configuration des valideurs (en autonomie)",
 			"company": "Thales - CDI",
-			"description" : "Application Android pour chauffeurs de bus du Danemark permettant la gestion des voyages, la vente de tickets et la configuration des valideurs (Seul en collaboration avec équipe hardware)",
+			"description" : "",
 			"tasks": [
-				"<b>Élaboration des besoins</b> en <b>collaboration avec un Product Owner</b> danois pour définir la refonte logicielle, tenant compte des contraintes de l'ancienne version sans écran tactile.",
-				"<b>Développement intégral de l'application</b> avec <b>TypeScript</b> et <b>React Native</b>",
-				"<b>Collaboration inter-équipes </b> en établissant les protocoles de communication, avec les autres équipements du bus, basés sur <b>MQTT</b>."
+				"<b>Élaboration des besoins</b> en <b>collaboration avec un Product Owner</b> danois pour définir la refonte logicielle",
+				"<b>Collaboration inter-équipes</b> en établissant les protocoles de communication, avec les autres équipements du bus, basés sur <b>MQTT</b>."
 			],
 			"stack": [],
 			"dateStart": 2017,
 			"dateEnd": 2018
 		},{
-			"title": "Développeur Full stack Java / Angular et Scrum master",
+			"title": "Développement d'un système de gestion des titres de transport en <b>Java</b> et <b>Angular</b> (dans une équipe de 10 personnes)",
 			"company": "",
-			"description" : "Développement d'un système de gestion des titres de transport utilisé par plusieurs opérateurs à l'international. (Dans une équipe de 10 personnes)",
+			"description" : "",
 			"tasks": [ 
-				"<b>Scrum master dans une équipe Agile de 10 personnes :</b> Animation des cérémonies Scrum (daily meetings, rétrospectives, poker plannings) et du suivi des sprints pour améliorer la vélocité de l’équipe.",
-				"<b>Relecture des User Story</b> sur le modele SET (Small, Estimable, Testable)",
-				"<b>Conception et implémentation de services de l'API RESTful :</b> Tels que la gestion des droits ou le suivi des voyages en utilisant <b>Java</b> et <b>PostgreSQL</b>.",
-				"<b>Intégration du broker RabbitMQ </b> pour une gestion asynchrone des messages provenant des équipements (portillons, TVM, etc.).", 
-				"<b>Création et mise à jour de la documentation</b> de l'API avec Swagger.",
-				"<b>Développement d'interfaces utilisateur avec Angular</b> pour les administrateurs, guichetiers et voyageurs, incluant des modules pour le monitoring, le suivi des voyages, et la gestion des abonnements.",
-				"<b>Mise en œuvre des principes de Responsive design</b> pour des interfaces optimisées sur diverses résolutions d'écran",
-				"<b>Mise en place de pipelines CI/CD</b> pour automatiser le test et le déploiement, avec une couverture de code exhaustive via des tests unitaires et d'intégration, renforçant ainsi la stabilité et la qualité du code"
+				"<b>Scrum master :</b> Animation des cérémonies, écriture et relecture de User Story",
+				"<b>Conception et implémentation de fonctionnalités de bout en bout</b> : Modifications de la base de donnée <b>PostgreSQL</b>, consommation de messages <b>RabbitMQ</b>, nouveaux services de l'API RESTful et portails utilisateurs en <b>Angular</b>"
 		 ],
 			"stack": [],
 			"dateStart": 2013,
 			"dateEnd": 2017
 		},{
-			"title": "Développeur Full stack - C#/ASP.Net",
+			"title": "Développement en <b>C#</b> et <b>ASP.Net</b> du système billetique pour Auckland, NZ (Dans une équipe de 8 personnes)",
 			"company": "",
-			"description" : "Développement du système billetique pour Auckland, NZ (Dans une équipe de 8 personnes)",
+			"description" : "",
 			"tasks": [
-				"<b>Développement de fonctionnalités pour le back-office</b> destiné aux administrateurs du système en <b>C#</b> et <b>ASP.Net</b>",
-				"<b>Résolution de bugs ou de problèmes de performance</b> de composants tels que la gestion du parc d'équipement. Allant jusqu'a la refonte du modèle de donnée <b>Microsoft SQL Server</b>",
-				"<b>Création et mise à jour des manuels d'utilisation</b> "
+				"<b>Résolution de bugs ou de problèmes de performance</b> de composants tels que la gestion du parc d'équipement. En modifiant aussi bien les anomalies sur le partail que les requetes sur de la base de donnée <b>Microsoft SQL Server</b>"
 			],
 			"stack": [],
 			"dateStart": 2010,
 			"dateEnd": 2013
 		},{
-			"title": "Ingénieur logiciel - C#/WPF",
+			"title": "Migration technique d'un logiciel en <b>C#</b> et <b>WPF</b> vers une version Web <b>ASP.Net</b> (Alternance M1/M2)",
 			"company": "",
-			"description" : "Ajout de fonctionnalités sur un logiciel d'édition de fichier xml (Seul avec mon maitre d'apprentissage)",
+			"description" : "",
 			"tasks": [
-				"<b>Ajout de contrôles personnalisés au besoin fonctionnel</b> dans un logiciel réalisé en WPF, tels que des slides ou des tableaux",
-				"<b>Amélioration de l'interface utilisateur</b> pour garantir une expérience utilisateur fluide et intuitive.",
-				"<b>Développements de règles de validation des données</b> pour garantir la validité des saisies en fonction des exigences métier",
-				"<b>Migration technique</b> de WPF vers ASP.Net"
+				"<b>Amélioration de l'interface utilisateur</b> avec des contrôles graphiques adaptés aux besoins fonctionnels des utilisateurs"
 			],
 			"stack": [],
 			"dateStart": 2008,
@@ -118,13 +110,7 @@
 		}]
 	],
 	"formations": [
-		[{
-			"title": "Ergonomie et UX des logiciels",
-			"company": "Ludotic, Paris",
-			"tasks": [],
-			"stack": [],
-			"dateEnd": 2014
-		}],
+
 		[{
 			"title": "Expert en conduite et ingénierie de développement logiciel et système",
 			"company": "Master ETGL au CFA AFTI, Orsay",
@@ -135,7 +121,7 @@
 		[{
 			"title": "Licence Informatique",
 			"description": "",
-			"company": "Paris Sorbonne Université Institut Galilée",
+			"company": "Institut Galilée, Paris Sorbonne Université",
 			"duration": "",
 			"tasks": [],
 			"stack": [],
@@ -145,38 +131,31 @@
 	"skills": [
 		{
 			"type": "hard",
-			"icon":"ts",
-			"name": "TypeScript",
-			"subtitle": "Certification CodinGame",
+			"icon": "github",
+			"name": "Mon github",
+			"subtitle": "Avec quelques dépots publiques",
+			"link": "https://github.com/jbigman"
+		},
+		{
+			"type": "hard",
+			"icon":"cg",
+			"name": "Certifications TypeScript et Javascript",
+			"subtitle": "Et pour voir mon profil : jBigman",
 			"link": "https://www.codingame.com/certification/nxSxPg_AI-hssnpcSACqag"
 		},
 		{
-			"type": "hard",
-			"icon": "react",
-			"name": "React / Next.js"
-		},
-		{
-			"type": "hard",
-			"icon": "node",
-			"name": "Node.js / Nest.js"
+			"type": "soft",
+			"icon": "youtube",
+			"name": "TAF Jeux Mobile",
+			"subtitle": "Guides, tutos, lives...",
+			"link": "https://www.youtube.com/c/TAFJeuxMobile"
 		},
 		{
 			"type": "soft",
-			"icon": "brain",
-			"name": "Rigueur et organisation",
-			"subtitle": "Gestion des priorités, structure et optimise le code"
-		},
-		{
-			"type": "soft",
-			"icon": "autonomie",
-			"name": "Curiosité",
-			"subtitle": "Volonté d'apprendre et d'améliorer ses compétences"
-		},
-		{
-			"type": "soft",
-			"icon": "fire",
-			"name": "Esprit d'équipe",
-			"subtitle": "Apte à communiquer et à collaborer en équipe"
+			"icon": "discord",
+			"name": "Owner d'un discord avec 3000+ membres",
+			"subtitle": "Et tout ce que cela implique",
+			"link": " https://discord.gg/JMvuZkz"
 		}
 	]
 }

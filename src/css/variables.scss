@@ -25,7 +25,7 @@ $legend : #ce3824;
 $highlight: #f38229 ;
 
 $background-color : #fff;
-$background-color-light : rgba(0, 0, 0, 0.05);
+$background-color-light : #f2f2f2;
 $background-color-header : #2C3E50;
 
 $text-primary : rgb(0, 35, 74);
@@ -34,8 +34,9 @@ $text-company : rgb(0 147 254);
 $text-subtitle: $legend;
 
 $main-padding : 10px;
+$double-padding : calc(2* $main-padding);
 $sidebar-width : 300px;
-$gap: 12px;
+$gap: 10px;
 
 $screen-medium: 768px;
 

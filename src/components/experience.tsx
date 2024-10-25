@@ -41,7 +41,9 @@ const Experience = (props: {data: IExperience[] }) => {
             <span>{exp.dateEnd}</span>
           </div>
         </div>
-        <h3 className={experienceStyles.title}>{exp.title}</h3>
+        {exp.title &&
+        <h3 className={experienceStyles.title} dangerouslySetInnerHTML={{__html: exp.title}} />
+  }
         {
           exp.description && 
           <div style={{fontStyle: 'italic'}}>

@@ -16,8 +16,23 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
+
+  h1 {
+    font-family: $font-title;
+    font-weight: 400;
+    font-size: 36px;
+    margin: 0;
+  }
+  
 }
 
+.no-decoration {
+  text-decoration: none;
+  font-family: inherit!important;
+  &:hover {
+    color: inherit!important
+  }
+}
 .row { 
   display: flex;
   flex-direction: row; 

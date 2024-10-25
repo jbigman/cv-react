@@ -3,6 +3,7 @@ import cv from '../json/curiculum.json'
 import Block from './block'
 import styles from './curiculum.module.scss'
 import Experience from './experience'
+import Formation from './formation'
 import NetWork from './network'
 import SideBar from './sidebar'
 import Skill from './skill'
@@ -43,36 +44,12 @@ const Curiculum = () => {
               </Block>   
             <Block title={'Formation'}>
               {cv.formations.map((exp: IExperience[]) => {
-                return <Experience key={exp[0].title} data={exp} />
+                return <Formation key={exp[0].title} data={exp} />
               })}
             </Block> 
-                  <Block title={"Me retrouver en ligne"}> 
-                    <NetWork data={[{
-                        type: "string",
-                        icon: "linkedin",
-                        name: "LinkedIn.com",
-                        subtitle: "/in/jeremiegambin",
-                        link: "https://www.linkedin.com/in/jeremiegambin/"
-                      },{
-                        type: "string",
-                        icon: "cg",
-                        name: "CodinGame.com",
-                        subtitle: "/jBigman",
-                        link: "https://www.codingame.com/profile/262698c2b361339f78efcf6f014e5b231298241"
-                      },{
-                        type: "string",
-                        icon: "github",
-                        name: "Github.com",
-                        subtitle: "/jBigman",
-                        link: "https://github.com/jbigman"
-                      }]} /> 
-                  </Block>
-            
             </div>
           </div>   
-          
         </div>
-          
         </div>
       </div>
     </div>

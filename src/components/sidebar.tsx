@@ -5,6 +5,7 @@ import cv from '../json/curiculum.json'
 import sidebarStyles from './sidebar.module.scss'
 import Block from './block'
 import type { ReactElement } from 'react'
+import NetWork from './network'
 
 const SideBar = () => {
 
@@ -21,8 +22,29 @@ const SideBar = () => {
     )
   }
 
+  const links = [{
+    type: "string",
+    icon: "linkedin",
+    name: "LinkedIn.com",
+    subtitle: "/in/jeremiegambin",
+    link: "https://www.linkedin.com/in/jeremiegambin/"
+  },{
+    type: "string",
+    icon: "github",
+    name: "Github.com",
+    subtitle: "/jBigman",
+    link: "https://github.com/jbigman"
+  },{
+    type: "string",
+    icon: "cg",
+    name: "CodinGame.com",
+    subtitle: "/jBigman",
+    link: "https://www.codingame.com/profile/262698c2b361339f78efcf6f014e5b231298241"
+  }]
+
   return (
     <div className={sidebarStyles.sidebar}>
+      {/* <NetWork data={links}/> */}
       <div className={sidebarStyles.imageContainer}>
         <Image
           src={photo}
@@ -32,7 +54,7 @@ const SideBar = () => {
           sizes="100vw"
           style={{ width: '100%', height: 'auto' }}
         />
-        <h1>{cv.prenom} {cv.nom}</h1>
+        <h1><a href={cv.linkedInUrl} className='no-decoration'>{cv.prenom} {cv.nom}</a></h1>
       </div>
       <div className={sidebarStyles.right}>
         <div className={sidebarStyles.list}>
