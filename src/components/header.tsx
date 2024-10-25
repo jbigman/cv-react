@@ -2,12 +2,12 @@ import Image from 'next/image'
 import { FiMapPin, FiMail, FiPhone } from 'react-icons/fi'
 import photo from '../../public/img/avatar.png'
 import cv from '../json/curiculum.json'
-import sidebarStyles from './sidebar.module.scss'
+import sidebarStyles from './header.module.scss'
 import Block from './block'
 import type { ReactElement } from 'react'
 import NetWork from './network'
 
-const SideBar = () => {
+const Header = () => {
 
   const Element = (props: {title: ReactElement, children: ReactElement}) => {
     return (
@@ -90,4 +90,4 @@ const SideBar = () => {
   )
 }
 
-export default SideBar
+export default Header

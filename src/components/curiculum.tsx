@@ -5,14 +5,14 @@ import styles from './curiculum.module.scss'
 import Experience from './experience'
 import Formation from './formation'
 import NetWork from './network'
-import SideBar from './sidebar'
+import Header from './header'
 import Skill from './skill'
 
 const Curiculum = () => {
   return (
     <div className={styles.body}>
       <div style={{ maxWidth: '210mm' }} >
-        <SideBar/>
+        <Header/>
         <div className={styles.main}>
         <div className={styles.content}>
           <div style={{flex:3}}>
