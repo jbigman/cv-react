@@ -1,10 +1,10 @@
 {
 	"nom": "GAMBIN",
 	"prenom": "Jérémie",
-	"address": "Rennes, full remote",
+	"address": "Nantes, Full remote",
 	"email": "jeremie.gambin@gmail.com",
 	"phone": "06.24.89.44.49",
-	"title": "Igloo sauvage Full-Stack",
+	"title": "Développeur Full-Stack Senior ",
 	"punchLines": [
 		"10 ans d'expérience en développement Full-Stack",
 		"Conduite de projets de la conception à la livraison finale",
@@ -13,36 +13,25 @@
 	"stackOverFlowUrl": "https://stackoverflow.com/users/2988788",
 	"drivingLicence": "Permis B",
 	"githubUrl": "https://github.com/jbigman",
-	"linkedInUrl": "https://www.linkedin.com/in/jeremiegambin/",
+	"linkedinUrl": "https://www.linkedin.com/in/jeremiegambin/",
 	"description": "Développeur expérimenté en applications web et mobiles, spécialisé en TypeScript, Node.js et React. Mes réalisations incluent la création d'une plateforme de réservation avec systèmes de paiement pour LaPetitePouzerie.fr et l'implémentation d'un moteur de recherche pour les jeux vidéo sur Gamewisher.com. À la recherche d'un poste de développeur à CoderPad, où je pourrais apporter mes compétences en développement front-end et back-end dans un environnement Agile, pour soutenir votre équipe Tech à renforcer vos produits et assurer leur évolutions.",
 	"experiences": [
 		[{
-			"title": "Fondateur de la plateforme communautaire Gamewisher.com dédiée aux jeux mobiles (en autonomie)",
+			"title": "Création d'une plateforme communautaire dédiée aux jeux mobiles, gérée en autonomie.",
 			"description": "",
-			"company": "Gamewisher.com - Entrepreneuriat",
+			"company": "Gamewisher.com - Fondateur & Développeur Full-Stack",
 			"link": "https://www.gamewisher.com",
 			"tasks": [
 				"<b>Conception intégrale de la plateforme</b> avec <b>React</b> et <b>Next.js</b> et de l'API RESTful</b> avec <b>NestJS</b> et <b>MongoDB</b>",
-				"<b>Configuration de la pipeline CI/CD</b> avec <b>Vitest</b> et <b>GitHub Actions</b> et deploiements dans des conteneurs <b>Docker</b>"
+				"<b>Configuration de la pipeline CI/CD</b> avec <b>Vitest</b> et <b>GitHub Actions</b> et déploiements dans des conteneurs <b>Docker</b>"
 			],
 			"stack": [],
 			"dateStart": "2022",
 			"dateEnd": "2024"
-		},
-		{
-			"title": "",
-			"description": "",
-			"company": "TAF Jeux mobile - 2k abos sur Youtube, Idem Twitch",
-			"link": "https://www.youtube.com/c/TAFJeuxMobile",
-			"tasks": [
-			],
-			"stack": [],
-			"dateStart": "2019",
-			"dateEnd": "2022"
 		}],
 		[		{
-			"title": "Conception intégral en <b>TypeScript</b>, <b>NestJS</b> et <b>NextJs</b> du site de réservation (en collaboration avec une UX designer)",
-			"company": "LaPetitePouzerie.fr - freelance",
+			"title": "Conception intégrale en <b>TypeScript</b>, <b>NestJS</b> et <b>NextJs</b> du site de réservation (en collaboration avec une UX designer)",
+			"company": "LaPetitePouzerie.fr - Développeur freelance",
 			"link": "https://www.LaPetitePouzerie.fr",
 			"description" : "",
 			"tasks": [
@@ -53,8 +42,8 @@
 			"dateStart": "Mars - Avril 2024",
 			"dateEnd": ""
 		}],[{
-				"title": "Développement d'une App Android en <b>React Native</b> pour la gérer l'ouverture de sas de laboratoire (en autonomie)",
-				"company": "Eric C. Entrepreneur - freelance",
+				"title": "Développement d'une App Android en <b>React Native</b> pour gérer l'ouverture de sas de laboratoire (en autonomie)",
+				"company": "Eric C. Entrepreneur - Développeur freelance",
 				"description" : "",
 				"tasks": [ 
 					"<b>Analyse des besoins :</b> Échanges et démonstrations hebdomadaires pour définir et développer les fonctionnalités du MVP.",
@@ -66,8 +55,8 @@
 			}
 		],
 		[{
-			"title": "Développement d'une App Android en <b>React Native</b> pour chauffeurs de bus du Danemark permettant la gestion des voyages, la vente de tickets et la configuration des valideurs (en autonomie)",
-			"company": "Thales - CDI",
+			"title": "Développement d'une App Android en <b>React Native</b> pour le système de transport Danois (en autonomie)",
+			"company": "Thales - Développeur & Scrum Master",
 			"description" : "",
 			"tasks": [
 				"<b>Élaboration des besoins</b> en <b>collaboration avec un Product Owner</b> danois pour définir la refonte logicielle",
@@ -82,17 +71,17 @@
 			"description" : "",
 			"tasks": [ 
 				"<b>Scrum master :</b> Animation des cérémonies, écriture et relecture de User Story",
-				"<b>Conception et implémentation de fonctionnalités de bout en bout</b> : Modifications de la base de donnée <b>PostgreSQL</b>, consommation de messages <b>RabbitMQ</b>, nouveaux services de l'API RESTful et portails utilisateurs en <b>Angular</b>"
+				"<b>Conception et implémentation de fonctionnalités de bout en bout</b> : Modifications de la base de données <b>PostgreSQL</b>, consommation de messages <b>RabbitMQ</b>, nouveaux services de l'API RESTful et portails utilisateurs en <b>Angular</b>"
 		 ],
 			"stack": [],
 			"dateStart": 2013,
 			"dateEnd": 2017
 		},{
-			"title": "Développement en <b>C#</b> et <b>ASP.Net</b> du système billetique pour Auckland, NZ (Dans une équipe de 8 personnes)",
+			"title": "Développement en <b>C#</b> et <b>ASP.Net</b> du système billettique pour Auckland, NZ (dans une équipe de 8 personnes)",
 			"company": "",
 			"description" : "",
 			"tasks": [
-				"<b>Résolution de bugs ou de problèmes de performance</b> de composants tels que la gestion du parc d'équipement. En modifiant aussi bien les anomalies sur le partail que les requetes sur de la base de donnée <b>Microsoft SQL Server</b>"
+				"<b>Résolution de bugs ou de problèmes de performance</b> de composants tels que la gestion du parc d'équipement. En modifiant aussi bien les anomalies sur le portail que lesrequêtes sur la base de données <b>Microsoft SQL Server</b>"
 			],
 			"stack": [],
 			"dateStart": 2010,
@@ -113,7 +102,7 @@
 
 		[{
 			"title": "Expert en conduite et ingénierie de développement logiciel et système",
-			"company": "Master ETGL au CFA AFTI, Orsay",
+			"company": "CFA AFTI, Orsay",
 			"tasks": [],
 			"stack": [],
 			"dateEnd": 2010
@@ -121,7 +110,7 @@
 		[{
 			"title": "Licence Informatique",
 			"description": "",
-			"company": "Institut Galilée, Paris Sorbonne Université",
+			"company": "Paris Sorbonne Université",
 			"duration": "",
 			"tasks": [],
 			"stack": [],
@@ -131,31 +120,27 @@
 	"skills": [
 		{
 			"type": "hard",
-			"icon": "github",
-			"name": "Mon github",
-			"subtitle": "Avec quelques dépots publiques",
-			"link": "https://github.com/jbigman"
-		},
-		{
-			"type": "hard",
-			"icon":"cg",
-			"name": "Certifications TypeScript et Javascript",
-			"subtitle": "Et pour voir mon profil : jBigman",
+			"icon":"ts",
+			"name": "TypeScript et Javascript",
+			"subtitle": "Certification CodinGame",
 			"link": "https://www.codingame.com/certification/nxSxPg_AI-hssnpcSACqag"
 		},
 		{
-			"type": "soft",
-			"icon": "youtube",
-			"name": "TAF Jeux Mobile",
-			"subtitle": "Guides, tutos, lives...",
-			"link": "https://www.youtube.com/c/TAFJeuxMobile"
+			"type": "hard",
+			"icon": "react",
+			"name": "Node.js — Nest.js — React — Next.js"
 		},
 		{
 			"type": "soft",
-			"icon": "discord",
-			"name": "Owner d'un discord avec 3000+ membres",
-			"subtitle": "Et tout ce que cela implique",
-			"link": " https://discord.gg/JMvuZkz"
+			"icon": "brain",
+			"name": "Rigueur et organisation",
+			"subtitle": "Gestion des priorités, structure et optimise le code"
+		},
+		{
+			"type": "soft",
+			"icon": "autonomie",
+			"name": "Curiosité",
+			"subtitle": "Volonté d'apprendre et d'améliorer ses compétences"
 		}
 	]
 }
