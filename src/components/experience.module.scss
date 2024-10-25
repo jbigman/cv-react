@@ -1,23 +1,23 @@
-@import '../css/variables.scss';
+@import '../style/css/variables.scss';
 
 .experience {
   display: flex;
   flex-direction: row;
-
+  
   background-color: $background-color-light;
   padding: calc($main-padding / 2 ) $main-padding;
-
-   .shift {
-     li::marker {
+  
+  .shift {
+    li::marker {
       color: $background-color-header;
-      }
-
-      li {
-        padding-bottom: 2px ;
-      }
-   }  
- 
-
+    }
+    
+    li {
+      padding-bottom: 2px ;
+    }
+  }  
+  
+  
   .subtile {
     display: flex;
     justify-content: space-between;
@@ -29,7 +29,7 @@
     font-weight: 600;
     font-size: 12px;
   }
-
+  
   &>div:last-child {
     gap: 6px;
     flex: 1;
@@ -40,7 +40,7 @@
     color: $background-color-header;
     font-weight: 600;
   }
-    
+  
   .company {
     width: fit-content;
     color: $text-company;

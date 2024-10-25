@@ -1,5 +1,5 @@
 import type { AppProps } from 'next/app'
-import '../src/css/index.scss'
+import '../src/style/css/index.scss'
 
 export default function App({
   Component,
