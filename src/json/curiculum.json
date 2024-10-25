@@ -7,8 +7,10 @@
 	"title": "Développeur Full-Stack Senior ",
 	"punchLines": [
 		"10 ans d'expérience en développement Full-Stack",
-		"Conduite de projets de la conception à la livraison finale",
-		"Tests, intégration, et déploiement continu sur tous mes projets"
+		"Expertise en stacks modernes : TypeScript, Node.js, React, Next.js",
+		"Gestion complète des projets de la conception au déploiement",
+		"Expérience en tant que Scrum Master en environnement agile",
+		"Mise en place de chaînes CI/CD sur tous mes projets"
 	],
 	"stackOverFlowUrl": "https://stackoverflow.com/users/2988788",
 	"drivingLicence": "Permis B",
@@ -134,13 +136,13 @@
 			"type": "soft",
 			"icon": "brain",
 			"name": "Autonomie et ownership",
-			"subtitle": "Capacité à mener un projet de la conception à la livraison, tout en assurant la qualité du code."
+			"subtitle": "Assure la qualité du code de la conception à la livraison"
 		},
 		{
 			"type": "soft",
 			"icon": "autonomie",
-			"name": "Collaboration et partage",
-			"subtitle": "Assure le rôle de scrum master et travaille avec des profils variées"
+			"name": "Collaboration et méthodologie Agile",
+			"subtitle": "Assure le rôle de Scrum Master avec des profils variés"
 		}
 	]
 }
