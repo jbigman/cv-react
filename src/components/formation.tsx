@@ -1,9 +1,7 @@
-import { Fragment } from 'react'
 import type { IExperience } from '../Interface/IExperience'
 import experienceStyles from './experience.module.scss'
 
 const Formation = (props: {data: IExperience[] }) => {
-
 
   const Company = (exp: IExperience)=> {
     return (
@@ -40,7 +38,7 @@ const Formation = (props: {data: IExperience[] }) => {
   }
   const expContent = (exp: IExperience) => {
     return (
-      <div className='row vcenter' style={{gap: '20px', alignItems: 'center'}}>
+      <div key={exp.title + exp.dateEnd} className='row vcenter' style={{gap: '20px', alignItems: 'center'}}>
         {exp.title &&
           <h3 style={{flex: 1}} className={experienceStyles.title} dangerouslySetInnerHTML={{__html: exp.title}} />
         }

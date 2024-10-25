@@ -11,6 +11,7 @@ import { LinkedInIcon } from '../icons/LinkedInIcon'
 import { CodinGameIcon } from '../icons/CodinGameIcon'
 import { GithubIcon } from '../icons/GithubIcon'
 import { DiscordIcon } from '../icons/DiscordIcon'
+import { Fragment } from 'react'
 
 const Icon = (props: { name: string}) => {
   
@@ -35,7 +36,7 @@ const NetWork = (props: { data: ISkill[] }) => {
     {
       props.data.map((d)=> {
         return (
-          <>
+          <Fragment key={d.name}>
           {
             d.link ? (
               <a key={d.icon}
@@ -52,7 +53,7 @@ const NetWork = (props: { data: ISkill[] }) => {
               </div>
             )
           }
-          </>
+          </Fragment>
         )
       })
     }

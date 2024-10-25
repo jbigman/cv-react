@@ -6,7 +6,7 @@ const Experience = (props: {data: IExperience[] }) => {
 
   const expContent = (exp: IExperience) => {
     return (
-      <Fragment key={Experience.name}>
+      <Fragment key={exp.title}>
         <div className={`${experienceStyles.subtile}`}>
         {exp.link ? (
           <a
