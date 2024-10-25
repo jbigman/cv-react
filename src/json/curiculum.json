@@ -26,7 +26,7 @@
 				"<b>Configuration de la pipeline CI/CD</b> avec <b>Vitest</b> et <b>GitHub Actions</b> et déploiements dans des conteneurs <b>Docker</b>"
 			],
 			"stack": [],
-			"dateStart": "2022",
+			"dateStart": "2019",
 			"dateEnd": "2024"
 		}],
 		[		{
@@ -133,14 +133,14 @@
 		{
 			"type": "soft",
 			"icon": "brain",
-			"name": "Rigueur et organisation",
-			"subtitle": "Gestion des priorités, structure et optimise le code"
+			"name": "Autonomie et ownership",
+			"subtitle": "Capacité à mener un projet de la conception à la livraison, tout en assurant la qualité du code."
 		},
 		{
 			"type": "soft",
 			"icon": "autonomie",
-			"name": "Curiosité",
-			"subtitle": "Volonté d'apprendre et d'améliorer ses compétences"
+			"name": "Collaboration et partage",
+			"subtitle": "Assure le rôle de scrum master et travaille avec des profils variées"
 		}
 	]
 }
